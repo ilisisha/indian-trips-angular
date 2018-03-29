@@ -10,11 +10,11 @@ import { DirectionsMapDirective } from './route.directive'
 import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './main/components/header/header.component';
-import { DestinationsMapComponent } from './main/components/destinations-map/destinations-map.component';
+import { DestinationsMapComponent } from './main/components/main-map/main-map.component';
 import { DestinationsListComponent } from './main/components/destinations-list/destinations-list.component';
 import { CitiesService } from './main/shared/services/cities.service';
 import { MainMenuComponent } from './main/components/main-menu/main-menu.component';
-import { GeolocationService } from './main/shared/services/geolocation.service';
+import { GeoLocationService } from './main/shared/services/geolocation.service';
 
 @NgModule({
   imports: [
@@ -29,7 +29,7 @@ import { GeolocationService } from './main/shared/services/geolocation.service';
   providers: [
     CitiesService,
     GoogleMapsAPIWrapper,
-    GeolocationService
+    GeoLocationService
   ],
   declarations: [
     AppComponent,
