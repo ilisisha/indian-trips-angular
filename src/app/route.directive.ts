@@ -2,6 +2,7 @@ import { Directive,  Input} from '@angular/core';
 import { GoogleMapsAPIWrapper } from '@agm/core';
 
 declare var google: any;
+declare var jQuery:any;
 
 @Directive({
   selector: 'sebm-google-map-directions'
@@ -17,7 +18,8 @@ export class DirectionsMapDirective {
 
     let gm = this.gmapsApi;
 
-    $('#exampleModal').on('shown.bs.modal', function () {
+    jQuery('#exampleModal').on('shown.bs.modal', function () {
+      console.log(gm);
       gm.getNativeMap().then(map => {
         console.log("3");
         google.maps.event.trigger(map, "resize");
@@ -25,6 +27,7 @@ export class DirectionsMapDirective {
     });
 
     this.gmapsApi.getNativeMap().then(map => {
+      console.log("2");
       var directionsService = new google.maps.DirectionsService;
       var directionsDisplay = new google.maps.DirectionsRenderer;
       directionsDisplay.setMap(map);

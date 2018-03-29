@@ -1,0 +1,127 @@
+@import "../../../../styles/variables";
+.places-item{
+  position: relative;
+  width: 100%;
+  height: 175px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  &>*{
+    position: absolute;
+    z-index: 10;
+  }
+  img{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+}
+.places-info{
+  display: inline-block;
+  width: 232px;
+  height: 100%;
+  padding-top: 29px;
+  padding-left: 48px;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 53, 95, 0.7);
+}
+.places-name{
+  line-height: 1;
+}
+.places-hours{
+  font-weight: 100;
+}
+.places-distance{
+  top: 21px;
+  right: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 106px;
+  width: 106px;
+  border: 3px solid $dark-blue;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  color: $dark-blue;
+}
+@media screen and (min-width:769px) and (max-width:1280px) {
+  .places-item {
+    height: 127px;
+    margin-bottom: 23px;
+    img{
+      height: 100%;
+    }
+  }
+  .places-info {
+    width: 207px;
+    padding-top: 21px;
+    padding-left: 49px;
+    font-size: 21px;
+  }
+  .places-hours{
+    font-weight: 300;
+  }
+  .places-distance {
+    top: 24px;
+    right: 70px;
+    height: 80px;
+    width: 80px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 768px) {
+  .places-item{
+    height: 119px;
+    margin-bottom: 26px;
+  }
+  .places-info{
+    padding-top: 17px;
+    padding-left: 47px;
+    font-size: 19px;
+  }
+  .places-name{
+    font-size: 24px;
+  }
+  .places-hours{
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .places-distance{
+    top: 13px;
+    right: 56px;
+    height: 60px;
+    width: 60px;
+    border-width: 2px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .places-item{
+    margin-bottom: 13px;
+    img{
+      height: 100%;
+    }
+  }
+  .places-info{
+    width: 194px;
+    padding-top: 29px;
+    font-size: 15px;
+  }
+  .places-name{
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .places-hours{
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .places-distance{
+    right: 32px;
+  }
+}
