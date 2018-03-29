@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DirectionsMapDirective } from '../../../route.directive'
 import { CitiesService } from '../../shared/services/cities.service';
+import { MarkerModel } from '../shared/models/marker.model';
 
 @Component({
   selector: 'destinations-map',
@@ -9,15 +10,19 @@ import { CitiesService } from '../../shared/services/cities.service';
 })
 export class DestinationsMapComponent implements OnInit {
 
-  lat: number = 28.6139391;
-  lng: number = 77.20902120000005;
+  private lat: number = 28.6139391;
+  private lng: number = 77.20902120000005;
+  private markers: MarkerModel[];
 
-  image: Object = {url: '../../../assets/images/pin-round.png'};
+  // origin ={ lat: 28.6139391, lng: 77.20902120000005 };
+  // destination = { lat: 30.3461908, lng: 79.04850590000001};
 
-  origin ={ lat: 28.6139391, lng: 77.20902120000005 };
-  destination = { lat: 30.3461908, lng: 79.04850590000001};
-
-  constructor(private _citiesService: CitiesService) { }
+  constructor(private _citiesService: CitiesService) {
+    this.markers = [];
+    console.log(this.markers);
+    this.markers.push(new MarkerModel({latitude: 28.6139391, longitude: 77.20902120000005}));
+    this.markers.push(new MarkerModel({latitude: 15.8496953, longitude: 74.4976741}))
+}
 
   ngOnInit() {
     console.log("this");

@@ -1,5 +1,6 @@
 <agm-map [latitude]="lat"
          [longitude]="lng"
+         [zoom]="5"
          [zoomControl]="false"
          [mapTypeControl]="false"
          [scaleControl]="false"
@@ -7,6 +8,10 @@
          [rotateControl]="false"
          [fullscreenControl]="false"
          [scrollwheel]="false">
+  <agm-marker *ngFor="let marker of markers"
+              [iconUrl]="marker.image"
+              [latitude]="marker.latitude"
+              [longitude]="marker.longitude"></agm-marker>
   <!--<sebm-google-map-directions [origin]="origin" [destination]="destination">-->
   <!--</sebm-google-map-directions>-->
 </agm-map>

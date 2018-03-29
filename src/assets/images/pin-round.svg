@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4294.218 2247.503 37.185 47.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c93b00;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+      g{
+        width: 37px;
+      }
+    </style>
+  </defs>
+  <g id="pin-round" transform="translate(-4294.218 2247.503)">
+    <path id="Path_57" data-name="Path 57" class="cls-1" d="M41.25,20.116c0,15.75-16.693,27.848-18.565,27.848-2.089,0-18.565-12.145-18.565-27.848a18.565,18.565,0,1,1,37.022,0Z" transform="translate(-4.065 -0.134)"/>
+    <ellipse id="Ellipse_27" data-name="Ellipse 27" class="cls-2" cx="12.98" cy="12.98" rx="12.98" ry="12.98" transform="translate(5.578 4.944)"/>
+  </g>
+</svg>
