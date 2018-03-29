@@ -16,6 +16,7 @@ import { CitiesService } from './main/components/shared/cities/cities.service';
 import { MainMenuComponent } from './main/components/main-menu/main-menu.component';
 import { GeoLocationService } from './main/shared/services/geolocation.service';
 import { DestinationComponent } from './main/components/destination/destination.component';
+import { RouteMapComponent } from './main/components/route-map/route-map.component';
 
 @NgModule({
   imports: [
@@ -40,7 +41,8 @@ import { DestinationComponent } from './main/components/destination/destination.
     MainMapComponent,
     DestinationsListComponent,
     MainMenuComponent,
-    DestinationComponent
+    DestinationComponent,
+    RouteMapComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   bootstrap: [ AppComponent ]

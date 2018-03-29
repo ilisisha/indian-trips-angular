@@ -4,7 +4,7 @@ import { GoogleMapsAPIWrapper } from '@agm/core';
 declare var google: any;
 
 @Directive({
-  selector: '[sebm-google-map-directions]'
+  selector: 'sebm-google-map-directions'
 })
 export class DirectionsMapDirective {
 
@@ -14,6 +14,16 @@ export class DirectionsMapDirective {
   constructor (private gmapsApi: GoogleMapsAPIWrapper) {}
 
   ngOnInit(){
+
+    let gm = this.gmapsApi;
+
+    $('#exampleModal').on('shown.bs.modal', function () {
+      gm.getNativeMap().then(map => {
+        console.log("3");
+        google.maps.event.trigger(map, "resize");
+        });
+    });
+
     this.gmapsApi.getNativeMap().then(map => {
       var directionsService = new google.maps.DirectionsService;
       var directionsDisplay = new google.maps.DirectionsRenderer;
