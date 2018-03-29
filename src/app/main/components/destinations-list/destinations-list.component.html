@@ -1,49 +1,62 @@
-<div class="places-title">
-  <div class="places-title-name">
-    <span>Journey</span>
-    <span>length:</span>
+<!--<div class="places-title">-->
+  <!--<div class="places-title-name">-->
+    <!--<span>Journey</span>-->
+    <!--<span>length:</span>-->
+  <!--</div>-->
+  <!--<div class="places-title places-title-explore" *ngIf="searchType">-->
+    <!--<p class="places-title-name">-->
+      <!--Explore Destinations-->
+    <!--</p>-->
+  <!--</div>-->
+  <!--<div class="places-title places-title-popular">-->
+    <!--<p class="places-title-name">-->
+      <!--Most Popular Destinations-->
+    <!--</p>-->
+  <!--</div>-->
+  <!--<ul class="nav nav-tabs" role="tablist">-->
+    <!--<li class="nav-item nav-item-close">-->
+      <!--<a class="nav-link nav-link-close active" data-toggle="tab" href="#close" role="tab">-->
+        <!--<span>small mark</span>-->
+      <!--</a>-->
+    <!--</li>-->
+    <!--<li class="nav-item">-->
+      <!--<a class="nav-link nav-link-middle" data-toggle="tab" href="#middle" role="tab">-->
+        <!--<span>middle mark</span>-->
+      <!--</a>-->
+    <!--</li>-->
+    <!--<li class="nav-item">-->
+      <!--<a class="nav-link nav-link-long" data-toggle="tab" href="#far" role="tab">-->
+        <!--<span>large mart</span>-->
+      <!--</a>-->
+    <!--</li>-->
+  <!--</ul>-->
+<!--</div>-->
+<!--<div class="distance-title">-->
+  <!--<div class="tab-content">-->
+    <!--<div class="tab-pane min-dist active" id="close" role="tabpanel">-->
+      <!--< 500 KM-->
+    <!--</div>-->
+    <!--<div class="tab-pane average-dist" id="middle" role="tabpanel">-->
+      <!--500 - 1,000 KM-->
+    <!--</div>-->
+    <!--<div class="tab-pane max-dist" id="far" role="tabpanel">-->
+      <!--1,000+ KM-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<a href=""
+   class="places-item"
+   data-toggle="modal"
+   data-target="#exampleModal">
+  <img src="../../../../assets/images/backgound-img.jpg" alt="">
+  <div class="places-info">
+    <p class="places-name"></p>
+    <p class="places-hours"></p>
   </div>
-  <div class="places-title places-title-explore" *ngIf="searchType">
-    <p class="places-title-name">
-      Explore Destinations
-    </p>
+  <div class="places-distance">
+    <span></span>
   </div>
-  <div class="places-title places-title-popular">
-    <p class="places-title-name">
-      Most Popular Destinations
-    </p>
-  </div>
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item nav-item-close">
-      <a class="nav-link nav-link-close active" data-toggle="tab" href="#close" role="tab">
-        <span>small mark</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link nav-link-middle" data-toggle="tab" href="#middle" role="tab">
-        <span>middle mark</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link nav-link-long" data-toggle="tab" href="#far" role="tab">
-        <span>large mart</span>
-      </a>
-    </li>
-  </ul>
-</div>
-<div class="distance-title">
-  <div class="tab-content">
-    <div class="tab-pane min-dist active" id="close" role="tabpanel">
-      < 500 KM
-    </div>
-    <div class="tab-pane average-dist" id="middle" role="tabpanel">
-      500 - 1,000 KM
-    </div>
-    <div class="tab-pane max-dist" id="far" role="tabpanel">
-      1,000+ KM
-    </div>
-  </div>
-</div>
+</a>
 <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

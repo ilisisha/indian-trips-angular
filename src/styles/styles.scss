@@ -1,7 +1,7 @@
 @import "variables";
-body {
-    background-color: $dark-blue !important;
-}
+//body {
+//    background-color: $dark-blue !important;
+//}
 .nav{
     display: inline-block;
     text-align: center;
@@ -9,4 +9,9 @@ body {
 .nav-item{
     display: inline-block;
     vertical-align: top;
+}
+@media screen and (min-width:769px) and (max-width:1280px) {
+    .tab-content {
+        padding-top: 0;
+    }
 }

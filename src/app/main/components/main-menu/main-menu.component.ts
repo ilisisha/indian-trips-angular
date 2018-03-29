@@ -8,10 +8,7 @@ import { Output } from '@angular/compiler/src/core';
 })
 export class MainMenuComponent implements OnInit {
 
-  @Output searchType;
-
   constructor() {
-    this.searchType = 'distance';
   }
 
   ngOnInit() {
