@@ -1,7 +1,7 @@
 import { Injectable, OnInit } from '@angular/core';
 import { HttpClient } from'@angular/common/http';
 import { Observable } from 'rxjs';
-import { CityModel } from '../models/city.model';
+import { CityModel } from '../../../shared/models/city.model';
 
 @Injectable()
 export class CitiesService implements OnInit{

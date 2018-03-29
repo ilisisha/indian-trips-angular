@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Output } from '@angular/compiler/src/core';
 
 @Component({
   selector: 'main-menu',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainMenuComponent implements OnInit {
 
-  constructor() { }
+  @Output searchType;
+
+  constructor() {
+    this.searchType = 'distance';
+  }
 
   ngOnInit() {
   }

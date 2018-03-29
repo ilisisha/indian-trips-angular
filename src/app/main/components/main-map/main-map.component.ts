@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DirectionsMapDirective } from '../../../route.directive'
-import { CitiesService } from '../../shared/services/cities.service';
+import { CitiesService } from '../shared/cities/cities.service';
 import { MarkerModel } from '../shared/models/marker.model';
 import { GoogleMapsAPIWrapper } from '../../../../../node_modules/@agm/core/services/google-maps-api-wrapper';
 import { GeoLocationService } from '../../shared/services/geolocation.service';
