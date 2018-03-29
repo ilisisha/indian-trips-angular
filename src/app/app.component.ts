@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DirectionsMapDirective } from './route.directive'
+import { GoogleMapsAPIWrapper } from '@agm/core';
 
 @Component({
   selector: 'app-root',
@@ -28,6 +29,6 @@ export class AppComponent {
 //   icon: image,
 // });
 
-
+  providers: [GoogleMapsAPIWrapper];
 
 }

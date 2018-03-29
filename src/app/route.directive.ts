@@ -1,5 +1,5 @@
-import {GoogleMapsAPIWrapper} from '../../node_modules/@agm/core/services/google-maps-api-wrapper';
 import { Directive,  Input} from '@angular/core';
+import { GoogleMapsAPIWrapper } from '@agm/core';
 declare var google: any;
 
 @Directive({
@@ -7,8 +7,8 @@ declare var google: any;
 })
 export class DirectionsMapDirective {
 
-  @Input() origin;
-  @Input() destination;
+  @Input() origin: any;
+  @Input() destination: any;
 
   constructor (private gmapsApi: GoogleMapsAPIWrapper) {}
 
