@@ -26,14 +26,17 @@ export class DestinationsMapComponent implements OnInit {
   constructor(private _citiesService: CitiesService,
               private gmapsApi: GoogleMapsAPIWrapper,
               private geolocationService: GeolocationService) {
+
     this.markers = [];
     this.markers.push(new MarkerModel({latitude: 28.6139391, longitude: 77.20902120000005}));
     this.markers.push(new MarkerModel({latitude: 15.8496953, longitude: 74.4976741}));
     this.geolocationService.getLocation().
     subscribe((coordinates) => {
       this.currentGeolocation = coordinates;
+      console.log("latitude" + this.currentGeolocation.latitude);
     });
-}
+
+  }
 
   ngOnInit() {
 

@@ -18,6 +18,8 @@ export class GeolocationService {
         console.log(window.navigator.geolocation);
         window.navigator.geolocation.getCurrentPosition(
           (position) => {
+            // console.log("hi");
+            // console.log(position.coords.latitude.toString());
             observer.next(new CoordinatesModel({
               latitude: position.coords.latitude.toString(),
               longitude: position.coords.longitude.toString(),
@@ -30,7 +32,6 @@ export class GeolocationService {
         observer.error(GEOLOCATION_ERRORS[0]);
       }
     });
-
 
   }
 
