@@ -1,6 +1,21 @@
 // start Modal style
 @import "../../../../styles/variables";
 
+.destinations{
+  width: 628px;
+  position: absolute;
+  left:25px;
+  top: 25px;
+  .nav-link{
+    border-radius: 0;
+    border: none;
+    &:hover{
+      border-radius: 0;
+      border: none;
+    }
+  }
+}
+
 .modal-body{
   padding: 0;
   border-radius: 0;
@@ -151,6 +166,12 @@ button.close{
       }
     }
   }
+  .destinations{
+    width: 418px;
+    position: absolute;
+    left: 24px;
+    top: 18px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -227,10 +248,26 @@ button.close{
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .destinations{
+    left: 17px;
+    width: 453px;
+    .nav-link-close{
+      width: 22px;
+      height: 33px;
+    }
+    .nav-link-middle{
+      width: 29px;
+      height: 43px;
+    }
+    .nav-link-long{
+      width: 36px;
+      height: 54px;
+    }
+  }
 }
 
 @media screen and (max-width: 425px) {
-  .modal-dialog {
+  .modal-dialog{
     top: 10px;
     width: 96%;
     .detail-title{
@@ -242,7 +279,7 @@ button.close{
       font-size: 11px;
     }
   }
-  .popup {
+  .popup{
     .nav-link{
       padding-top: 9px;
       padding-bottom: 9px;
@@ -271,6 +308,27 @@ button.close{
   .detail-desc{
     padding-right: 15px;
     line-height: 1.2;
+  }
+  .destinations{
+    top: 10px;
+    z-index: 2;
+    left: 15px;
+    width: 93%;
+    .nav-link{
+      padding-top: 8px;
+    }
+    .nav-link-close {
+      width: 14px;
+      height: 22px;
+    }
+    .nav-link-middle {
+      width: 20px;
+      height: 30px;
+    }
+    .nav-link-long {
+      width: 25px;
+      height: 37px;
+    }
   }
 }
 

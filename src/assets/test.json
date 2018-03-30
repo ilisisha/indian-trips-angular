@@ -1,6 +1,7 @@
-{
-  "New Delhi": {
+[
+  {
     "id": 0,
+    "city": "New Delhi",
     "location": {
       "lat": 28.6139391,
       "lng": 77.20902120000005
@@ -240,8 +241,9 @@
       }
     ]
   },
-  "Goa": {
+  {
     "id": 1,
+    "city": "Goa",
     "location": {
       "lat": 15.61510135,
       "lng": 74.087677
@@ -367,6 +369,106 @@
         "distance": 122,
         "hours": "2h10"
       }
+    ],
+    "average": [
+      {
+        "id": 11,
+        "popular": 0,
+        "explore": 1,
+        "city": "Nainital",
+        "location": {
+          "lat": 29.3803039,
+          "lng": 79.4635658
+        },
+        "distance": 290,
+        "hours": "6h33"
+      },
+      {
+        "id": 12,
+        "popular": 0,
+        "explore": 0,
+        "city": "Jaipur",
+        "location": {
+          "lat": 26.9124336,
+          "lng": 75.7872709
+        },
+        "distance": 261,
+        "hours": "5h7"
+      }
+    ],
+    "max": [
+      {
+        "id": 13,
+        "popular": 0,
+        "explore": 1,
+        "city": "Chopta",
+        "location": {
+          "lat": 30.3461908,
+          "lng": 79.04850590000001
+        },
+        "distance": 402,
+        "hours": "11h"
+      },
+      {
+        "id": 14,
+        "popular": 1,
+        "explore": 1,
+        "city": "Shimla",
+        "location": {
+          "lat": 31.1048145,
+          "lng": 77.17340330000002
+        },
+        "distance": 358,
+        "hours": "8h4"
+      },
+      {
+        "id": 15,
+        "popular": 0,
+        "explore": 0,
+        "city": "Amritsar",
+        "location": {
+          "lat": 31.6339793,
+          "lng": 74.8722642
+        },
+        "distance": 466,
+        "hours": "7h52"
+      },
+      {
+        "id": 16,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pushkar",
+        "location": {
+          "lat": 26.489749,
+          "lng": 74.5510856
+        },
+        "distance": 404,
+        "hours": "7h18"
+      },
+      {
+        "id": 17,
+        "popular": 1,
+        "explore": 1,
+        "city": "Mussoorie",
+        "location": {
+          "lat": 30.4599099,
+          "lng": 78.06639779999999
+        },
+        "distance": 290,
+        "hours": "7h15"
+      },
+      {
+        "id": 18,
+        "popular": 0,
+        "explore": 1,
+        "city": "Rishikesh",
+        "location": {
+          "lat": 30.0869281,
+          "lng": 78.2676116
+        },
+        "distance": 234,
+        "hours": "6h39"
+      }
     ]
   }
-}
+]

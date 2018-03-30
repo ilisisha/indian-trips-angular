@@ -11,12 +11,12 @@ import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './main/components/header/header.component';
 import { MainMapComponent } from './main/components/main-map/main-map.component';
-import { DestinationsListComponent } from './main/components/destination-list/destination-list.component';
 import { CitiesService } from './main/components/shared/services/cities.service';
 import { MainMenuComponent } from './main/components/main-menu/main-menu.component';
 import { GeoLocationService } from './main/shared/services/geolocation.service';
 import { DestinationComponent } from './main/components/destination/destination.component';
 import { RouteMapComponent } from './main/components/route-map/route-map.component';
+import { DestinationListComponent } from './main/components/destination-list/destination-list.component';
 
 @NgModule({
   imports: [
@@ -39,7 +39,7 @@ import { RouteMapComponent } from './main/components/route-map/route-map.compone
     MainComponent,
     HeaderComponent,
     MainMapComponent,
-    DestinationsListComponent,
+    DestinationListComponent,
     MainMenuComponent,
     DestinationComponent,
     RouteMapComponent
