@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { CityModel } from '../../shared/models/city.model';
-import { CitiesService } from '../shared/cities/cities.service';
+import { CityModel } from '../shared/models/city.model';
+import { CitiesService } from '../shared/services/cities.service';
 import { Input } from '@angular/compiler/src/core';
 
 @Component({
   selector: 'destinations-list',
-  templateUrl: './destinations-list.component.html',
-  styleUrls: ['./destinations-list.component.scss']
+  templateUrl: 'destination-list.component.html',
+  styleUrls: ['destination-list.component.scss']
 })
 
 export class DestinationsListComponent implements OnInit {

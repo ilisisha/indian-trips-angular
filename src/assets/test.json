@@ -1,378 +1,372 @@
-[
-  {
-    "id": 1,
-    "city": "New Delhi",
-    "info": {
-      "location": {
-        "lat": 28.6139391,
-        "lng": 77.20902120000005
+{
+  "New Delhi": {
+    "id": 0,
+    "location": {
+      "lat": 28.6139391,
+      "lng": 77.20902120000005
+    },
+    "min": [
+      {
+        "id": 0,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bharatpur Bird Sanctuary",
+        "location": {
+          "lat": 27.159269,
+          "lng": 77.5231999
+        },
+        "distance": 201,
+        "hours": "3h37"
       },
-      "max": [
-        {
-          "id": 1,
-          "popular": true,
-          "explore": false,
-          "city": "Chopta",
-          "location": {
-            "lat": 30.3461908,
-            "lng": 79.04850590000001
-          },
-          "distance": 402,
-          "hours": "11h"
+      {
+        "id": 1,
+        "popular": 0,
+        "explore": 1,
+        "city": "Alwar",
+        "location": {
+          "lat": 27.5529907,
+          "lng": 76.6345735
         },
-        {
-          "id": 2,
-          "popular": true,
-          "explore": false,
-          "city": "Shimla",
-          "location": {
-            "lat": 31.1048145,
-            "lng": 77.17340330000002
-          },
-          "distance": 358,
-          "hours": "8h4"
+        "distance": 153,
+        "hours": "3h24"
+      },
+      {
+        "id": 2,
+        "popular": 0,
+        "explore": 0,
+        "city": "Neemrana (In Alwar District)",
+        "location": {
+          "lat": 27.9854076,
+          "lng": 76.3827368
         },
-        {
-          "id": 3,
-          "popular": true,
-          "explore": false,
-          "city": "Amritsar",
-          "location": {
-            "lat": 31.6339793,
-            "lng": 74.8722642
-          },
-          "distance": 466,
-          "hours": "7h52"
+        "distance": 153,
+        "hours": "3h20"
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 1,
+        "city": "Agra",
+        "location": {
+          "lat": 27.1766701,
+          "lng": 78.00807449999999
         },
-        {
-          "id": 4,
-          "popular": true,
-          "explore": false,
-          "city": "Pushkar",
-          "location": {
-            "lat": 26.489749,
-            "lng": 74.5510856
-          },
-          "distance": 404,
-          "hours": "7h18"
+        "distance": 219,
+        "hours": "3h15"
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 1,
+        "city": "Manesar",
+        "location": {
+          "lat": 28.3542852,
+          "lng": 76.9398195
         },
-        {
-          "id": 5,
-          "popular": true,
-          "explore": false,
-          "city": "Mussoorie",
-          "location": {
-            "lat": 30.4599099,
-            "lng": 78.06639779999999
-          },
-          "distance": 290,
-          "hours": "7h15"
+        "distance": 43,
+        "hours": "1h19"
+      },
+      {
+        "id": 5,
+        "popular": 0,
+        "explore": 0,
+        "city": "Vrindavan",
+        "location": {
+          "lat": 27.5650088,
+          "lng": 77.6593394
         },
-        {
-          "id": 6,
-          "popular": true,
-          "explore": false,
-          "city": "Rishikesh",
-          "location": {
-            "lat": 30.0869281,
-            "lng": 78.2676116
-          },
-          "distance": 234,
-          "hours": "6h39"
-        }
-      ],
-      "average": [
-        {
-          "id": 7,
-          "popular": true,
-          "explore": false,
-          "city": "Nainital",
-          "location": {
-            "lat": 29.3803039,
-            "lng": 79.4635658
-          },
-          "distance": 290,
-          "hours": "6h33"
+        "distance": 165,
+        "hours": "2h32"
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 1,
+        "city": "Fort Unchagaon",
+        "location": {
+          "lat": 28.4884354,
+          "lng": 78.1522662
         },
-        {
-          "id": 8,
-          "popular": true,
-          "explore": false,
-          "city": "Jaipur",
-          "location": {
-            "lat": 26.9124336,
-            "lng": 75.7872709
-          },
-          "distance": 261,
-          "hours": "5h7"
-        }
-      ],
-      "min": [
-        {
-          "id": 9,
-          "popular": true,
-          "explore": false,
-          "city": "Bharatpur Bird Sanctuary",
-          "location": {
-            "lat": 27.159269,
-            "lng": 77.5231999
-          },
-          "distance": 201,
-          "hours": "3h37"
+        "distance": 124,
+        "hours": "3h1"
+      },
+      {
+        "id": 7,
+        "popular": 0,
+        "explore": 1,
+        "city": "Kuchesar Mud Fort",
+        "location": {
+          "lat": 28.6843522,
+          "lng": 77.9407722
         },
-        {
-          "id": 10,
-          "popular": true,
-          "explore": false,
-          "city": "Alwar",
-          "location": {
-            "lat": 27.5529907,
-            "lng": 76.6345735
-          },
-          "distance": 153,
-          "hours": "3h24"
+        "distance": 85,
+        "hours": "2h25"
+      },
+      {
+        "id": 8,
+        "popular": 0,
+        "explore": 1,
+        "city": "Murthal",
+        "location": {
+          "lat": 29.0301118,
+          "lng": 77.070837
         },
-        {
-          "id": 11,
-          "popular": true,
-          "explore": false,
-          "city": "Neemrana (In Alwar District)",
-          "location": {
-            "lat": 27.9854076,
-            "lng": 76.3827368
-          },
-          "distance": 153,
-          "hours": "3h20"
+        "distance": 59,
+        "hours": "1h41"
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 1,
+        "city": "Damdama Lake",
+        "location": {
+          "lat": 28.3040418,
+          "lng": 77.1282023
         },
-        {
-          "id": 12,
-          "popular": true,
-          "explore": false,
-          "city": "Agra",
-          "location": {
-            "lat": 27.1766701,
-            "lng": 78.00807449999999
-          },
-          "distance": 219,
-          "hours": "3h15"
+        "distance": 46,
+        "hours": "1h40"
+      },
+      {
+        "id": 10,
+        "popular": 0,
+        "explore": 0,
+        "city": "Nuh",
+        "location": {
+          "lat": 28.1023894,
+          "lng": 76.99310740000001
         },
-        {
-          "id": 13,
-          "popular": true,
-          "explore": false,
-          "city": "Manesar",
-          "location": {
-            "lat": 28.3542852,
-            "lng": 76.9398195
-          },
-          "distance": 43,
-          "hours": "1h19"
+        "distance": 73,
+        "hours": "2h9"
+      }
+    ],
+    "average": [
+      {
+        "id": 11,
+        "popular": 0,
+        "explore": 1,
+        "city": "Nainital",
+        "location": {
+          "lat": 29.3803039,
+          "lng": 79.4635658
         },
-        {
-          "id": 14,
-          "popular": true,
-          "explore": false,
-          "city": "Vrindavan",
-          "location": {
-            "lat": 27.5650088,
-            "lng": 77.6593394
-          },
-          "distance": 165,
-          "hours": "2h32"
+        "distance": 290,
+        "hours": "6h33"
+      },
+      {
+        "id": 12,
+        "popular": 0,
+        "explore": 0,
+        "city": "Jaipur",
+        "location": {
+          "lat": 26.9124336,
+          "lng": 75.7872709
         },
-        {
-          "id": 15,
-          "popular": true,
-          "explore": false,
-          "city": "Fort Unchagaon",
-          "location": {
-            "lat": 28.4884354,
-            "lng": 78.1522662
-          },
-          "distance": 124,
-          "hours": "3h1"
+        "distance": 261,
+        "hours": "5h7"
+      }
+    ],
+    "max": [
+      {
+        "id": 13,
+        "popular": 0,
+        "explore": 1,
+        "city": "Chopta",
+        "location": {
+          "lat": 30.3461908,
+          "lng": 79.04850590000001
         },
-        {
-          "id": 16,
-          "popular": true,
-          "explore": false,
-          "city": "Kuchesar Mud Fort",
-          "location": {
-            "lat": 28.6843522,
-            "lng": 77.9407722
-          },
-          "distance": 85,
-          "hours": "2h25"
+        "distance": 402,
+        "hours": "11h"
+      },
+      {
+        "id": 14,
+        "popular": 1,
+        "explore": 1,
+        "city": "Shimla",
+        "location": {
+          "lat": 31.1048145,
+          "lng": 77.17340330000002
         },
-        {
-          "id": 17,
-          "popular": true,
-          "explore": false,
-          "city": "Murthal",
-          "location": {
-            "lat": 29.0301118,
-            "lng": 77.070837
-          },
-          "distance": 59,
-          "hours": "1h41"
+        "distance": 358,
+        "hours": "8h4"
+      },
+      {
+        "id": 15,
+        "popular": 0,
+        "explore": 0,
+        "city": "Amritsar",
+        "location": {
+          "lat": 31.6339793,
+          "lng": 74.8722642
         },
-        {
-          "id": 18,
-          "popular": true,
-          "explore": false,
-          "city": "Damdama Lake",
-          "location": {
-            "lat": 28.3040418,
-            "lng": 77.1282023
-          },
-          "distance": 46,
-          "hours": "1h40"
+        "distance": 466,
+        "hours": "7h52"
+      },
+      {
+        "id": 16,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pushkar",
+        "location": {
+          "lat": 26.489749,
+          "lng": 74.5510856
         },
-        {
-          "id": 19,
-          "popular": true,
-          "explore": false,
-          "city": "Nuh",
-          "location": {
-            "lat": 28.1023894,
-            "lng": 76.99310740000001
-          },
-          "distance": 73,
-          "hours": "2h9"
-        }
-      ]
-    }
+        "distance": 404,
+        "hours": "7h18"
+      },
+      {
+        "id": 17,
+        "popular": 1,
+        "explore": 1,
+        "city": "Mussoorie",
+        "location": {
+          "lat": 30.4599099,
+          "lng": 78.06639779999999
+        },
+        "distance": 290,
+        "hours": "7h15"
+      },
+      {
+        "id": 18,
+        "popular": 0,
+        "explore": 1,
+        "city": "Rishikesh",
+        "location": {
+          "lat": 30.0869281,
+          "lng": 78.2676116
+        },
+        "distance": 234,
+        "hours": "6h39"
+      }
+    ]
   },
-  {
-    "id": 2,
-    "city": "Goa",
-    "info": {
-      "location": {
-        "lat": 15.61510135,
-        "lng": 74.087677
+  "Goa": {
+    "id": 1,
+    "location": {
+      "lat": 15.61510135,
+      "lng": 74.087677
+    },
+    "min": [
+      {
+        "id": 0,
+        "popular": true,
+        "explore": false,
+        "city": "Yellapur",
+        "location": {
+          "lat": 14.9643112,
+          "lng": 74.71207679999999
+        },
+        "distance": 152,
+        "hours": "3h18"
       },
-      "min": [
-        {
-          "id": 1,
-          "popular": true,
-          "explore": false,
-          "city": "Yellapur",
-          "location": {
-            "lat": 14.9643112,
-            "lng": 74.71207679999999
-          },
-          "distance": 152,
-          "hours": "3h18"
+      {
+        "id": 1,
+        "popular": true,
+        "explore": false,
+        "city": "Hubli",
+        "location": {
+          "lat": 15.3647083,
+          "lng": 75.1239547
         },
-        {
-          "id": 2,
-          "popular": true,
-          "explore": false,
-          "city": "Hubli",
-          "location": {
-            "lat": 15.3647083,
-            "lng": 75.1239547
-          },
-          "distance": 152,
-          "hours": "3h21"
+        "distance": 152,
+        "hours": "3h21"
+      },
+      {
+        "id": 2,
+        "popular": true,
+        "explore": false,
+        "city": "Devbagh",
+        "location": {
+          "lat": 14.8452732,
+          "lng": 74.1159552
         },
-        {
-          "id": 3,
-          "popular": true,
-          "explore": false,
-          "city": "Devbagh",
-          "location": {
-            "lat": 14.8452732,
-            "lng": 74.1159552
-          },
-          "distance": 83,
-          "hours": "2h6"
+        "distance": 83,
+        "hours": "2h6"
+      },
+      {
+        "id": 3,
+        "popular": true,
+        "explore": false,
+        "city": "Dandeli",
+        "location": {
+          "lat": 15.2496775,
+          "lng": 74.6173738
         },
-        {
-          "id": 4,
-          "popular": true,
-          "explore": false,
-          "city": "Dandeli",
-          "location": {
-            "lat": 15.2496775,
-            "lng": 74.6173738
-          },
-          "distance": 99,
-          "hours": "2h24"
+        "distance": 99,
+        "hours": "2h24"
+      },
+      {
+        "id": 4,
+        "popular": true,
+        "explore": false,
+        "city": "Bhatkal",
+        "location": {
+          "lat": 13.9977623,
+          "lng": 74.54046939999999
         },
-        {
-          "id": 5,
-          "popular": true,
-          "explore": false,
-          "city": "Bhatkal",
-          "location": {
-            "lat": 13.9977623,
-            "lng": 74.54046939999999
-          },
-          "distance": 221,
-          "hours": "3h50"
+        "distance": 221,
+        "hours": "3h50"
+      },
+      {
+        "id": 5,
+        "popular": true,
+        "explore": false,
+        "city": "Gorkarna",
+        "location": {
+          "lat": 14.5478586,
+          "lng": 74.31884099999999
         },
-        {
-          "id": 6,
-          "popular": true,
-          "explore": false,
-          "city": "Gorkarna",
-          "location": {
-            "lat": 14.5478586,
-            "lng": 74.31884099999999
-          },
-          "distance": 132,
-          "hours": "2h25"
+        "distance": 132,
+        "hours": "2h25"
+      },
+      {
+        "id": 6,
+        "popular": true,
+        "explore": false,
+        "city": "Sirsi",
+        "location": {
+          "lat": 14.6170943,
+          "lng": 74.8448648
         },
-        {
-          "id": 7,
-          "popular": true,
-          "explore": false,
-          "city": "Sirsi",
-          "location": {
-            "lat": 14.6170943,
-            "lng": 74.8448648
-          },
-          "distance": 201,
-          "hours": "4h13"
+        "distance": 201,
+        "hours": "4h13"
+      },
+      {
+        "id": 7,
+        "popular": true,
+        "explore": false,
+        "city": "Belgaum",
+        "location": {
+          "lat": 15.8496953,
+          "lng": 74.4976741
         },
-        {
-          "id": 8,
-          "popular": true,
-          "explore": false,
-          "city": "Belgaum",
-          "location": {
-            "lat": 15.8496953,
-            "lng": 74.4976741
-          },
-          "distance": 103,
-          "hours": "2h30"
+        "distance": 103,
+        "hours": "2h30"
+      },
+      {
+        "id": 8,
+        "popular": true,
+        "explore": false,
+        "city": "Amboli",
+        "location": {
+          "lat": 15.9647156,
+          "lng": 74.0035709
         },
-        {
-          "id": 9,
-          "popular": true,
-          "explore": false,
-          "city": "Amboli",
-          "location": {
-            "lat": 15.9647156,
-            "lng": 74.0035709
-          },
-          "distance": 119,
-          "hours": "3h13"
+        "distance": 119,
+        "hours": "3h13"
+      },
+      {
+        "id": 9,
+        "popular": true,
+        "explore": false,
+        "city": "Sindhudurg",
+        "location": {
+          "lat": 16.3492193,
+          "lng": 73.55941279999999
         },
-        {
-          "id": 10,
-          "popular": true,
-          "explore": false,
-          "city": "Sindhudurg",
-          "location": {
-            "lat": 16.3492193,
-            "lng": 73.55941279999999
-          },
-          "distance": 122,
-          "hours": "2h10"
-        }
-      ]
-    }
+        "distance": 122,
+        "hours": "2h10"
+      }
+    ]
   }
-]
+}

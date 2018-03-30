@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GeoLocationService } from './shared/services/geolocation.service';
 
 @Component({
   selector: 'main',
@@ -26,6 +27,7 @@ export class MainComponent implements OnInit {
     "background-15",
     "background-16",
   ];
+  // public currentLocation: any;
 
   private _currentBackgroundImage: string;
 
@@ -44,6 +46,5 @@ export class MainComponent implements OnInit {
     let backgroundNumber = this.getRandomInt(0, this.backgroundImages.length);
     this._currentBackgroundImage = `../../assets/images/background-image/${this.backgroundImages[backgroundNumber]}`;
   }
-
 
 }
