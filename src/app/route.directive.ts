@@ -2,7 +2,6 @@ import { Directive,  Input} from '@angular/core';
 import { GoogleMapsAPIWrapper } from '@agm/core';
 
 declare var google: any;
-declare var jQuery:any;
 
 @Directive({
   selector: 'sebm-google-map-directions'

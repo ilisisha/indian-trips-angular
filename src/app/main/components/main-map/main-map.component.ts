@@ -25,14 +25,15 @@ export class MainMapComponent implements OnInit {
       longitude: 77.20902120000005
     });
 
-    this._geolocationService.getLocation().subscribe({
-      next(location) {
-        this.currentGeolocation = location;
+    this._geolocationService.getLocation().subscribe(
+      location => {
+        this._currentGeolocation = location;
+        console.log(this._currentGeolocation);
       },
-      error(msg) {
+      () => {
         this._currentGeolocation = '';
       }
-    });
+    );
 
     //тестовое
     // this.markers = [];

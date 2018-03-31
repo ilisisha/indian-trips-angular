@@ -21,3 +21,277 @@
         padding-top: 0;
     }
 }
+
+//modal
+.modal-body{
+    padding: 0 !important;
+    border-radius: 0;
+}
+.modal-dialog{
+    max-width: 1008px;
+    left: 0;
+}
+.modal-header{
+    padding: 0 !important;
+    button.close{
+        margin: 0 !important;
+    }
+}
+.attrastion-desc{
+    font-size: 21px;
+}
+.flex-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.close{
+    background-color: $dark-blue !important;
+    opacity: 1 !important;
+    color: white !important;
+    height: 100%;
+    width: 100%;
+    padding: 15px !important;
+    font-weight: 100;
+    text-align: left;
+    &:hover{
+        color: white;
+    }
+    span {
+        font-size: 24px;
+    }
+}
+.popup{
+    background-color: #efefef;
+    padding: 32px 49px 17px 49px;
+    .container{
+        padding: 0;
+    }
+    .top{
+        margin-bottom: 67px;
+    }
+    .detail-img{
+        margin-bottom: 52px;
+        img{
+            width: 100%;
+        }
+    }
+    .nav-link{
+        font-size: 24px;
+        color: $dark-blue;
+        border: 0 !important;
+        border-radius: 0;
+        background-color: white;
+        padding: 19px 0;
+        &.active{
+            background-color: #ffcb00 !important;
+            font-weight: 600;
+        }
+    }
+    .tab-distance{
+        background-color: $dark-blue;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 3px;
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
+        span{
+            display: block;
+        }
+    }
+    .tab-content{
+        padding: 25px 0 30px;
+    }
+    .route-map{
+        width: 100%;
+        height: 280px;
+    }
+    .tab-low{
+        flex-wrap: wrap;
+        .row {
+            margin-bottom: 26px;
+        }
+    }
+    .tab-content>.active{
+        display: flex;
+    }
+    .socail{
+        display: none;
+    }
+}
+.detail-title{
+    background-color: #1480cc;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 36px;
+}
+.detail-desc{
+    font-size: 18px;
+    color: #00355f;
+}
+
+@media screen and (min-width:769px) and (max-width:1280px) {
+    .modal-dialog {
+        max-width: 750px !important;
+        .detail-title {
+            font-size: 20px;
+        }
+    }
+    button.close {
+        padding-top: 3px;
+        padding-bottom: 9px;
+        span {
+            font-size: 17px;
+        }
+    }
+    .popup {
+        .top {
+            margin-bottom: 30px;
+        }
+        .nav-link {
+            font-size: 15px;
+            padding-top: 11px;
+            padding-bottom: 11px;
+        }
+        .detail-img {
+            margin-bottom: 30px;
+        }
+        .detail-title {
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        .tab-distance {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: 17px;
+            span {
+                display: inline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-dialog {
+        max-width: 565px;
+        transform: translateX(0) !important;
+        left: 0;
+        .detail-title {
+            font-size: 18px;
+        }
+        .detail-desc {
+            line-height: 1.1;
+            font-size: 12px;
+        }
+        .detail-img {
+            width: 100%;
+        }
+    }
+    .popup {
+        //padding-top: 36px;
+        //padding-left: 8px;
+        //padding-right: 7px;
+        //padding-bottom: 10px;
+        padding: 36px 7px 10px 8px;
+        .top {
+            margin-bottom: 29px;
+        }
+        .detail-img {
+            margin-bottom: 28px;
+        }
+        .nav-link {
+            border-radius: 4px;
+            font-size: 13px;
+            &.active {
+                color: #00355f !important;
+            }
+        }
+        .tab-distance {
+            font-size: 16px;
+            padding: 15px 0;
+            span {
+                display: inline;
+            }
+        }
+        .socail {
+            top: 258px;
+            display: block;
+        }
+        .social-item {
+            width: 38px;
+            height: 38px;
+            font-size: 23px;
+        }
+    }
+    button {
+        &.close {
+            position: absolute;
+            z-index: 1;
+            top: -11px;
+            right: -3px;
+            width: 42px;
+            height: 42px;
+            border: 2px solid #00355f;
+            border-radius: 50%;
+            background: white url("../assets/images/close-button.svg") center center no-repeat;
+            background-size: 50%;
+            opacity: 1;
+            span {
+                display: none;
+            }
+        }
+    }
+    .detail-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .modal-dialog {
+        top: 10px;
+        width: 96%;
+        .detail-title {
+            padding-top: 3px;
+            padding-bottom: 4px;
+            font-size: 14px;
+        }
+        .detail-desc {
+            font-size: 11px;
+        }
+    }
+    .popup {
+        .nav-link {
+            padding-top: 9px;
+            padding-bottom: 9px;
+            font-size: 11px;
+        }
+        .tab-content {
+            padding-top: 9px;
+        }
+        .tab-distance {
+            font-size: 12px;
+        }
+        .flex-block {
+            width: 28%;
+            padding: 0 0 0 5px;
+        }
+        .small-map {
+            width: 72%;
+        }
+        .route-map {
+            height: 118px;
+        }
+        .detail-img {
+            margin-bottom: 14px;
+        }
+    }
+    .detail-desc {
+        padding-right: 15px;
+        line-height: 1.2;
+    }
+}
