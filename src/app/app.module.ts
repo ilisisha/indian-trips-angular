@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule }   from '@angular/common/http';
 import { ModalModule } from 'ngx-bootstrap';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
@@ -19,6 +20,7 @@ import { GeoLocationService } from './main/shared/services/geolocation.service';
 import { DestinationComponent } from './main/components/destination/destination.component';
 import { RouteMapComponent } from './main/components/route-map/route-map.component';
 import { DestinationListComponent } from './main/components/destination-list/destination-list.component';
+import { StartCityService } from './main/shared/services/start-city.service';
 
 @NgModule({
   imports: [
@@ -26,15 +28,18 @@ import { DestinationListComponent } from './main/components/destination-list/des
     CommonModule,
     FormsModule,
     HttpClientModule,
+    HttpModule,
     ModalModule.forRoot(),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyC0eUmxV2vedKz0s7CE7cgCT1ALjrN6PXE'
+      apiKey: 'AIzaSyC0eUmxV2vedKz0s7CE7cgCT1ALjrN6PXE',
+      libraries: ['geometry']
     })
   ],
   providers: [
     CitiesService,
     GoogleMapsAPIWrapper,
-    GeoLocationService
+    GeoLocationService,
+    StartCityService
   ],
   declarations: [
     AppComponent,
