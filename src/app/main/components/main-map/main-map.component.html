@@ -8,8 +8,8 @@
          [rotateControl]="false"
          [fullscreenControl]="false"
          [scrollwheel]="false">
-  <!--<agm-marker *ngFor="let marker of markers"-->
-              <!--[iconUrl]="marker.image"-->
-              <!--[latitude]="marker.latitude"-->
-              <!--[longitude]="marker.longitude"></agm-marker>-->
+  <agm-marker *ngFor="let marker of markers"
+              [iconUrl]="marker.image"
+              [latitude]="marker.latitude"
+              [longitude]="marker.longitude"></agm-marker>
 </agm-map>

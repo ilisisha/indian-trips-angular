@@ -14,8 +14,8 @@ export class CityModel {
     this.city = data.city || '';
     this.location =  new LocationModel(
       {
-        latitude: data.latitude,
-        longitude: data.longitude
+        latitude: data.location.latitude,
+        longitude: data.location.longitude
       }
     );
     this.distance = data.distance || null;

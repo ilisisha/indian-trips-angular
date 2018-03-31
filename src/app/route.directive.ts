@@ -14,7 +14,6 @@ export class DirectionsMapDirective {
   constructor (private gmapsApi: GoogleMapsAPIWrapper) {}
 
   ngOnInit(){
-
     this.gmapsApi.getNativeMap().then(map => {
       var directionsService = new google.maps.DirectionsService;
       var directionsDisplay = new google.maps.DirectionsRenderer;

@@ -3,8 +3,8 @@
     "id": 0,
     "city": "New Delhi",
     "location": {
-      "lat": 28.6139391,
-      "lng": 77.20902120000005
+      "latitude": 28.6139391,
+      "longitude": 77.20902120000005
     },
     "min": [
       {
@@ -13,8 +13,8 @@
         "explore": 0,
         "city": "Bharatpur Bird Sanctuary",
         "location": {
-          "lat": 27.159269,
-          "lng": 77.5231999
+          "latitude": 27.159269,
+          "longitude": 77.5231999
         },
         "distance": 201,
         "hours": "3h37"
@@ -25,8 +25,8 @@
         "explore": 1,
         "city": "Alwar",
         "location": {
-          "lat": 27.5529907,
-          "lng": 76.6345735
+          "latitude": 27.5529907,
+          "longitude": 76.6345735
         },
         "distance": 153,
         "hours": "3h24"
@@ -37,8 +37,8 @@
         "explore": 0,
         "city": "Neemrana (In Alwar District)",
         "location": {
-          "lat": 27.9854076,
-          "lng": 76.3827368
+          "latitude": 27.9854076,
+          "longitude": 76.3827368
         },
         "distance": 153,
         "hours": "3h20"
@@ -49,8 +49,8 @@
         "explore": 1,
         "city": "Agra",
         "location": {
-          "lat": 27.1766701,
-          "lng": 78.00807449999999
+          "latitude": 27.1766701,
+          "longitude": 78.00807449999999
         },
         "distance": 219,
         "hours": "3h15"
@@ -61,8 +61,8 @@
         "explore": 1,
         "city": "Manesar",
         "location": {
-          "lat": 28.3542852,
-          "lng": 76.9398195
+          "latitude": 28.3542852,
+          "longitude": 76.9398195
         },
         "distance": 43,
         "hours": "1h19"
@@ -73,8 +73,8 @@
         "explore": 0,
         "city": "Vrindavan",
         "location": {
-          "lat": 27.5650088,
-          "lng": 77.6593394
+          "latitude": 27.5650088,
+          "longitude": 77.6593394
         },
         "distance": 165,
         "hours": "2h32"
@@ -85,8 +85,8 @@
         "explore": 1,
         "city": "Fort Unchagaon",
         "location": {
-          "lat": 28.4884354,
-          "lng": 78.1522662
+          "latitude": 28.4884354,
+          "longitude": 78.1522662
         },
         "distance": 124,
         "hours": "3h1"
@@ -97,8 +97,8 @@
         "explore": 1,
         "city": "Kuchesar Mud Fort",
         "location": {
-          "lat": 28.6843522,
-          "lng": 77.9407722
+          "latitude": 28.6843522,
+          "longitude": 77.9407722
         },
         "distance": 85,
         "hours": "2h25"
@@ -109,8 +109,8 @@
         "explore": 1,
         "city": "Murthal",
         "location": {
-          "lat": 29.0301118,
-          "lng": 77.070837
+          "latitude": 29.0301118,
+          "longitude": 77.070837
         },
         "distance": 59,
         "hours": "1h41"
@@ -121,8 +121,8 @@
         "explore": 1,
         "city": "Damdama Lake",
         "location": {
-          "lat": 28.3040418,
-          "lng": 77.1282023
+          "latitude": 28.3040418,
+          "longitude": 77.1282023
         },
         "distance": 46,
         "hours": "1h40"
@@ -133,8 +133,8 @@
         "explore": 0,
         "city": "Nuh",
         "location": {
-          "lat": 28.1023894,
-          "lng": 76.99310740000001
+          "latitude": 28.1023894,
+          "longitude": 76.99310740000001
         },
         "distance": 73,
         "hours": "2h9"
@@ -147,8 +147,8 @@
         "explore": 1,
         "city": "Nainital",
         "location": {
-          "lat": 29.3803039,
-          "lng": 79.4635658
+          "latitude": 29.3803039,
+          "longitude": 79.4635658
         },
         "distance": 290,
         "hours": "6h33"
@@ -159,8 +159,8 @@
         "explore": 0,
         "city": "Jaipur",
         "location": {
-          "lat": 26.9124336,
-          "lng": 75.7872709
+          "latitude": 26.9124336,
+          "longitude": 75.7872709
         },
         "distance": 261,
         "hours": "5h7"
@@ -173,8 +173,8 @@
         "explore": 1,
         "city": "Chopta",
         "location": {
-          "lat": 30.3461908,
-          "lng": 79.04850590000001
+          "latitude": 30.3461908,
+          "longitude": 79.04850590000001
         },
         "distance": 402,
         "hours": "11h"
@@ -185,8 +185,8 @@
         "explore": 1,
         "city": "Shimla",
         "location": {
-          "lat": 31.1048145,
-          "lng": 77.17340330000002
+          "latitude": 31.1048145,
+          "longitude": 77.17340330000002
         },
         "distance": 358,
         "hours": "8h4"
@@ -197,8 +197,8 @@
         "explore": 0,
         "city": "Amritsar",
         "location": {
-          "lat": 31.6339793,
-          "lng": 74.8722642
+          "latitude": 31.6339793,
+          "longitude": 74.8722642
         },
         "distance": 466,
         "hours": "7h52"
@@ -209,8 +209,8 @@
         "explore": 0,
         "city": "Pushkar",
         "location": {
-          "lat": 26.489749,
-          "lng": 74.5510856
+          "latitude": 26.489749,
+          "longitude": 74.5510856
         },
         "distance": 404,
         "hours": "7h18"
@@ -221,8 +221,8 @@
         "explore": 1,
         "city": "Mussoorie",
         "location": {
-          "lat": 30.4599099,
-          "lng": 78.06639779999999
+          "latitude": 30.4599099,
+          "longitude": 78.06639779999999
         },
         "distance": 290,
         "hours": "7h15"
@@ -233,8 +233,8 @@
         "explore": 1,
         "city": "Rishikesh",
         "location": {
-          "lat": 30.0869281,
-          "lng": 78.2676116
+          "latitude": 30.0869281,
+          "longitude": 78.2676116
         },
         "distance": 234,
         "hours": "6h39"
@@ -245,8 +245,8 @@
     "id": 1,
     "city": "Goa",
     "location": {
-      "lat": 15.61510135,
-      "lng": 74.087677
+      "latitude": 15.61510135,
+      "longitude": 74.087677
     },
     "min": [
       {
@@ -255,8 +255,8 @@
         "explore": false,
         "city": "Yellapur",
         "location": {
-          "lat": 14.9643112,
-          "lng": 74.71207679999999
+          "latitude": 14.9643112,
+          "longitude": 74.71207679999999
         },
         "distance": 152,
         "hours": "3h18"
@@ -267,8 +267,8 @@
         "explore": false,
         "city": "Hubli",
         "location": {
-          "lat": 15.3647083,
-          "lng": 75.1239547
+          "latitude": 15.3647083,
+          "longitude": 75.1239547
         },
         "distance": 152,
         "hours": "3h21"
@@ -279,8 +279,8 @@
         "explore": false,
         "city": "Devbagh",
         "location": {
-          "lat": 14.8452732,
-          "lng": 74.1159552
+          "latitude": 14.8452732,
+          "longitude": 74.1159552
         },
         "distance": 83,
         "hours": "2h6"
@@ -291,8 +291,8 @@
         "explore": false,
         "city": "Dandeli",
         "location": {
-          "lat": 15.2496775,
-          "lng": 74.6173738
+          "latitude": 15.2496775,
+          "longitude": 74.6173738
         },
         "distance": 99,
         "hours": "2h24"
@@ -303,8 +303,8 @@
         "explore": false,
         "city": "Bhatkal",
         "location": {
-          "lat": 13.9977623,
-          "lng": 74.54046939999999
+          "latitude": 13.9977623,
+          "longitude": 74.54046939999999
         },
         "distance": 221,
         "hours": "3h50"
@@ -315,8 +315,8 @@
         "explore": false,
         "city": "Gorkarna",
         "location": {
-          "lat": 14.5478586,
-          "lng": 74.31884099999999
+          "latitude": 14.5478586,
+          "longitude": 74.31884099999999
         },
         "distance": 132,
         "hours": "2h25"
@@ -327,8 +327,8 @@
         "explore": false,
         "city": "Sirsi",
         "location": {
-          "lat": 14.6170943,
-          "lng": 74.8448648
+          "latitude": 14.6170943,
+          "longitude": 74.8448648
         },
         "distance": 201,
         "hours": "4h13"
@@ -339,8 +339,8 @@
         "explore": false,
         "city": "Belgaum",
         "location": {
-          "lat": 15.8496953,
-          "lng": 74.4976741
+          "latitude": 15.8496953,
+          "longitude": 74.4976741
         },
         "distance": 103,
         "hours": "2h30"
@@ -351,8 +351,8 @@
         "explore": false,
         "city": "Amboli",
         "location": {
-          "lat": 15.9647156,
-          "lng": 74.0035709
+          "latitude": 15.9647156,
+          "longitude": 74.0035709
         },
         "distance": 119,
         "hours": "3h13"
@@ -363,8 +363,8 @@
         "explore": false,
         "city": "Sindhudurg",
         "location": {
-          "lat": 16.3492193,
-          "lng": 73.55941279999999
+          "latitude": 16.3492193,
+          "longitude": 73.55941279999999
         },
         "distance": 122,
         "hours": "2h10"
@@ -377,8 +377,8 @@
         "explore": 1,
         "city": "Nainital",
         "location": {
-          "lat": 29.3803039,
-          "lng": 79.4635658
+          "latitude": 29.3803039,
+          "longitude": 79.4635658
         },
         "distance": 290,
         "hours": "6h33"
@@ -389,8 +389,8 @@
         "explore": 0,
         "city": "Jaipur",
         "location": {
-          "lat": 26.9124336,
-          "lng": 75.7872709
+          "latitude": 26.9124336,
+          "longitude": 75.7872709
         },
         "distance": 261,
         "hours": "5h7"
@@ -403,8 +403,8 @@
         "explore": 1,
         "city": "Chopta",
         "location": {
-          "lat": 30.3461908,
-          "lng": 79.04850590000001
+          "latitude": 30.3461908,
+          "longitude": 79.04850590000001
         },
         "distance": 402,
         "hours": "11h"
@@ -415,8 +415,8 @@
         "explore": 1,
         "city": "Shimla",
         "location": {
-          "lat": 31.1048145,
-          "lng": 77.17340330000002
+          "latitude": 31.1048145,
+          "longitude": 77.17340330000002
         },
         "distance": 358,
         "hours": "8h4"
@@ -427,8 +427,8 @@
         "explore": 0,
         "city": "Amritsar",
         "location": {
-          "lat": 31.6339793,
-          "lng": 74.8722642
+          "latitude": 31.6339793,
+          "longitude": 74.8722642
         },
         "distance": 466,
         "hours": "7h52"
@@ -439,8 +439,8 @@
         "explore": 0,
         "city": "Pushkar",
         "location": {
-          "lat": 26.489749,
-          "lng": 74.5510856
+          "latitude": 26.489749,
+          "longitude": 74.5510856
         },
         "distance": 404,
         "hours": "7h18"
@@ -451,8 +451,8 @@
         "explore": 1,
         "city": "Mussoorie",
         "location": {
-          "lat": 30.4599099,
-          "lng": 78.06639779999999
+          "latitude": 30.4599099,
+          "longitude": 78.06639779999999
         },
         "distance": 290,
         "hours": "7h15"
@@ -463,8 +463,8 @@
         "explore": 1,
         "city": "Rishikesh",
         "location": {
-          "lat": 30.0869281,
-          "lng": 78.2676116
+          "latitude": 30.0869281,
+          "longitude": 78.2676116
         },
         "distance": 234,
         "hours": "6h39"

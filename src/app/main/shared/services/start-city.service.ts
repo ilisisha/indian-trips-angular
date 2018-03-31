@@ -17,17 +17,33 @@ export class StartCityService {
       return Observable.create( (observer) => {
         let allDestination = [];
         this.mapsApiLoader.load().then(() => {
-          allDestination  = cities.map((elem, index) =>{
-            console.log(elem);
-            let dist = google.maps.geometry.spherical.computeDistanceBetween(
-              new google.maps.LatLng(elem.location.lat, elem.location.lng),
-              new google.maps.LatLng(location.coords.latitude,
-                location.coords.longitude)
+          if(location === ''){
+            observer.next(new StartCityModel(cities[0]));
+            observer.complete();
+          }else {
+            allDestination = cities.map(
+              (elem, index) => {
+                let dist = google.maps.geometry.spherical.computeDistanceBetween(
+                  new google.maps.LatLng(elem.location.latitude, elem.location.longitude),
+                  new google.maps.LatLng(
+                    location.coords.latitude,
+                    location.coords.longitude
+                  )
+                );
+                return { city: elem.city, distination: dist, index: index };
+              }
             );
-            return { city: elem.city, distination: dist, index: index };
-          });
-          observer.next(allDestination[0]);
-          observer.complete();
+            console.log(allDestination.reduce(
+              function(min, current) {
+                if(current < min)
+                  return current;
+                else
+                  return min;
+              }, 0)
+            );
+            observer.next(new StartCityModel(allDestination[0]));
+            observer.complete();
+          }
         });
       // centerMap = data.distances[mainCity.index].info.location;
       // let destinationCities = data.distances[mainCity.index].info[searchRadius];

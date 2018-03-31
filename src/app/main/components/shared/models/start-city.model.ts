@@ -14,8 +14,8 @@ export class StartCityModel {
     this.city = data.city || '';
     this.location =  new LocationModel(
       {
-        latitude: data.latitude,
-        longitude: data.longitude
+        latitude: data.location.latitude,
+        longitude: data.location.longitude
       }
     );
     this.min = data.min.map((city) => new CityModel(city));
