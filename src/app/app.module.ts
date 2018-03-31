@@ -3,6 +3,8 @@ import { NgModule, ApplicationRef, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule }   from '@angular/common/http';
+import { ModalModule } from 'ngx-bootstrap';
+
 import { AppComponent } from './app.component';
 
 import { DirectionsMapDirective } from './route.directive'
@@ -24,6 +26,7 @@ import { DestinationListComponent } from './main/components/destination-list/des
     CommonModule,
     FormsModule,
     HttpClientModule,
+    ModalModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyC0eUmxV2vedKz0s7CE7cgCT1ALjrN6PXE'
     })

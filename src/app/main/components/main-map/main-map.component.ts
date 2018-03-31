@@ -15,7 +15,8 @@ export class MainMapComponent implements OnInit {
   private _markers: MarkerModel[];
   private _currentGeolocation: any;
 
-  constructor(private _citiesService: CitiesService,
+  constructor(
+    private _citiesService: CitiesService,
               private _geolocationService: GeoLocationService) {
 
     // New Delhi

@@ -16,14 +16,6 @@ export class DirectionsMapDirective {
 
   ngOnInit(){
 
-    let gm = this.gmapsApi;
-
-    jQuery('#exampleModal').on('shown.bs.modal', function () {
-      gm.getNativeMap().then(map => {
-        google.maps.event.trigger(map, "resize");
-        });
-    });
-
     this.gmapsApi.getNativeMap().then(map => {
       var directionsService = new google.maps.DirectionsService;
       var directionsDisplay = new google.maps.DirectionsRenderer;
