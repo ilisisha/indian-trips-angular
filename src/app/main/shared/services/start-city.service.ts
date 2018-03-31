@@ -1,78 +1,39 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { GeoLocationService } from './geolocation.service';
-import { CitiesService } from '../../components/shared/services/cities.service';
-import { GoogleMapsAPIWrapper, MapsAPILoader } from '@agm/core';
+import { MapsAPILoader } from '@agm/core';
+import { StartCityModel } from '../../components/shared/models/start-city.model';
 
 declare var google: any;
 
 @Injectable()
 export class StartCityService {
 
+  constructor(private mapsApiLoader: MapsAPILoader) { }
 
-  private _currentGeolocation: any;
-  private _cities: any[];
-  // private _mainCities;
+   public getStartCity(location: any, cities: any): Observable<StartCityModel> {
 
-  constructor(private _geolocationService: GeoLocationService,
-              private _citiesService: CitiesService,
-              private gmapsApi: GoogleMapsAPIWrapper,
-              private mapsApiLoader: MapsAPILoader) {
-
-  }
-
-   public getStartCity() {
-    this._geolocationService.getLocation().subscribe(
-      (location) => {
-        console.log("2");
-        this._currentGeolocation = location;
-        this.getCities();
-      },
-      () => {
-        console.log(3);
-        this._currentGeolocation = '';
-      }
-    );
-
-  }
-
-  private getCities() {
-    this._citiesService.getCities().subscribe(response => {
-      this._cities = response.json();
-      this.getDestinationCities().subscribe(
-        (startCity) => { console.log(startCity); }
-      );
-    });
-  }
-
-  //Вычисляем ближайший город
-  private getDestinationCities(): Observable<any> {
-
-    return Observable.create( (observer) => {
-      let allDestination = [];
-
-      this.mapsApiLoader.load().then(() => {
-        // debugger;
-        allDestination  = this._cities.map((elem, index) =>{
+    // The main city is the nearest city.
+     // Calculate the nearest city.
+      return Observable.create( (observer) => {
+        let allDestination = [];
+        this.mapsApiLoader.load().then(() => {
+          allDestination  = cities.map((elem, index) =>{
+            console.log(elem);
             let dist = google.maps.geometry.spherical.computeDistanceBetween(
               new google.maps.LatLng(elem.location.lat, elem.location.lng),
-              new google.maps.LatLng(this._currentGeolocation.coords.latitude,
-                this._currentGeolocation.coords.longitude)
+              new google.maps.LatLng(location.coords.latitude,
+                location.coords.longitude)
             );
             return { city: elem.city, distination: dist, index: index };
-          }
-        );
-        observer.next(allDestination[0]);
-        observer.complete();
-      });
+          });
+          observer.next(allDestination[0]);
+          observer.complete();
+        });
+      // centerMap = data.distances[mainCity.index].info.location;
+      // let destinationCities = data.distances[mainCity.index].info[searchRadius];
+      // resolve(destinationCities);
 
-        // centerMap = data.distances[mainCity.index].info.location;
-        // let destinationCities = data.distances[mainCity.index].info[searchRadius];
-        // resolve(destinationCities);
-
-      }
-    );
-
+    });
   }
 
 }

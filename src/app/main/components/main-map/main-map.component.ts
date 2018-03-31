@@ -5,6 +5,7 @@ import { GeoLocationService } from '../../shared/services/geolocation.service';
 import { LocationModel } from '../shared/models/location.model';
 import { StartCityModel } from '../shared/models/start-city.model';
 import { StartCityService } from '../../shared/services/start-city.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'main-map',
@@ -17,7 +18,11 @@ export class MainMapComponent implements OnInit {
   private _markers: MarkerModel[];
   private _currentGeolocation: any;
 
-  constructor(
+  private _currentGeolocation: any;
+  private _cities: any[];
+  private _startCity: StartCityModel;
+
+  constructor(private _geolocationService: GeoLocationService,
               private _citiesService: CitiesService,
               private _startCityService: StartCityService) {
 
@@ -34,13 +39,35 @@ export class MainMapComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.getStartCity();
+  }
+
+  public getCurrentLocation() {
+    let result = new Observable;
+    this._geolocationService.getLocation().subscribe(
+      (location) => {
+        this._currentGeolocation = location;
+        this._startCityService.getStartCity(this._currentGeolocation, this._cities).subscribe(
+          (startCity) => {
+            this._startCity = startCity;
+            console.log(this._startCity);
+          }
+        );
+      },
+      (msg) => {
+        this._currentGeolocation = '';
+        console.log(msg);
+      }
+    );
 
   }
 
-  ngAfterViewInit() {
-    console.log("1");
-    this._startCityService.getStartCity();
+  public getStartCity() {
+    this._citiesService.getCities()
+      .subscribe(response => {
+        this._cities = response.json();
+        this.getCurrentLocation();
+      });
   }
-
 
 }

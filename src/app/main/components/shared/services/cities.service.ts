@@ -11,7 +11,7 @@ export class CitiesService {
     this._citiesUrl = "../../../../assets/test.json";
   }
 
-  public getCities() {
+  public getCities(): Observable<any> {
     return this._http.get(this._citiesUrl);
   }
 

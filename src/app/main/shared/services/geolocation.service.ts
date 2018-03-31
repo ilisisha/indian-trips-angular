@@ -13,7 +13,7 @@ const GEOLOCATION_ERRORS = {
 export class GeoLocationService {
 
   public getLocation(geoLocationOptions?: any): Observable<any> {
-    geoLocationOptions = geoLocationOptions || { timeout: 10000 };
+    geoLocationOptions = geoLocationOptions || { timeout: 20000 };
 
     return Observable.create(observer => {
 
