@@ -1,58 +1,60 @@
-<div class="places-title">
-  <div class="places-title-name">
-    <span>Journey</span>
-    <span>length:</span>
-  </div>
-  <div class="places-title places-title-explore">
-    <p class="places-title-name">
-      Explore Destinations
-    </p>
-  </div>
-  <div class="places-title places-title-popular">
-    <p class="places-title-name">
-      Most Popular Destinations
-    </p>
-  </div>
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item nav-item-close">
-      <a class="nav-link nav-link-close active"
-         data-toggle="tab"
-         href="#close"
-         role="tab"
-         (click)="setRange('min')">
-        <span>small mark</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link nav-link-middle"
-         data-toggle="tab"
-         href="#middle"
-         role="tab"
-         (click)="setRange('average')">
-        <span>middle mark</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link nav-link-long"
-         data-toggle="tab"
-         href="#far"
-         role="tab"
-         (click)="setRange('max')">
-        <span>large mart</span>
-      </a>
-    </li>
-  </ul>
-</div>
-<div class="distance-title">
-  <div class="tab-content">
-    <div class="tab-pane min-dist active" id="close" role="tabpanel">
-      < 500 KM
+<div class="destinations">
+  <div class="places-title">
+    <div class="places-title-name">
+      <span>Journey</span>
+      <span>length:</span>
     </div>
-    <div class="tab-pane average-dist" id="middle" role="tabpanel">
-      500 - 1,000 KM
+    <div class="places-title places-title-explore">
+      <p class="places-title-name">
+        Explore Destinations
+      </p>
     </div>
-    <div class="tab-pane max-dist" id="far" role="tabpanel">
-      1,000+ KM
+    <div class="places-title places-title-popular">
+      <p class="places-title-name">
+        Most Popular Destinations
+      </p>
+    </div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item nav-item-close">
+        <a class="nav-link nav-link-close active"
+           data-toggle="tab"
+           href="#close"
+           role="tab"
+           (click)="setRange('min')">
+          <span>small mark</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-middle"
+           data-toggle="tab"
+           href="#middle"
+           role="tab"
+           (click)="setRange('average')">
+          <span>middle mark</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-long"
+           data-toggle="tab"
+           href="#far"
+           role="tab"
+           (click)="setRange('max')">
+          <span>large mart</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="distance-title">
+    <div class="tab-content">
+      <div class="tab-pane min-dist active" id="close" role="tabpanel">
+        < 500 KM
+      </div>
+      <div class="tab-pane average-dist" id="middle" role="tabpanel">
+        500 - 1,000 KM
+      </div>
+      <div class="tab-pane max-dist" id="far" role="tabpanel">
+        1,000+ KM
+      </div>
     </div>
   </div>
 </div>

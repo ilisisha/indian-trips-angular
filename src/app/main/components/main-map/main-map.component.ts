@@ -33,10 +33,7 @@ export class MainMapComponent implements OnInit {
       longitude: 77.20902120000005
     });
 
-    //тестовое
     this._markers = [];
-    // this.markers.push(new MarkerModel({latitude: 28.6139391, longitude: 77.20902120000005}));
-    // this.markers.push(new MarkerModel({latitude: 15.8496953, longitude: 74.4976741}));
   }
 
   ngOnInit() {
@@ -64,7 +61,6 @@ export class MainMapComponent implements OnInit {
             this._citiesForShow = this._startCity.max.map((city) => new CityModel(city));
           }
         );
-        console.log(msg);
       }
     );
 
@@ -80,7 +76,6 @@ export class MainMapComponent implements OnInit {
 
   public setMarkers() {
     this._citiesForShow.map((city) => {
-      console.log(city);
       let mark = {
         "latitude": city.location.latitude,
         "longitude": city.location.longitude

@@ -1,3 +1,175 @@
+@import "../../styles/variables";
+.places{
+  width: 628px;
+  position: absolute;
+  left:25px;
+  top: 25px;
+  .nav-link{
+    border-radius: 0;
+    border: none;
+    &:hover{
+      border-radius: 0;
+      border: none;
+    }
+  }
+}
+.places-name{
+  line-height: 1;
+}
+.places-title{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 26px;
+  padding: 23px 50px 23px 67px;
+  border: 2px solid $dark-blue;
+  border-radius: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  background-color: #dedede;
+  color: $dark-blue;
+  span{
+    display: block;
+    color: $dark-blue;
+  }
+  .nav-link-close{
+    height: 44px;
+    width: 30px;
+  }
+  .nav-link-middle{
+    width: 40px;
+    height: 60px;
+  }
+  .nav-link-long{
+    width: 50px;
+    height: 74px;
+  }
+  .nav-item{
+    margin-right: 77px;
+  }
+  .nav-tabs{
+    display: flex;
+    align-items: center;
+    .nav-link{
+      padding: 0;
+      background: url(../../assets/images/st-journey-lenght-lt.svg) center center no-repeat;
+      span{
+        display: none;
+      }
+      &:hover{
+        border: none;
+      }
+    }
+    .nav-link.active{
+      border: none;
+      background: url(../../assets/images/st-journey-lenght-dark.svg) center center no-repeat;
+      .cls-1{
+        fill: $dark-blue;
+      }
+    }
+  }
+}
+.places-title-name{
+  margin-bottom: 0;
+  margin-right: 120px;
+  font-size: 26px;
+  line-height: 1.3;
+}
+.places-title-explore{
+  padding: 32px 50px 31px 160px;
+  .places-title-name{
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 13px;
+      left: 47px;
+      width: 74px;
+      height: 74px;
+      background: url(../../assets/images/st-explore.svg) no-repeat;
+    }
+  }
+}
+.places-title-popular{
+  position: relative;
+  padding: 30px 50px 33px 179px;
+  .places-title-name{
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 22px;
+      left: 49px;
+      height: 74px;
+      width: 70px;
+      background: url(../../assets/images/st-popular.svg) no-repeat;
+    }
+  }
+}
+.places-item{
+  position: relative;
+  width: 100%;
+  height: 175px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  &>*{
+    position: absolute;
+    z-index: 10;
+  }
+  img{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+}
+.places-list{
+  height: 992px;
+  margin-bottom: 15px;
+  padding-left: 0;
+  list-style: none;
+  overflow-y: scroll;
+}
+.places-info{
+  display: inline-block;
+  width: 232px;
+  height: 100%;
+  padding-top: 29px;
+  padding-left: 48px;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 53, 95, 0.7);
+}
+.places-distance{
+  top: 21px;
+  right: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 106px;
+  width: 106px;
+  border: 3px solid $dark-blue;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  color: $dark-blue;
+}
+.places-hours{
+  font-weight: 100;
+}
+.distance-title{
+  color: white;
+  background-color: $dark-blue;
+  border-radius: 5px;
+  padding: 23px 0 23px 73px;
+  margin-bottom: 23px;
+  font-size: 30px;
+  line-height: 1;
+}
+
 .destinations{
   width: 628px;
   position: absolute;
@@ -19,6 +191,72 @@
     position: absolute;
     left: 24px;
     top: 18px;
+  }
+  .places {
+    width: 418px;
+    position: absolute;
+    left: 24px;
+    top: 18px;
+  }
+  .places-title {
+    margin-bottom: 18px;
+    padding-left: 44px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    .nav-item{
+      margin-right: 51px;
+    }
+    .nav-link-close{
+      height: 30px;
+      width: 20px;
+    }
+    .nav-link-middle{
+      width: 27px;
+      height: 40px;
+    }
+    .nav-link-long{
+      width: 33px;
+      height: 50px;
+    }
+  }
+  .places-list{
+    height: 628px;
+  }
+  .places-title-name {
+    margin-right: 70px;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .distance-title {
+    margin-bottom: 15px;
+    padding: 15px 0 15px 50px;
+    font-size: 21px;
+  }
+  .places-item {
+    height: 127px;
+    margin-bottom: 23px;
+    img{
+      height: 100%;
+    }
+  }
+  .places-distance {
+    top: 24px;
+    right: 70px;
+    height: 80px;
+    width: 80px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .places-info {
+    width: 207px;
+    padding-top: 21px;
+    padding-left: 49px;
+    font-size: 21px;
+  }
+  .places-hours{
+    font-weight: 300;
   }
 }
 
