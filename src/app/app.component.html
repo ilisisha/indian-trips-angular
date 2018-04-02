@@ -1,15 +1,24 @@
-<!--<destination-list></destination-list>-->
-<!--<destination></destination>-->
-<main></main>
+<div class="background-image" [ngStyle]="{'background-image': currentBGImage}"></div>
 
-<!--<agm-map [zoom]="6"-->
-         <!--[zoomControl]="true"-->
-         <!--[mapTypeControl]="true"-->
-         <!--[scaleControl]="true"-->
-         <!--[streetViewControl]="true"-->
-         <!--[rotateControl]="true"-->
-         <!--[fullscreenControl]="true"-->
-         <!--[scrollwheel]="true">-->
-  <!--<sebm-google-map-directions [origin]="origin"-->
-                              <!--[destination]="destination"></sebm-google-map-directions>-->
-<!--</agm-map>-->
+<div class="wrapper loader">
+  <app-header></app-header>
+
+  <div class="container">
+    <agm-map [latitude]="centerMap.latitude"
+             [longitude]="centerMap.longitude"
+             [zoom]="8"
+             [zoomControl]="false"
+             [mapTypeControl]="false"
+             [scaleControl]="false"
+             [streetViewControl]="false"
+             [rotateControl]="false"
+             [fullscreenControl]="false"
+             [scrollwheel]="false">
+      <!--<agm-marker *ngFor="let marker of markers"-->
+                  <!--[iconUrl]="marker.image"-->
+                  <!--[latitude]="marker.latitude"-->
+                  <!--[longitude]="marker.longitude"></agm-marker>-->
+    </agm-map>
+    <router-outlet></router-outlet>
+  </div>
+</div>

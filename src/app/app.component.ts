@@ -1,34 +1,71 @@
-import { Component } from '@angular/core';
-import { DirectionsMapDirective } from './route.directive'
-import { GoogleMapsAPIWrapper } from '@agm/core';
+import 'rxjs/add/operator/take';
+
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+
+import { LocationModel } from './main/components/shared/models/location.model';
+import { MarkerModel } from './main/components/shared/models/marker.model';
+import { StartCityModel } from './main/components/shared/models/start-city.model';
+import { CityModel } from './main/components/shared/models/city.model';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
 })
-export class AppComponent {
-  title: string = 'My first AGM project';
-  lat: number = 28.6139391;
-  lng: number = 77.20902120000005;
+export class AppComponent implements OnInit, OnDestroy {
 
-  image: Object = {url: '../assets/images/pin-round.png'};
+  // BackGround Image
+  public backgroundImages: string[] = [
+    "background",
+    "background-1",
+    "background-2",
+    "background-3",
+    "background-4",
+    "background-5",
+    "background-6",
+    "background-7",
+    "background-8",
+    "background-9",
+    "background-10",
+    "background-11",
+    "background-12",
+    "background-13",
+    "background-14",
+    "background-15",
+    "background-16",
+  ];
+  public currentBGImage: string;
 
-  origin ={ lat: 28.6139391, lng: 77.20902120000005 };
-  destination = { lat: 30.3461908, lng: 79.04850590000001};
+  // Main BG Map
+  public centerMap: LocationModel;
+  private _markers: MarkerModel[];
+  private _currentGeolocation: any;
+  private _cities: StartCityModel[];
+  private _startCity: StartCityModel;
+  private _citiesForShow: CityModel[];
 
-//   let image = {
-//   url: markImage,
-//   scaledSize: new google.maps.Size(40, 50),
-//   origin: new google.maps.Point(0, 0),
-//   anchor: new google.maps.Point(0, 32)
-// };
-//   let marker = new google.maps.Marker({
-//   position:  elem.location,
-//   map: destinationsMap,
-//   icon: image,
-// });
+  constructor() {}
 
-  providers: [GoogleMapsAPIWrapper];
+  ngOnInit() {
+    this.setBGImage();
+    this.initBGMap();
+  }
 
+  ngOnDestroy() {}
+
+  private setBGImage() {
+    const min = 0;
+    const max = this.backgroundImages.length - 1;
+    const index = Math.floor(Math.random() * (max - min)) + min;
+    this.currentBGImage = 'url("../../assets/images/background-image/' + this.backgroundImages[index] + '.jpg")';
+  }
+
+  private initBGMap() {
+    // New Delhi
+    this.centerMap = new LocationModel({
+      latitude: 28.6139391,
+      longitude: 77.20902120000005
+    });
+  }
 }

@@ -1,30 +1,34 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, ApplicationRef, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule }   from '@angular/common/http';
-import { ModalModule } from 'ngx-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
+import { ModalModule } from 'ngx-bootstrap';
+import { RouterModule } from '@angular/router';
+import { routes } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
 import { DirectionsMapDirective } from './route.directive'
 
 import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
-import { MainComponent } from './main/main.component';
-import { HeaderComponent } from './main/components/header/header.component';
-import { MainMapComponent } from './main/components/main-map/main-map.component';
 import { CitiesService } from './main/components/shared/services/cities.service';
-import { MainMenuComponent } from './main/components/main-menu/main-menu.component';
 import { GeoLocationService } from './main/shared/services/geolocation.service';
-import { DestinationComponent } from './main/components/destination/destination.component';
-import { RouteMapComponent } from './main/components/route-map/route-map.component';
-import { DestinationListComponent } from './main/components/destination-list/destination-list.component';
 import { StartCityService } from './main/shared/services/start-city.service';
+
+// Components
+import { RootHeaderComponent } from './header/root-header.component';
+import { DistanceComponent } from './distance/distance.component';
+import { PopularComponent } from './popular/popular.component';
+import { ExploreComponent } from './explore/explore.component';
+import { DestinationComponent } from './destination/destination.component';
+
 
 @NgModule({
   imports: [
     BrowserModule,
+    RouterModule.forRoot(routes, { enableTracing: true }),
     CommonModule,
     FormsModule,
     HttpClientModule,
@@ -44,13 +48,12 @@ import { StartCityService } from './main/shared/services/start-city.service';
   declarations: [
     AppComponent,
     DirectionsMapDirective,
-    MainComponent,
-    HeaderComponent,
-    MainMapComponent,
-    DestinationListComponent,
-    MainMenuComponent,
-    DestinationComponent,
-    RouteMapComponent
+    RootHeaderComponent,
+    DistanceComponent,
+    PopularComponent,
+    ExploreComponent,
+
+    DestinationComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   bootstrap: [ AppComponent ]
