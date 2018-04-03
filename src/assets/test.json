@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "city": "New Delhi",
     "location": {
       "latitude": 28.6139391,
@@ -8,7 +8,7 @@
     },
     "min": [
       {
-        "id": 0,
+        "id": 2,
         "popular": 1,
         "explore": 0,
         "city": "Bharatpur Bird Sanctuary",
@@ -20,7 +20,7 @@
         "hours": "3h37"
       },
       {
-        "id": 1,
+        "id": 2,
         "popular": 0,
         "explore": 1,
         "city": "Alwar",
@@ -32,7 +32,7 @@
         "hours": "3h24"
       },
       {
-        "id": 2,
+        "id": 3,
         "popular": 0,
         "explore": 0,
         "city": "Neemrana (In Alwar District)",
@@ -44,7 +44,7 @@
         "hours": "3h20"
       },
       {
-        "id": 3,
+        "id": 4,
         "popular": 1,
         "explore": 1,
         "city": "Agra",
@@ -56,7 +56,7 @@
         "hours": "3h15"
       },
       {
-        "id": 4,
+        "id": 5,
         "popular": 1,
         "explore": 1,
         "city": "Manesar",
@@ -68,7 +68,7 @@
         "hours": "1h19"
       },
       {
-        "id": 5,
+        "id": 6,
         "popular": 0,
         "explore": 0,
         "city": "Vrindavan",
@@ -80,7 +80,7 @@
         "hours": "2h32"
       },
       {
-        "id": 6,
+        "id": 7,
         "popular": 1,
         "explore": 1,
         "city": "Fort Unchagaon",
@@ -92,7 +92,7 @@
         "hours": "3h1"
       },
       {
-        "id": 7,
+        "id": 8,
         "popular": 0,
         "explore": 1,
         "city": "Kuchesar Mud Fort",
@@ -104,7 +104,7 @@
         "hours": "2h25"
       },
       {
-        "id": 8,
+        "id": 9,
         "popular": 0,
         "explore": 1,
         "city": "Murthal",
@@ -116,7 +116,7 @@
         "hours": "1h41"
       },
       {
-        "id": 9,
+        "id": 10,
         "popular": 1,
         "explore": 1,
         "city": "Damdama Lake",
@@ -128,7 +128,7 @@
         "hours": "1h40"
       },
       {
-        "id": 10,
+        "id": 11,
         "popular": 0,
         "explore": 0,
         "city": "Nuh",
@@ -142,7 +142,7 @@
     ],
     "average": [
       {
-        "id": 11,
+        "id": 12,
         "popular": 0,
         "explore": 1,
         "city": "Nainital",
@@ -154,7 +154,7 @@
         "hours": "6h33"
       },
       {
-        "id": 12,
+        "id": 13,
         "popular": 0,
         "explore": 0,
         "city": "Jaipur",
@@ -168,7 +168,7 @@
     ],
     "max": [
       {
-        "id": 13,
+        "id": 14,
         "popular": 0,
         "explore": 1,
         "city": "Chopta",
@@ -180,7 +180,7 @@
         "hours": "11h"
       },
       {
-        "id": 14,
+        "id": 15,
         "popular": 1,
         "explore": 1,
         "city": "Shimla",
@@ -192,7 +192,7 @@
         "hours": "8h4"
       },
       {
-        "id": 15,
+        "id": 16,
         "popular": 0,
         "explore": 0,
         "city": "Amritsar",
@@ -204,7 +204,7 @@
         "hours": "7h52"
       },
       {
-        "id": 16,
+        "id": 17,
         "popular": 1,
         "explore": 0,
         "city": "Pushkar",
@@ -216,7 +216,7 @@
         "hours": "7h18"
       },
       {
-        "id": 17,
+        "id": 18,
         "popular": 1,
         "explore": 1,
         "city": "Mussoorie",
@@ -228,7 +228,7 @@
         "hours": "7h15"
       },
       {
-        "id": 18,
+        "id": 19,
         "popular": 0,
         "explore": 1,
         "city": "Rishikesh",
@@ -242,7 +242,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "city": "Goa",
     "location": {
       "latitude": 15.61510135,
@@ -250,7 +250,7 @@
     },
     "min": [
       {
-        "id": 0,
+        "id": 1,
         "popular": true,
         "explore": false,
         "city": "Yellapur",
@@ -262,7 +262,7 @@
         "hours": "3h18"
       },
       {
-        "id": 1,
+        "id": 2,
         "popular": true,
         "explore": false,
         "city": "Hubli",
@@ -274,7 +274,7 @@
         "hours": "3h21"
       },
       {
-        "id": 2,
+        "id": 3,
         "popular": true,
         "explore": false,
         "city": "Devbagh",
@@ -286,7 +286,7 @@
         "hours": "2h6"
       },
       {
-        "id": 3,
+        "id": 4,
         "popular": true,
         "explore": false,
         "city": "Dandeli",
@@ -298,7 +298,7 @@
         "hours": "2h24"
       },
       {
-        "id": 4,
+        "id": 5,
         "popular": true,
         "explore": false,
         "city": "Bhatkal",
@@ -310,7 +310,7 @@
         "hours": "3h50"
       },
       {
-        "id": 5,
+        "id": 6,
         "popular": true,
         "explore": false,
         "city": "Gorkarna",
@@ -322,7 +322,7 @@
         "hours": "2h25"
       },
       {
-        "id": 6,
+        "id": 7,
         "popular": true,
         "explore": false,
         "city": "Sirsi",
@@ -334,7 +334,7 @@
         "hours": "4h13"
       },
       {
-        "id": 7,
+        "id": 8,
         "popular": true,
         "explore": false,
         "city": "Belgaum",
@@ -346,7 +346,7 @@
         "hours": "2h30"
       },
       {
-        "id": 8,
+        "id": 9,
         "popular": true,
         "explore": false,
         "city": "Amboli",
@@ -358,7 +358,7 @@
         "hours": "3h13"
       },
       {
-        "id": 9,
+        "id": 10,
         "popular": true,
         "explore": false,
         "city": "Sindhudurg",
@@ -372,7 +372,7 @@
     ],
     "average": [
       {
-        "id": 11,
+        "id": 12,
         "popular": 0,
         "explore": 1,
         "city": "Nainital",
@@ -384,7 +384,7 @@
         "hours": "6h33"
       },
       {
-        "id": 12,
+        "id": 13,
         "popular": 0,
         "explore": 0,
         "city": "Jaipur",
@@ -398,7 +398,7 @@
     ],
     "max": [
       {
-        "id": 13,
+        "id": 14,
         "popular": 0,
         "explore": 1,
         "city": "Chopta",
@@ -410,7 +410,7 @@
         "hours": "11h"
       },
       {
-        "id": 14,
+        "id": 15,
         "popular": 1,
         "explore": 1,
         "city": "Shimla",
@@ -422,7 +422,7 @@
         "hours": "8h4"
       },
       {
-        "id": 15,
+        "id": 16,
         "popular": 0,
         "explore": 0,
         "city": "Amritsar",
@@ -434,7 +434,7 @@
         "hours": "7h52"
       },
       {
-        "id": 16,
+        "id": 17,
         "popular": 1,
         "explore": 0,
         "city": "Pushkar",
@@ -446,7 +446,7 @@
         "hours": "7h18"
       },
       {
-        "id": 17,
+        "id": 18,
         "popular": 1,
         "explore": 1,
         "city": "Mussoorie",
@@ -458,7 +458,7 @@
         "hours": "7h15"
       },
       {
-        "id": 18,
+        "id": 19,
         "popular": 0,
         "explore": 1,
         "city": "Rishikesh",

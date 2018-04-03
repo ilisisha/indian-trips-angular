@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { DistanceComponent } from './distance/distance.component';
-import { PopularComponent } from './popular/popular.component';
-import { ExploreComponent } from './explore/explore.component';
+import { DistanceComponent } from './components/distance/distance.component';
+import { PopularComponent } from './components/popular/popular.component';
+import { ExploreComponent } from './components/explore/explore.component';
 
 export const routes: Routes = [
   {

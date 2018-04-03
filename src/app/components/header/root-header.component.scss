@@ -1,11 +1,11 @@
-@import "../../styles/variables";
+@import "../../../styles/variables";
 
 .header{
   position: relative;
   margin-bottom: 90px;
   padding: 40px 30px 30px 30px;
   text-align: center;
-  background: url(../../assets/images/line-desktop.svg) no-repeat calc(50% + 191px) 0px;
+  background: url(../../../assets/images/line-desktop.svg) no-repeat calc(50% + 191px) 0px;
   background-size: 1535px;
   //&:before{
   //  content: "";
@@ -84,13 +84,13 @@
         display: block;
         width: 38px;
         height: 61px;
-        background: url("../../assets/images/white-arrow.svg") no-repeat;
+        background: url("../../../assets/images/white-arrow.svg") no-repeat;
       }
     }
   }
   .nav-link-distance{
     &:after{
-      background: url("../../assets/images/st-distance.svg") no-repeat;
+      background: url("../../../assets/images/st-distance.svg") no-repeat;
     }
   }
   .nav-link-popular{
@@ -100,13 +100,13 @@
     line-height: 1;
     &:after{
       left: 15px;
-      background: url("../../assets/images/st-popular.svg") no-repeat;
+      background: url("../../../assets/images/st-popular.svg") no-repeat;
     }
   }
   .nav-link-explore{
     padding-left: 113px;
     &:after{
-      background: url("../../assets/images/st-explore.svg") no-repeat;
+      background: url("../../../assets/images/st-explore.svg") no-repeat;
     }
   }
 }
@@ -114,7 +114,7 @@
   .header {
     margin-bottom: 48px;
     padding-top: 25px;
-    background-image: url(../../assets/images/line.svg);
+    background-image: url(../../../assets/images/line.svg);
     background-position: calc(50% + 129px) -3px;
     background-size: 1024px;
     //&:before {

@@ -13,16 +13,15 @@ import { AppComponent } from './app.component';
 import { DirectionsMapDirective } from './route.directive'
 
 import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
-import { CitiesService } from './main/components/shared/services/cities.service';
+import { CitiesService } from './shared/services/cities.service';
 import { GeoLocationService } from './main/shared/services/geolocation.service';
-import { StartCityService } from './main/shared/services/start-city.service';
 
 // Components
-import { RootHeaderComponent } from './header/root-header.component';
-import { DistanceComponent } from './distance/distance.component';
-import { PopularComponent } from './popular/popular.component';
-import { ExploreComponent } from './explore/explore.component';
-import { DestinationComponent } from './destination/destination.component';
+import { RootHeaderComponent } from './components/header/root-header.component';
+import { DistanceComponent } from './components/distance/distance.component';
+import { PopularComponent } from './components/popular/popular.component';
+import { ExploreComponent } from './components/explore/explore.component';
+import { DestinationComponent } from './components/destination/destination.component';
 
 
 @NgModule({
@@ -43,7 +42,6 @@ import { DestinationComponent } from './destination/destination.component';
     CitiesService,
     GoogleMapsAPIWrapper,
     GeoLocationService,
-    StartCityService
   ],
   declarations: [
     AppComponent,

@@ -1,12 +1,9 @@
 import 'rxjs/add/operator/take';
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 
-import { LocationModel } from './main/components/shared/models/location.model';
-import { MarkerModel } from './main/components/shared/models/marker.model';
-import { StartCityModel } from './main/components/shared/models/start-city.model';
-import { CityModel } from './main/components/shared/models/city.model';
+import { LocationModel } from './shared/models/location.model';
+import { CitiesService } from './shared/services/cities.service';
 
 @Component({
   selector: 'app-root',
@@ -39,17 +36,16 @@ export class AppComponent implements OnInit, OnDestroy {
 
   // Main BG Map
   public centerMap: LocationModel;
-  private _markers: MarkerModel[];
-  private _currentGeolocation: any;
-  private _cities: StartCityModel[];
-  private _startCity: StartCityModel;
-  private _citiesForShow: CityModel[];
 
-  constructor() {}
+  constructor(private _citiesService: CitiesService) {}
 
   ngOnInit() {
     this.setBGImage();
     this.initBGMap();
+
+    this.getCurrentLocation();
+
+    this.getAllCities();
   }
 
   ngOnDestroy() {}
@@ -67,5 +63,27 @@ export class AppComponent implements OnInit, OnDestroy {
       latitude: 28.6139391,
       longitude: 77.20902120000005
     });
+  }
+
+  private getCurrentLocation() {
+    this._citiesService
+      .getCurrentLocation()
+      .subscribe(
+        (data) => {
+          console.log('Got current location');
+          this._citiesService
+            .getClosestCities()
+            .subscribe(() => this._citiesService.onFinishLocationSearchEvent.emit());
+        },
+        (message) => alert(message)
+      );
+  }
+
+  private getAllCities() {
+    this._citiesService
+      .getCities()
+      .subscribe(() => {
+        console.log('Got all cities');
+      });
   }
 }

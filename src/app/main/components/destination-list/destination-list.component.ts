@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CityModel } from '../shared/models/city.model';
-import { CitiesService } from '../shared/services/cities.service';
+import { CityModel } from '../../../shared/models/city.model';
+import { CitiesService } from '../../../shared/services/cities.service';
 import { Input } from '@angular/compiler/src/core';
 
 @Component({

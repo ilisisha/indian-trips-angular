@@ -12,12 +12,10 @@ export class CityModel {
   constructor (data: any = {}) {
     this.id = data.id || null;
     this.city = data.city || '';
-    this.location =  new LocationModel(
-      {
-        latitude: data.location.latitude,
-        longitude: data.location.longitude
-      }
-    );
+    this.location =  new LocationModel({
+      latitude: data.location.latitude,
+      longitude: data.location.longitude
+    });
     this.distance = data.distance || null;
     this.hours = data.hours || '';
     this.popular = data.popular || false;
