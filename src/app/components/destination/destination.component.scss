@@ -1,5 +1,6 @@
 @import "../../../styles/variables";
-.places{
+
+.destinations{
   width: 628px;
   position: absolute;
   left:25px;
@@ -13,15 +14,15 @@
     }
   }
 }
-.places-name{
+.destinations-name{
   line-height: 1;
 }
-.places-title{
+.destinations-title{
   display: flex;
   align-items: center;
   width: 100%;
   margin-bottom: 26px;
-  padding: 23px 50px 23px 67px;
+  padding: 23px 0 23px 67px;
   border: 2px solid $dark-blue;
   border-radius: 5px;
   font-size: 26px;
@@ -50,6 +51,11 @@
   .nav-tabs{
     display: flex;
     align-items: center;
+    .nav-item{
+      &:last-of-type{
+        margin-right: 0;
+      }
+    }
     .nav-link{
       padding: 0;
       background: url(../../../assets/images/st-journey-lenght-lt.svg) center center no-repeat;
@@ -69,15 +75,18 @@
     }
   }
 }
-.places-title-name{
+.destinations-title-name{
   margin-bottom: 0;
   margin-right: 120px;
   font-size: 26px;
   line-height: 1.3;
 }
-.places-title-explore{
+.destinations-title-explore{
+
+  display: none;
+
   padding: 32px 50px 31px 160px;
-  .places-title-name{
+  .destinations-title-name{
     &:before{
       content: '';
       display: block;
@@ -90,10 +99,13 @@
     }
   }
 }
-.places-title-popular{
+.destinations-title-popular{
+
+  display: none;
+
   position: relative;
   padding: 30px 50px 33px 179px;
-  .places-title-name{
+  .destinations-title-name{
     &:before{
       content: '';
       display: block;
@@ -106,7 +118,7 @@
     }
   }
 }
-.places-item{
+.destinations-item{
   position: relative;
   width: 100%;
   height: 175px;
@@ -123,14 +135,14 @@
     width: 100%;
   }
 }
-.places-list{
+.destinations-list{
   height: 992px;
   margin-bottom: 15px;
   padding-left: 0;
   list-style: none;
   overflow-y: scroll;
 }
-.places-info{
+.destinations-info{
   display: inline-block;
   width: 232px;
   height: 100%;
@@ -140,7 +152,7 @@
   color: white;
   background-color: rgba(0, 53, 95, 0.7);
 }
-.places-distance{
+.destinations-distance{
   top: 21px;
   right: 75px;
   display: flex;
@@ -157,10 +169,10 @@
   background-color: white;
   color: $dark-blue;
 }
-.places-hours{
+.destinations-hours{
   font-weight: 100;
 }
-.distance-title{
+.destinations-distance-title{
   color: white;
   background-color: $dark-blue;
   border-radius: 5px;
@@ -169,20 +181,16 @@
   font-size: 30px;
   line-height: 1;
 }
-
-.destinations{
-  width: 628px;
-  position: absolute;
-  left:25px;
-  top: 25px;
-  .nav-link{
-    border-radius: 0;
-    border: none;
-    &:hover{
-      border-radius: 0;
-      border: none;
-    }
-  }
+.destinations-list{
+  height: 992px;
+  margin-bottom: 15px;
+  padding-left: 0;
+  list-style: none;
+  overflow-y: scroll;
+}
+.destinations-select-start{
+  width: 100%;
+  margin-bottom: 18px;
 }
 
 @media screen and (min-width:769px) and (max-width:1280px) {
@@ -192,13 +200,13 @@
     left: 24px;
     top: 18px;
   }
-  .places {
+  .destinations {
     width: 418px;
     position: absolute;
     left: 24px;
     top: 18px;
   }
-  .places-title {
+  .destinations-title {
     margin-bottom: 18px;
     padding-left: 44px;
     padding-top: 15px;
@@ -221,27 +229,27 @@
       height: 50px;
     }
   }
-  .places-list{
+  .destinations-list{
     height: 628px;
   }
-  .places-title-name {
+  .destinations-title-name {
     margin-right: 70px;
     font-size: 18px;
     line-height: 1.2;
   }
-  .distance-title {
+  .destinations-distance-title {
     margin-bottom: 15px;
     padding: 15px 0 15px 50px;
     font-size: 21px;
   }
-  .places-item {
+  .destinations-item {
     height: 127px;
     margin-bottom: 23px;
     img{
       height: 100%;
     }
   }
-  .places-distance {
+  .destinations-distance {
     top: 24px;
     right: 70px;
     height: 80px;
@@ -249,14 +257,18 @@
     font-size: 18px;
     font-weight: 600;
   }
-  .places-info {
+  .destinations-info {
     width: 207px;
     padding-top: 21px;
     padding-left: 49px;
     font-size: 21px;
   }
-  .places-hours{
+  .destinations-hours{
     font-weight: 300;
+  }
+
+  .destinations-list{
+    height: 628px;
   }
 }
 
@@ -276,6 +288,59 @@
       width: 36px;
       height: 54px;
     }
+  }
+  .destinations-title {
+    padding: 12px 40px 12px 40px;
+    .nav-item{
+      margin-right: 55px;
+    }
+    .destinations-title-name{
+      margin-right: 70px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+  }
+  .destinations-title-popular,
+  .destinations-title-explore{
+    .destinations-title-name{
+      padding-left: 45px;
+      &:before{
+        top: 8px;
+        left: 19px;
+        height: 40px;
+        width: 40px;
+      }
+    }
+  }
+  .destinations-item{
+    height: 119px;
+    margin-bottom: 26px;
+  }
+  .destinations-distance{
+    top: 13px;
+    right: 56px;
+    height: 60px;
+    width: 60px;
+    border-width: 2px;
+    font-size: 14px;
+  }
+  .destinations-info{
+    padding-top: 17px;
+    padding-left: 47px;
+    font-size: 19px;
+  }
+  .destinations-hours{
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .destinations-name{
+    font-size: 24px;
+  }
+  .destinations-distance-title{
+    padding: 14px 46px 14px;
+    margin-bottom: 21px;
+    font-size: 21px;
   }
 }
 
@@ -300,5 +365,37 @@
       width: 25px;
       height: 37px;
     }
+  }
+  .destinations-title{
+    margin-bottom: 12px;
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    .destinations-title-name{
+      margin-right: 55px;
+      font-size: 14px;
+      span{
+        display: block;
+      }
+    }
+    .nav-item{
+      &:not(:last-of-type){
+        margin-right: 73px;
+      }
+      &:last-of-type{
+        margin-right: 0;
+      }
+    }
+  }
+  .destinations-distance-title{
+    margin-bottom: 11px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 28px;
+    font-size: 19px;
+  }
+  .destinations-list {
+    //height: calc(~"100vh - 325px");
+    margin-bottom: 0;
   }
 }

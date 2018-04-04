@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 import { ModalModule } from 'ngx-bootstrap';
 import { RouterModule } from '@angular/router';
 import { routes } from './app-routing.module';
+import { SelectModule } from 'ng2-select';
 
 import { AppComponent } from './app.component';
 
@@ -22,7 +23,7 @@ import { DistanceComponent } from './components/distance/distance.component';
 import { PopularComponent } from './components/popular/popular.component';
 import { ExploreComponent } from './components/explore/explore.component';
 import { DestinationComponent } from './components/destination/destination.component';
-
+import { RouteMapComponent } from './components/route-map/route-map.component';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { DestinationComponent } from './components/destination/destination.compo
     FormsModule,
     HttpClientModule,
     HttpModule,
+    SelectModule,
     ModalModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyC0eUmxV2vedKz0s7CE7cgCT1ALjrN6PXE',
@@ -50,7 +52,7 @@ import { DestinationComponent } from './components/destination/destination.compo
     DistanceComponent,
     PopularComponent,
     ExploreComponent,
-
+    RouteMapComponent,
     DestinationComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

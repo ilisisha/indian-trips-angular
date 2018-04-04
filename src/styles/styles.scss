@@ -2,20 +2,22 @@
 //body {
 //    background-color: $dark-blue !important;
 //}
-.nav{
-    display: inline-block;
-    text-align: center;
-}
-.nav-item{
-    display: inline-block;
-    vertical-align: top;
+
+
+.ui-select-choices.dropdown-menu {
+    display: block;
 }
 
-.wrapper{
-    .container{
-        position: relative;
+.btn-secondary {
+    background-color: #fff !important;
+    color: black !important;
+
+    .dropdown-toggle {
+        right: 15px;
+        position: absolute;
     }
 }
+
 @media screen and (min-width:769px) and (max-width:1280px) {
     .tab-content {
         padding-top: 0;

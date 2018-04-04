@@ -1,7 +1,3 @@
-agm-map{
-    height: 500px;
-}
-
 .background-image{
   position: fixed;
   left: 0;
@@ -10,6 +6,42 @@ agm-map{
   display: block;
   width: 100%;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
   filter: blur(4px);
 }
+
+.wrapper{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper .container{
+  position: relative;
+}
+
+@media screen and (min-width: 1280px){
+  .container{
+    max-width: 1805px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  .container {
+    width: 1210px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+agm-map{
+  height: 1300px;
+  width: 100%;
+}
+
+
+

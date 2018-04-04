@@ -21,6 +21,7 @@ export class CitiesService {
   get allCities() { return this._allCities; }
   get currentGeolocation() { return this._currentGeolocation; }
   get startCity() { return this._startCity; }
+  set startCity(value) { this._startCity = new StartCityModel(value)}
 
   constructor(private _http: Http,
               private _mapsApiLoader: MapsAPILoader) {
@@ -32,7 +33,6 @@ export class CitiesService {
         .get(this._citiesUrl)
         .subscribe((response) => {
           this._allCities = response.json().map(el => new StartCityModel(el));
-          this.getCurrentLocation();
           observer.next();
           observer.complete();
         });
@@ -54,7 +54,7 @@ export class CitiesService {
             (error) => {
               observer.error('Geolocation search is too long! Please, type in your location.');
               observer.complete();
-            }, { timeout: 10000 });
+            }, { timeout: 100000 });
 
       } else {
         observer.error('Geolocation is not supported by this browser.');
@@ -104,4 +104,13 @@ export class CitiesService {
     });
   }
 
+
+  public changeStartCity(value: string) {
+    const city = this._allCities.find(el => el.city === value);
+    if (city) {
+      this._startCity = city;
+    } else {
+      this._startCity = new StartCityModel(this._allCities[0]);
+    }
+  }
 }
