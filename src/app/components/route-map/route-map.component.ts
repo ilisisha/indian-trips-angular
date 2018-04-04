@@ -28,7 +28,9 @@ export class RouteMapComponent implements OnInit {
 
   constructor(private gmapsApi: GoogleMapsAPIWrapper) { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    console.log(this.destination);
+  }
 
   providers: [GoogleMapsAPIWrapper];
 

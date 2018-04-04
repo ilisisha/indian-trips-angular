@@ -74,10 +74,10 @@
       <img src="../../../../assets/images/backgound-img.jpg" alt="">
       <div class="destinations-info">
         <p class="destinations-name">{{city.city}}</p>
-        <p class="destinations-hours">{{city.hours}}</p>
+        <p class="destinations-hours">{{city.hours.split('h').join(' hours ')}} minuts</p>
       </div>
       <div class="destinations-distance">
-        <span>{{city.distance}}</span>
+        <span>{{city.distance}} KM</span>
       </div>
     </div>
   </div>
@@ -133,8 +133,11 @@
               </div>
             </div>
             <div class="col-8 small-map">
+
+              <!--I don't understand how I can get start city here, I need to put it in origin.-->
               <app-route-map [origin]="origin"
-                             [destination]="destination">
+                             [destination]="{'latitude': openedCity.location.latitude,
+                              'longitude': openedCity.location.longitude}">
               </app-route-map>
             </div>
           </div>

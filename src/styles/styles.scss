@@ -87,6 +87,7 @@ button.close{
         border-radius: 0;
         background-color: white;
         padding: 19px 0;
+        text-align: center;
         &.active{
             background-color: #ffcb00 !important;
             font-weight: 600;
@@ -161,7 +162,6 @@ button.close{
             font-size: 15px;
             padding-top: 11px;
             padding-bottom: 11px;
-            text-align: center;
         }
         .detail-img {
             height: 213px;
@@ -263,6 +263,9 @@ button.close{
 }
 
 @media screen and (max-width: 425px) {
+    .modal-header{
+        height: 0 !important;
+    }
     .modal-dialog {
         top: 10px;
         width: 96%;
@@ -304,6 +307,20 @@ button.close{
     .detail-desc {
         padding-right: 15px;
         line-height: 1.2;
+    }
+    .detail-img{
+        height: 124px;
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+    }
+    .col-4 {
+        padding: 4px;
+    }
+    .row {
+        padding-left: 4px;
+        padding-right: 4px;
     }
 }
 //end modal

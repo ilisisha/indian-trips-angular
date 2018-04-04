@@ -1,0 +1,152 @@
+@import "../styles/variables";
+
+.background-image{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  filter: blur(4px);
+}
+
+.wrapper{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper .container{
+  position: relative;
+}
+
+agm-map{
+  height: 1300px;
+  width: 100%;
+}
+
+.social{
+  position: fixed;
+  right: 0;
+  top: 306px;
+}
+.social-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  width: 75px;
+  height: 75px;
+  &:hover{
+    color: white;
+  }
+}
+.social-fb{
+  background-color: #3B5998;
+  margin-bottom: 26px;
+}
+.social-tw{
+  background-color: #00ACED;
+}
+
+.view-on-map{
+  display: none;
+  .title-no-map{
+    display: inline;
+  }
+  .title-map{
+    display: none;
+  }
+  &.rotate{
+    .title-no-map{
+      display: none;
+    }
+    .title-map{
+      display: block;
+    }
+    &:after{
+      transform: rotate(180deg);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .container{
+    max-width: 1805px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  agm-map{
+    height: 855px;
+  }
+  .container {
+    width: 1210px;
+    padding-right: 16px;
+  }
+  .social-item{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+  .social{
+    top: 200px;
+    font-size: 29px;
+  }
+  .social-fb{
+    margin-bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .social{
+    top: 229px;
+  }
+  .social-item{
+    width: 47px;
+    height: 47px;
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .social{
+    display: none;
+  }
+  .view-on-map{
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: 63px;
+    padding-top: 12px;
+    font-size: 24px;
+    color: $dark-blue;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    &:after{
+      content: "";
+      position: absolute;
+      top:12px;
+      right: 54px;
+      display: block;
+      width: 25px;
+      height: 36px;
+      border-radius: 50%;
+      background: url(../assets/images/arrow-mobile.svg) center center no-repeat;
+    }
+  }
+  agm-map{
+    height: calc(100vh - 193px)
+  }
+}
+
+

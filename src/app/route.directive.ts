@@ -19,8 +19,8 @@ export class DirectionsMapDirective {
       var directionsDisplay = new google.maps.DirectionsRenderer;
       directionsDisplay.setMap(map);
       directionsService.route({
-        origin: {lat: this.origin.lat, lng: this.origin.lng},
-        destination: {lat: this.destination.lat, lng: this.destination.lng},
+        origin: {lat: this.origin.latitude, lng: this.origin.longitude},
+        destination: {lat: this.destination.latitude, lng: this.destination.longitude},
         waypoints: [],
         optimizeWaypoints: true,
         travelMode: 'DRIVING'
