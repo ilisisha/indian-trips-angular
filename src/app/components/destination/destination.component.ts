@@ -58,29 +58,6 @@ export class DestinationComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.setCities();
     this.subscribe();
-
-    if(this._citiesService.startCity){
-      this.originRouteMap = {
-        'latitude': this._citiesService.startCity.location.latitude,
-        'longitude': this._citiesService.startCity.location.longitude
-      }
-    }
-
-    this._citiesService.onFinishLocationSearchEvent.subscribe(() => {
-        this.originRouteMap = {
-          'latitude': this._citiesService.startCity.location.latitude,
-          'longitude': this._citiesService.startCity.location.longitude
-        }
-      }
-    );
-    this._citiesService.onChangeStartCity.subscribe(() => {
-        this.originRouteMap = {
-          'latitude': this._citiesService.startCity.location.latitude,
-          'longitude': this._citiesService.startCity.location.longitude
-        }
-      }
-    );
-
   }
 
   ngOnDestroy() {
@@ -115,12 +92,20 @@ export class DestinationComponent implements OnInit, OnDestroy {
         this._mainCityId = params.params.main_city;
         this._locationId = params.params.location;
         const city = this._citiesService.allCities.find(el => el.id == this._mainCityId);
-
         if (city) {
           this._citiesService.startCity = city;
           this.setCities();
           this.openedCity = this.cities.find(el => el.id == this._locationId);
           this.modalRef = this._modalService.show(this.dialogDetail);
+          this.originRouteMap = {
+            'latitude': this._citiesService.startCity.location.latitude,
+            'longitude': this._citiesService.startCity.location.longitude
+          };
+          this.destinationRouteMap = {
+            'latitude': this.openedCity.location.latitude,
+            'longitude': this.openedCity.location.longitude
+          };
+          console.log(this.originRouteMap);
         } else {
           this.closeModal();
         }
@@ -190,8 +175,10 @@ export class DestinationComponent implements OnInit, OnDestroy {
       'latitude': this.openedCity.location.latitude,
       'longitude': this.openedCity.location.longitude
     };
-    console.log(this.openedCity);
-
+    this.originRouteMap = {
+      'latitude': this._citiesService.startCity.location.latitude,
+      'longitude': this._citiesService.startCity.location.longitude
+    };
     this._mainCityId = this._citiesService.startCity.id;
     this._locationId = this.openedCity.id;
     this.changeURLforDialog();
