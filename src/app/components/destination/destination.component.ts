@@ -43,28 +43,14 @@ export class DestinationComponent implements OnInit, OnDestroy {
   public openedCity: CityModel;
   public isModalOpen = false;
 
-  //router map
-  public origin: LocationModel;
-  public destination: LocationModel;
+  //route map
+  public destinationRouteMap: LocationModel;
 
 
   constructor(private _router: Router,
               private _activatedRoute: ActivatedRoute,
               private _citiesService: CitiesService,
-              private _modalService: BsModalService) {
-
-    //test for route-map
-    this.origin = new LocationModel(
-      { latitude: 28.6139391,
-        longitude: 77.20902120000005
-      });
-
-    // this.destination = new LocationModel({
-    //   latitude: 30.3461908,
-    //   longitude: 79.04850590000001
-    // });
-
-  }
+              private _modalService: BsModalService) { }
 
   ngOnInit() {
     this.setCities();
@@ -170,6 +156,11 @@ export class DestinationComponent implements OnInit, OnDestroy {
     this.isModalOpen = true;
     this.modalRef = this._modalService.show(template);
     this.openedCity = this.cities.find(el => el.id === cityID);
+    this.destinationRouteMap = {
+      'latitude': this.openedCity.location.latitude,
+      'longitude': this.openedCity.location.longitude
+    };
+    console.log(this.openedCity);
 
     this._mainCityId = this._citiesService.startCity.id;
     this._locationId = this.openedCity.id;

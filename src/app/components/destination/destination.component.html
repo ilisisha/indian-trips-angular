@@ -133,11 +133,7 @@
               </div>
             </div>
             <div class="col-8 small-map">
-
-              <!--I don't understand how I can get start city here, I need to put it in origin.-->
-              <app-route-map [origin]="origin"
-                             [destination]="{'latitude': openedCity.location.latitude,
-                              'longitude': openedCity.location.longitude}">
+              <app-route-map [destination]="destinationRouteMap">
               </app-route-map>
             </div>
           </div>

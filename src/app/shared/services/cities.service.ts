@@ -54,7 +54,7 @@ export class CitiesService {
             (error) => {
               observer.error('Geolocation search is too long! Please, type in your location.');
               observer.complete();
-            }, { timeout: 100000 });
+            }, { timeout: 5000 });
 
       } else {
         observer.error('Geolocation is not supported by this browser.');
