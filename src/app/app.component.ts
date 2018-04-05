@@ -58,11 +58,15 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private initBGMap() {
-    // New Delhi
-    this.centerMap = new LocationModel({
-      latitude: 28.6139391,
-      longitude: 77.20902120000005
-    });
+    this._citiesService.onChangeStartCity.subscribe(
+      () => {
+        console.log("change center map");
+        this.centerMap = {
+          'latitude': this._citiesService.startCity.location.latitude,
+          'longitude': this._citiesService.startCity.location.longitude
+        };
+      }
+    );
   }
 
   private getCurrentLocation() {
@@ -73,9 +77,21 @@ export class AppComponent implements OnInit, OnDestroy {
           console.log('Got current location');
           this._citiesService
             .getClosestCities()
-            .subscribe(() => this._citiesService.onFinishLocationSearchEvent.emit());
+            .subscribe(() => {
+              this._citiesService.onFinishLocationSearchEvent.emit();
+              this.centerMap = {
+                'latitude': this._citiesService.startCity.location.latitude,
+                'longitude': this._citiesService.startCity.location.longitude
+              };
+              console.log("center map by location");
+            });
         },
-        (message) => alert(message)
+        (message) => {alert(message);
+          this.centerMap = new LocationModel({
+            latitude: 28.6139391,
+            longitude: 77.20902120000005
+          });
+        }
       );
   }
 

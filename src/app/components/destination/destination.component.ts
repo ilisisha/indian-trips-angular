@@ -149,6 +149,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
   public refreshValue(value:any):void {
     this.value = value;
     this._citiesService.changeStartCity(value.text);
+    this._citiesService.onChangeStartCity.emit();
     this.setCities();
   }
 

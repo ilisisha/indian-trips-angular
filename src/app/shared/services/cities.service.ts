@@ -17,6 +17,7 @@ export class CitiesService {
   private _startCity: StartCityModel;
 
   public onFinishLocationSearchEvent = new EventEmitter();
+  public onChangeStartCity = new EventEmitter();
 
   get allCities() { return this._allCities; }
   get currentGeolocation() { return this._currentGeolocation; }
