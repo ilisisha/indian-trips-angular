@@ -17,7 +17,7 @@ export class StartCityModel {
       longitude: data.location && data.location.longitude
     });
     this.min = data.min && data.min.map((city) => new CityModel(city)) || [];
-    this.average = data.min && data.average.map((city) => new CityModel(city)) || [];
-    this.max = data.min && data.max.map((city) => new CityModel(city)) || [];
+    this.average = data.average && data.average.map((city) => new CityModel(city)) || [];
+    this.max = data.max && data.max.map((city) => new CityModel(city)) || [];
   }
 }

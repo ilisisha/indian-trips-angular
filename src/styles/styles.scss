@@ -18,6 +18,35 @@
     border: none;
 }
 
+.social{
+    position: fixed;
+    right: 0;
+    top: 306px;
+}
+
+.social-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    width: 75px;
+    height: 75px;
+    &:hover{
+        color: white;
+    }
+}
+
+.social-fb{
+    background: #3B5998 url("../assets/images/facebook.svg") center no-repeat;
+    background-size: 22px;
+    margin-bottom: 26px;
+}
+.social-tw{
+    background: #00ACED url("../assets/images/tw.svg") center no-repeat;
+    background-size: 42px;
+}
+
 @media screen and (min-width:769px) and (max-width:1280px) {
     .tab-content {
         padding-top: 0;
@@ -25,13 +54,14 @@
 }
 
 .modal-header{
-    height: 37px !important;
+    height: 69px !important;
 }
 .modal-body{
     padding: 0 !important;
     border-radius: 0;
 }
 .modal-dialog{
+    font-family: 'Source Sans Pro', sans-serif;
     max-width: 1008px;
     left: 0;
 }
@@ -76,6 +106,8 @@ button.close{
     }
     .detail-img{
         margin-bottom: 52px;
+        height: 300px;
+        overflow: hidden;
         img{
             width: 100%;
         }
@@ -90,13 +122,13 @@ button.close{
         text-align: center;
         &.active{
             background-color: #ffcb00 !important;
-            font-weight: 600;
+            font-weight: 700;
         }
     }
     .tab-distance{
         background-color: $dark-blue;
         color: white;
-        padding: 20px 40px;
+        padding: 26px 40px;
         border-radius: 3px;
         text-align: center;
         width: 100%;
@@ -128,11 +160,12 @@ button.close{
 .detail-title{
     background-color: #1480cc;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     border-radius: 4px;
     text-align: center;
     font-size: 36px;
+    font-weight: 600;
 }
 .detail-desc{
     font-size: 18px;
@@ -140,6 +173,9 @@ button.close{
 }
 
 @media screen and (min-width:769px) and (max-width:1280px) {
+    .modal-header{
+        height: 37px !important;
+    }
     .modal-dialog {
         max-width: 750px !important;
         .detail-title {
@@ -183,6 +219,25 @@ button.close{
                 display: inline;
             }
         }
+    }
+    .detail-desc{
+        font-size: 14px;
+    }
+    .social-item{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .social{
+        top: 200px;
+        font-size: 29px;
+    }
+    .social-fb{
+        margin-bottom: 17px;
+        background-size: 15px;
+    }
+    .social-tw{
+        background-size: 29px;
     }
 }
 

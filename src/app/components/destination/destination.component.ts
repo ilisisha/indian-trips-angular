@@ -48,6 +48,9 @@ export class DestinationComponent implements OnInit, OnDestroy {
   public originRouteMap: LocationModel;
   public destinationRouteMap: LocationModel;
 
+  public popular: boolean = false;
+  public explore: boolean = false;
+
 
   constructor(private _router: Router,
               private _activatedRoute: ActivatedRoute,
@@ -146,14 +149,20 @@ export class DestinationComponent implements OnInit, OnDestroy {
           this.cities = this._citiesService
             .startCity[this.range]
             .filter((city: CityModel) => city.popular);
+          this.popular = true;
+          this.explore = false;
           break;
         case 'explore':
           this.cities = this._citiesService
             .startCity[this.range]
             .filter((city: CityModel) => city.explore);
+          this.popular = false;
+          this.explore = true;
           break;
         default:
           this.cities = this._citiesService.startCity[this.range];
+          this.popular = false;
+          this.explore = false;
       }
 
       this._citiesService.onChangeCities.emit({'cities': this.cities, 'range': this.range});

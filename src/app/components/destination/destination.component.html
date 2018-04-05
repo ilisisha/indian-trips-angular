@@ -1,4 +1,17 @@
 <div class="destinations">
+
+  <div class="destinations-title destinations-title-popular" *ngIf="popular">
+    <p class="destinations-title-name">
+      Most Popular Destinations
+    </p>
+  </div>
+
+  <div class="destinations-title destinations-title-explore" *ngIf="explore">
+    <p class="destinations-title-name">
+      Explore Destinations
+    </p>
+  </div>
+
   <div class="destinations-title">
     <div class="destinations-title-name">
       <span>Journey</span>
@@ -24,16 +37,6 @@
         </a>
       </li>
     </ul>
-  </div>
-  <div class="destinations-title destinations-title-explore">
-    <p class="destinations-title-name">
-      Explore Destinations
-    </p>
-  </div>
-  <div class="destinations-title destinations-title-popular">
-    <p class="destinations-title-name">
-      Most Popular Destinations
-    </p>
   </div>
 
   <div class="destinations-select-start">
@@ -89,7 +92,7 @@
             <div class="detail-title">{{openedCity.city}}</div>
           </div>
           <div class="col-6">
-            <div class="detail-desc">{{openedCity.description}}</div>
+            <div class="detail-desc">{{openedCity.desc}}</div>
           </div>
         </div>
         <div class="detail-img">
@@ -104,19 +107,23 @@
             </a>
           </div>
         </div>
-        <ul class="row nav nav-tabs" role="tablist">
+        <ul class="row nav nav-tabs">
           <li class="col-4 nav-item nav-item-route">
-            <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Route</a>
+            <a class="nav-link active">Route</a>
           </li>
           <li class="col-4 nav-item nav-item-car">
-            <a class="nav-link" href=""></a>
+            <a class="nav-link"
+               [href]="openedCity.car"
+               target="_blank">Car hire in {{openedCity.city}}</a>
           </li>
           <li class="col-4 nav-item nav-item-hotel">
-            <a class="nav-link" href=""></a>
+            <a class="nav-link"
+               [href]="openedCity.hotel"
+               target="_blank">Hotel in {{openedCity.city}}</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div class="row tab-pane active" id="home" role="tabpanel">
+          <div class="row tab-pane active">
             <div class="col-4  flex-block">
               <div class="tab-distance">
                 <span>Distance</span>

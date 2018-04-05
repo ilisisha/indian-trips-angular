@@ -105,18 +105,6 @@ export class AppComponent implements OnInit, OnDestroy {
           "longitude": el.location.longitude
         })
       );
-
-      switch (data.range) {
-        case 'max':
-          this.zoom = 4;
-          break;
-        case 'average':
-          this.zoom = 6;
-          break;
-        default:
-          this.zoom = 8
-      }
-
     });
   }
 }

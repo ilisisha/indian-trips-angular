@@ -8,7 +8,9 @@ export class CityModel {
   public hours: string;
   public popular: boolean;
   public explore: boolean;
-  public description: string;
+  public desc: string;
+  public car: string;
+  public hotel: string;
 
   constructor (data: any = {}) {
     this.id = data.id || null;
@@ -21,7 +23,9 @@ export class CityModel {
     this.hours = data.hours || '';
     this.popular = data.popular || false;
     this.explore = data.explore || false;
-    this.description = data.description || '';
+    this.desc = data.desc || '';
+    this.car = data.car || '';
+    this.hotel = data.hotel || '';
   }
 
 }

@@ -35,6 +35,7 @@ export class CitiesService {
         .get(this._citiesUrl)
         .subscribe((response) => {
           this._allCities = response.json().map(el => new StartCityModel(el));
+          console.log(this._allCities);
           observer.next();
           observer.complete();
         });
