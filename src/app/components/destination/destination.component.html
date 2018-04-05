@@ -6,28 +6,19 @@
     </div>
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item nav-item-close">
-        <a class="nav-link nav-link-close active"
-           data-toggle="tab"
-           href="#close"
-           role="tab"
+        <a [ngClass]="{'nav-link': true, 'nav-link-close': true, 'active': range == rangeTypes[0]}"
            (click)="setRange('min')">
           <span>small mark</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-middle"
-           data-toggle="tab"
-           href="#middle"
-           role="tab"
+        <a [ngClass]="{'nav-link': true, 'nav-link-middle': true, 'active': range == rangeTypes[1]}"
            (click)="setRange('average')">
           <span>middle mark</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-long"
-           data-toggle="tab"
-           href="#far"
-           role="tab"
+        <a [ngClass]="{'nav-link': true, 'nav-link-long': true, 'active': range == rangeTypes[2]}"
            (click)="setRange('max')">
           <span>large mart</span>
         </a>
@@ -55,13 +46,13 @@
 
   <div class="destinations-distance-title">
     <div class="tab-content">
-      <div class="tab-pane min-dist active" id="close" role="tabpanel">
+      <div [ngClass]="{'tab-pane': true, 'min-dist': true, 'active': range == rangeTypes[0]}">
         < 200 KM
       </div>
-      <div class="tab-pane average-dist" id="middle" role="tabpanel">
+      <div [ngClass]="{'tab-pane': true, 'average-dist': true, 'active': range == rangeTypes[1]}">
         200 - 400 KM
       </div>
-      <div class="tab-pane max-dist" id="far" role="tabpanel">
+      <div [ngClass]="{'tab-pane': true, 'max-dist': true, 'active': range == rangeTypes[2]}">
         400+ KM
       </div>
     </div>

@@ -15,8 +15,8 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap';
 export class DestinationComponent implements OnInit, OnDestroy {
 
   // Range
-  private _rangeTypes = [ 'min', 'average', 'max' ];
-  private _range = this._rangeTypes[0];
+  public rangeTypes = [ 'min', 'average', 'max' ];
+  public range: any = this.rangeTypes[0];
 
   // CityInfo
   private _mainCityId: number;
@@ -102,10 +102,10 @@ export class DestinationComponent implements OnInit, OnDestroy {
   }
 
   private routerChanged(params: any) {
-    if (params && params.params && this._rangeTypes.includes(params.params.range)) {
-      this._range = params.params.range;
+    if (params && params.params && this.rangeTypes.includes(params.params.range)) {
+      this.range = params.params.range;
     } else {
-      this._range = this._rangeTypes[0];
+      this.range = this.rangeTypes[0];
       this.changeURL();
     }
     if (params && params.params.main_city && params.params.location && !this.isModalOpen) {
@@ -127,7 +127,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
   }
 
   public setRange(range: string) {
-    this._range = range;
+    this.range = range;
     this.changeURL();
   }
 
@@ -135,7 +135,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
     this._router.navigate(
     [this._activatedRoute.snapshot.routeConfig.path],
     {
-      queryParams: {range: this._range},
+      queryParams: {range: this.range},
       replaceUrl: true,
     });
   }
@@ -144,7 +144,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
     this._router.navigate(
       [this._activatedRoute.snapshot.routeConfig.path],
       {
-        queryParams: {range: this._range, main_city: this._mainCityId, location: this._locationId},
+        queryParams: {range: this.range, main_city: this._mainCityId, location: this._locationId},
         replaceUrl: true,
       });
   }
@@ -156,19 +156,19 @@ export class DestinationComponent implements OnInit, OnDestroy {
       switch (path) {
         case 'popular':
           this.cities = this._citiesService
-            .startCity[this._range]
+            .startCity[this.range]
             .filter((city: CityModel) => city.popular);
           break;
         case 'explore':
           this.cities = this._citiesService
-            .startCity[this._range]
+            .startCity[this.range]
             .filter((city: CityModel) => city.explore);
           break;
         default:
-          this.cities = this._citiesService.startCity[this._range];
+          this.cities = this._citiesService.startCity[this.range];
       }
 
-      this._citiesService.onChangeCities.emit(this.cities);
+      this._citiesService.onChangeCities.emit({'cities': this.cities, 'range': this.range});
     }
   }
 
