@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { BackgroundService } from '../../shared/services/background.service';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 })
 export class RootHeaderComponent implements OnInit, OnDestroy {
 
-  constructor() { }
+  constructor(public backgroundService: BackgroundService) { }
 
   ngOnInit() { }
 

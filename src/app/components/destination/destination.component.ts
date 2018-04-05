@@ -6,6 +6,7 @@ import { CityModel } from '../../shared/models/city.model';
 import { LocationModel } from '../../shared/models/location.model';
 import { Subscription } from 'rxjs/Subscription';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap';
+import { BackgroundService } from '../../shared/services/background.service';
 
 @Component({
   selector: 'app-destination',
@@ -51,7 +52,8 @@ export class DestinationComponent implements OnInit, OnDestroy {
   constructor(private _router: Router,
               private _activatedRoute: ActivatedRoute,
               private _citiesService: CitiesService,
-              private _modalService: BsModalService) { }
+              private _modalService: BsModalService,
+              private _backgroundService: BackgroundService) { }
 
   ngOnInit() {
     this.setCities();
@@ -129,6 +131,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
   public setRange(range: string) {
     this.range = range;
     this.changeURL();
+    this._backgroundService.setBGImage();
   }
 
   private changeURL() {

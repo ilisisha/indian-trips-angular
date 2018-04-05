@@ -16,6 +16,7 @@ import { DirectionsMapDirective } from './route.directive'
 import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { CitiesService } from './shared/services/cities.service';
 import { GeoLocationService } from './main/shared/services/geolocation.service';
+import { BackgroundService } from './shared/services/background.service';
 
 // Components
 import { RootHeaderComponent } from './components/header/root-header.component';
@@ -44,6 +45,7 @@ import { RouteMapComponent } from './components/route-map/route-map.component';
     CitiesService,
     GoogleMapsAPIWrapper,
     GeoLocationService,
+    BackgroundService
   ],
   declarations: [
     AppComponent,

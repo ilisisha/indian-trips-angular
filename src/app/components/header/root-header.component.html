@@ -12,7 +12,8 @@
         <a href=""
            class="nav-link nav-link-distance"
            [routerLink]="['distance']"
-           [routerLinkActive]="['active']">
+           [routerLinkActive]="['active']"
+           (click)=" backgroundService.setBGImage()">
           <span>Distance</span>
         </a>
       </li>
@@ -20,7 +21,8 @@
         <a href=""
            class="nav-link nav-link-popular"
            [routerLink]="['popular']"
-           [routerLinkActive]="['active']">
+           [routerLinkActive]="['active']"
+           (click)=" backgroundService.setBGImage()">
           <span>Popular <br> Destinations</span>
         </a>
       </li>
@@ -28,7 +30,8 @@
         <a href=""
            class="nav-link nav-link-explore"
            [routerLink]="['explore']"
-           [routerLinkActive]="['active']">
+           [routerLinkActive]="['active']"
+           (click)=" backgroundService.setBGImage()">
           <span>Explore</span>
         </a>
       </li>

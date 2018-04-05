@@ -6,6 +6,7 @@ import { LocationModel } from './shared/models/location.model';
 import { CitiesService } from './shared/services/cities.service';
 import { MarkerModel } from './shared/models/marker.model';
 import { CityModel } from './shared/models/city.model';
+import { BackgroundService } from './shared/services/background.service';
 
 @Component({
   selector: 'app-root',
@@ -14,39 +15,26 @@ import { CityModel } from './shared/models/city.model';
 })
 export class AppComponent implements OnInit, OnDestroy {
 
-  // BackGround Image
-  public backgroundImages: string[] = [
-    "background",
-    "background-1",
-    "background-2",
-    "background-3",
-    "background-4",
-    "background-5",
-    "background-6",
-    "background-7",
-    "background-8",
-    "background-9",
-    "background-10",
-    "background-11",
-    "background-12",
-    "background-13",
-    "background-14",
-    "background-15",
-    "background-16",
-  ];
-  public currentBGImage: string;
-
   // Main BG Map
   public centerMap: LocationModel;
   public markers: MarkerModel[];
   public cities: CityModel[] = [];
-
   public zoom: number;
 
-  constructor(private _citiesService: CitiesService) {}
+  private currentBGImage: string;
+
+  constructor(private _citiesService: CitiesService,
+              private _backgroundService: BackgroundService) {}
 
   ngOnInit() {
-    this.setBGImage();
+
+    this.currentBGImage = this._backgroundService.currentBGImage;
+
+    this._backgroundService.onChangeBackground.subscribe((currentBGImage) => {
+      this.currentBGImage = currentBGImage;
+      console.log(currentBGImage);
+    });
+
     this.initBGMap();
 
     this.getCurrentLocation();
@@ -57,13 +45,6 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {}
-
-  private setBGImage() {
-    const min = 0;
-    const max = this.backgroundImages.length - 1;
-    const index = Math.floor(Math.random() * (max - min)) + min;
-    this.currentBGImage = 'url("../../assets/images/background-image/' + this.backgroundImages[index] + '.jpg")';
-  }
 
   private initBGMap() {
 
@@ -127,13 +108,13 @@ export class AppComponent implements OnInit, OnDestroy {
 
       switch (data.range) {
         case 'max':
-          this.zoom = 5;
+          this.zoom = 4;
           break;
         case 'average':
-          this.zoom = 8;
+          this.zoom = 6;
           break;
         default:
-          this.zoom = 10
+          this.zoom = 8
       }
 
     });
