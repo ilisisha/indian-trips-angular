@@ -4,6 +4,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 import { LocationModel } from './shared/models/location.model';
 import { CitiesService } from './shared/services/cities.service';
+import { MarkerModel } from './shared/models/marker.model';
 
 @Component({
   selector: 'app-root',
@@ -36,6 +37,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   // Main BG Map
   public centerMap: LocationModel;
+  public markers: MarkerModel[];
 
   constructor(private _citiesService: CitiesService) {}
 
@@ -46,6 +48,8 @@ export class AppComponent implements OnInit, OnDestroy {
     this.getCurrentLocation();
 
     this.getAllCities();
+
+    this.setMarkers();
   }
 
   ngOnDestroy() {}
@@ -101,5 +105,11 @@ export class AppComponent implements OnInit, OnDestroy {
       .subscribe(() => {
         console.log('Got all cities');
       });
+  }
+
+  private setMarkers() {
+    // this._citiesService.onFinishLocationSearchEvent.subscribe(() => {
+    //   this._citiesService.getCities().
+    // });
   }
 }

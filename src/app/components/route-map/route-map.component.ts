@@ -13,26 +13,15 @@ declare var google: any;
 })
 export class RouteMapComponent implements OnInit {
 
-  public origin: any;
+  @Input() origin: any;
   @Input() destination: any;
 
   constructor(private gmapsApi: GoogleMapsAPIWrapper,
-              private _citiesService: CitiesService) { }
+              private _citiesService: CitiesService) {
+  }
 
   ngOnInit() {
-    this._citiesService.onFinishLocationSearchEvent.subscribe(() => {
-        this.origin = {
-          'latitude': this._citiesService.startCity.location.latitude,
-          'longitude': this._citiesService.startCity.location.longitude
-        }
-      },
-      () => {
-        this.origin = {
-          'latitude': this._citiesService.startCity.location.latitude,
-          'longitude': this._citiesService.startCity.location.longitude
-        }
-      }
-      );
+
   }
 
   providers: [GoogleMapsAPIWrapper];

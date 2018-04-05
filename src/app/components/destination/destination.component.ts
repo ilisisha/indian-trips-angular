@@ -44,6 +44,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
   public isModalOpen = false;
 
   //route map
+  public originRouteMap: LocationModel;
   public destinationRouteMap: LocationModel;
 
 
@@ -55,6 +56,22 @@ export class DestinationComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.setCities();
     this.subscribe();
+
+    this._citiesService.onFinishLocationSearchEvent.subscribe(() => {
+        this.originRouteMap = {
+          'latitude': this._citiesService.startCity.location.latitude,
+          'longitude': this._citiesService.startCity.location.longitude
+        }
+      }
+    );
+    this._citiesService.onChangeStartCity.subscribe(() => {
+        this.originRouteMap = {
+          'latitude': this._citiesService.startCity.location.latitude,
+          'longitude': this._citiesService.startCity.location.longitude
+        }
+      }
+    );
+
   }
 
   ngOnDestroy() {
