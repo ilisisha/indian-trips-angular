@@ -57,6 +57,13 @@ export class DestinationComponent implements OnInit, OnDestroy {
     this.setCities();
     this.subscribe();
 
+    if(this._citiesService.startCity){
+      this.originRouteMap = {
+        'latitude': this._citiesService.startCity.location.latitude,
+        'longitude': this._citiesService.startCity.location.longitude
+      }
+    }
+
     this._citiesService.onFinishLocationSearchEvent.subscribe(() => {
         this.originRouteMap = {
           'latitude': this._citiesService.startCity.location.latitude,
@@ -160,6 +167,8 @@ export class DestinationComponent implements OnInit, OnDestroy {
         default:
           this.cities = this._citiesService.startCity[this._range];
       }
+
+      this._citiesService.onChangeCities.emit(this.cities);
     }
   }
 

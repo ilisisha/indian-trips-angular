@@ -5,6 +5,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { LocationModel } from './shared/models/location.model';
 import { CitiesService } from './shared/services/cities.service';
 import { MarkerModel } from './shared/models/marker.model';
+import { CityModel } from './shared/models/city.model';
 
 @Component({
   selector: 'app-root',
@@ -38,6 +39,7 @@ export class AppComponent implements OnInit, OnDestroy {
   // Main BG Map
   public centerMap: LocationModel;
   public markers: MarkerModel[];
+  public cities: CityModel[] = [];
 
   constructor(private _citiesService: CitiesService) {}
 
@@ -62,6 +64,13 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private initBGMap() {
+
+    //New Delhi
+    this.centerMap = new LocationModel({
+      latitude: 28.6139391,
+      longitude: 77.20902120000005
+    });
+
     this._citiesService.onChangeStartCity.subscribe(
       () => {
         console.log("change center map");
@@ -90,12 +99,7 @@ export class AppComponent implements OnInit, OnDestroy {
               console.log("center map by location");
             });
         },
-        (message) => {alert(message);
-          this.centerMap = new LocationModel({
-            latitude: 28.6139391,
-            longitude: 77.20902120000005
-          });
-        }
+        (message) => {alert(message);}
       );
   }
 
@@ -108,8 +112,13 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private setMarkers() {
-    // this._citiesService.onFinishLocationSearchEvent.subscribe(() => {
-    //   this._citiesService.getCities().
-    // });
+    this._citiesService.onChangeCities.subscribe((cities) => {
+      this.cities = cities;
+      this.markers = this.cities.map(el => new MarkerModel(
+        {
+          "latitude": el.location.latitude,
+          "longitude": el.location.longitude
+        }));
+    });
   }
 }
