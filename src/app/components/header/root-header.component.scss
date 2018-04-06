@@ -7,16 +7,6 @@
   text-align: center;
   background: url(../../../assets/images/line-desktop.svg) no-repeat calc(50% + 191px) 0px;
   background-size: 1535px;
-  //&:before{
-  //  content: "";
-  //  position: absolute;
-  //  top: 243px;
-  //  right: 0;
-  //  display: block;
-  //  width: 50%;
-  //  height: 5px;
-  //  background-color: white;
-  //}
   .logo{
     position: absolute;
     display: block;
@@ -111,6 +101,21 @@
     padding-left: 113px;
     &:after{
       background: url("../../../assets/images/st-explore.svg") no-repeat;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .header{
+    &:before{
+      content: "";
+      position: absolute;
+      top: 243px;
+      right: 0;
+      display: block;
+      width: 50%;
+      height: 5px;
+      background-color: white;
     }
   }
 }
