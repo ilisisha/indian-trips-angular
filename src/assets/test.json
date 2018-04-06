@@ -98,7 +98,7 @@
         "desc": "Inundated with ancient shrines and monuments to the Lord Krishna, Vrindavan is the ultimate place to temple hop. Thought to be Krishna's childhood home, this is a necessary destination in India for devotees and pilgrims. Aside from the beautiful ancient temples set amidst tropical green forest, Vrindavan is a foodie's delight. A purely vegetarian destination, Vrindavan has rich and vibrant dishes to satisfy all tastes."
       },
       {
-        "id": 8,
+        "id": 7,
         "popular": 0,
         "explore": 1,
         "city": "Kuchesar Mud Fort",
@@ -113,7 +113,7 @@
         "desc": "An absolute must see for anyone interested in history, Kuchesar Mud Fort was built in the early 18th century during a power struggle within the country. During this time, it became a position of great military importance, playing a role in several military endeavours. Today, it still stands, and its history is preserved for all to see."
       },
       {
-        "id": 9,
+        "id": 8,
         "popular": 0,
         "explore": 1,
         "city": "Murthal",
@@ -128,7 +128,7 @@
         "desc": "At one time, Murthal was the epitome of a location that was cut off from the rest of the world. It was enclosed entirely with lush green forests, with barely a peep from its neighbours to ever bother. Today, things have advanced, meaning you can check out the beautiful Murthal for yourself, but without compromising the rustic good looks that made Murthal such a special place to visit."
       },
       {
-        "id": 10,
+        "id": 9,
         "popular": 1,
         "explore": 1,
         "city": "Damdama Lake",
@@ -143,7 +143,7 @@
         "desc": "Considering its name, we don’t think you’re likely to be surprised when you’re greeted by a large body of water when arriving in Damdama Lake. It is after all, such a large part of the district. However, we do think you’ll be taken aback by the sheer spectacular beauty of seeing it in person. Damdama is an extraordinarily stunning place to relax, explore or even do something livelier like boating or rock climbing."
       },
       {
-        "id": 11,
+        "id": 10,
         "popular": 0,
         "explore": 0,
         "city": "Nuh",
@@ -160,7 +160,7 @@
     ],
     "average": [
       {
-        "id": 12,
+        "id": 11,
         "popular": 0,
         "explore": 1,
         "city": "Nainital",
@@ -175,7 +175,7 @@
         "desc": "Found within a luscious valley with brilliant waves of sensational greenery, this all-natural wonderland is topped off by the jewel in its crown: its beautiful mango shaped lake. However, Nainital is not all good looks and no substance, with plenty of attractions including Pt.GB. Pant High Altitude Zoo and the Tibetan Market."
       },
       {
-        "id": 13,
+        "id": 12,
         "popular": 0,
         "explore": 0,
         "city": "Jaipur",
@@ -450,6 +450,2348 @@
         "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Goa.d6049928.Car-Hire-Guide",
         "hotel": "https://www.expedia.co.in/Gokarna-Hotels.d6197678.Travel-Guide-Hotels",
         "desc": "Gorkarna is primarily known for two things. One is the incredible natural beauty of its beaches and the other is its several sacred sites, making it incredibly popular for pilgrimage among Muslims. No trip to Gorkarna would be complete without visiting the centuries old Mahabaleshwar Temple, just as one would not be complete without feeling the sand beneath your feet on its stunning beaches."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "city": "Kolkata",
+    "location": {
+      "latitude": 22.572646,
+      "longitude": 88.363895
+    },
+    "max": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bhubaneswar",
+        "location": {
+          "latitude": 20.2960587,
+          "longitude": 85.8245398
+        },
+        "distance": 441,
+        "hours": "7h52",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bhubaneshwar-Hotels.d501.Travel-Guide-Hotels",
+        "desc": "The largest city in the state of Odisha, Bhubaneswar is undoubtedly one of the most vital cities in eastern India, both economically and historically. Speaking of history, fans of the subject won’t be left disappointed, with the city featuring historical areas traceable to as far back as 3BC. Attractions range from its one thousand temples to its love of festivals."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Hazaribagh",
+        "location": {
+          "latitude": 23.9966213,
+          "longitude": 85.36910680000001
+        },
+        "distance": 390,
+        "hours": "7h38",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.uk/Hazaribagh-Hotels.d3000406902.Travel-Guide-Hotels",
+        "desc": "The town of Hazaribagh is the ideal location to unwind, breath in the fresh air and enjoy the climate, which due to the town’s latitude, never gets unbearably warm, even in summer. Although the main attractions are in the nearby Hazaribagh National Park (Hazaribagh Lank and Canary Hill are both worth a visit), the town itself is charming and well worth a visit."
+      }
+    ],
+    "average": [
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Jamshedpur",
+        "location": {
+          "latitude": 22.8045665,
+          "longitude": 86.2028754
+        },
+        "distance": 287,
+        "hours": "6h11",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Jamshedpur-Hotels.d7949.Travel-Guide-Hotels",
+        "desc": "Jamshedpur is the most heavily populated area within its home state of Jharkhand. And with everything it has to offer, it really is no surprise that so many want to visit the city and call it their home. This is a thriving metropolitan wonderland - one of the fastest growing cities in the world no less - well known for shopping, sports, parks and education."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chandipur",
+        "location": {
+          "latitude": 21.4398608,
+          "longitude": 87.0149438
+        },
+        "distance": 257,
+        "hours": "4h54",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chandipur-Hotels.d3000004697.Travel-Guide-Hotels",
+        "desc": "There’s plenty of places throughout India that boast incredible biodiversity. It’s one of the many reasons that India is such a beautiful and fascinating country. However, few are home to the stunning sun-kissed natural assets found upon Chadipur’s beaches, which owes its weird and wonderful situation to a unique climate."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bankura",
+        "location": {
+          "latitude": 23.164543,
+          "longitude": 87.0624261
+        },
+        "distance": 212,
+        "hours": "4h26",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bankura-Hotels.d3000406917.Travel-Guide-Hotels",
+        "desc": "A city found in the midst of the massive West Bengal, Bankura is one destination that’s sure not to get lost in the crowd. One of the most popular tourist destinations among Indian citizens thanks to its incredible historical and cultural legacy, some of its most popular tourist spots include Bishnupur, known for terracotta temples, and Biharinath Hill with its heady mixture of heritage and natural beauty."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": " Mandarmani",
+        "location": {
+          "latitude": 21.6681435,
+          "longitude": 87.70248169999999
+        },
+        "distance": 171,
+        "hours": "4h17",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mandarmani-Hotels.d6307820.Travel-Guide-Hotels",
+        "desc": "In many ways, Mandarmani is a place of great simplicity. It offers no skyscrapers, no twinkling city lights and few bustling crowds. It’s a side of India that’s lesser known in comparison to its many booming cities: a place of peace, serenity and the simple things in life. Best known for its spellbinding beaches, it’s the ideal spot to kick back, relax and watch the waves trail off into the distance."
+      }
+    ],
+    "min": [
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Tarakeswar",
+        "location": {
+          "latitude": 22.8786554,
+          "longitude": 88.01429399999999
+        },
+        "distance": 60,
+        "hours": "1h53",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Tarakeswar-Hotels.d3000414638.Travel-Guide-Hotels",
+        "desc": "The sacred town of Tarakeshwar, located in West Bangal, attracts a significant number of their yearly visitors who come to visit the Taraknath Temple.  Thousands of pilgrims visit Tarakeswar each year, especially for occasions such as Shravani Mela, a religious fair held on Mondays between July and August. Aside from this, those that make the trip to Tarakeswar can also enjoy a town that offers regional cuisine, art and culture."
+      },
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Santiniketan",
+        "location": {
+          "latitude": 23.6776471,
+          "longitude": 87.6852323
+        },
+        "distance": 164,
+        "hours": "3h28",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Santiniketan-Hotels.d3000475119.Travel-Guide-Hotels",
+        "desc": "This small, unexplored town is overlooked by many, but known by few as being the home of Rabindranath Tagore, the literary and artistic brain whose dramas and poetry was rooted in Indian, specifically Bengali, traditions. Now his home has been transformed into the University of Visva Bharati, guided by the art and writings of the Nobel Prize Winning Polymath. Santiniketan's secluded location means it is the ideal writer's retreat."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mayapur",
+        "location": {
+          "latitude": 23.4232013,
+          "longitude": 88.38826399999999
+        },
+        "distance": 129,
+        "hours": "3h44",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Sri-Mayapur-Chandordaya-Temple-Hotels.0-l553248621532739510-0.Travel-Guide-Filter-Hotels",
+        "desc": "When you consider that Mayapur is visited by over a million pilgrims every single year, we think it’s fair to say that this city is of great religious importance. This is due to Mayapur being believed to be the birthplace of Chaitanya Mahaprabhu, an incarnation of Krishna. It’s no surprise then that the most popular tourist attractions here are of a religious nature, such as Sri Mayapur Chandrodaya Mandir and Sri Chaitanya Math."
+      },
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bishnupur",
+        "location": {
+          "latitude": 23.0678795,
+          "longitude": 87.3165222
+        },
+        "distance": 139,
+        "hours": "3h56",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Kolkata.d178244.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bankura-Hotels.d3000406917.Travel-Guide-Hotels",
+        "desc": "The terracotta temples of Bishnupur are the stuff of legend, and it’s easy to see why. Aside from being of great historical and cultural importance within the region and the country in general, they are also simply marvellous to look at. However, that’s not all Bishnupur has to offer. It also boasts festivals and an incredible musical legacy.  "
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "city": "Bangalore",
+    "location": {
+      "latitude": 12.9715987,
+      "longitude": 77.5945627
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Yelagiri",
+        "location": {
+          "latitude": 12.5795813,
+          "longitude": 78.6398737
+        },
+        "distance": 158,
+        "hours": "3h16"
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mysore",
+        "location": {
+          "latitude": 12.2958104,
+          "longitude": 76.6393805
+        },
+        "distance": 143,
+        "hours": "2h50",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mysore-Hotels.d8878.Travel-Guide-Hotels",
+        "desc": "Mysore is one of the most popular tourist destinations in all of South India and it’s not hard to see why. The former capital of the Kingdom of Mysore is rich in natural beauty, with its location at the base of the Chamundi Hills playing host to many captivating sights. It is also home to a rich and fascinating heritage, which is beautifully displayed across its many architectural feats and attractions, such as the World Heritage-listed Mysore Palace."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Puttaparthi",
+        "location": {
+          "latitude": 14.1669963,
+          "longitude": 77.8091496
+        },
+        "distance": 154,
+        "hours": "2h51",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Puttaparthi-Hotels.d6060273.Travel-Guide-Hotels",
+        "desc": "Whilst Puttaparthi may not be able to boast quite the range of heritage attractions and natural beauty spots other areas can offer, it does have the benefit of having pleasant weather throughout the year. Visitors stopping here can expect to find a few but no less spiritually fulfilling sites that reminisce the days of the early ashrams, whilst enjoying all the comforts this modern little town has to offer."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bheemeshwari",
+        "location": {
+          "latitude": 12.3122006,
+          "longitude": 77.274091
+        },
+        "distance": 105,
+        "hours": "2h39",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mandya-Hotels.d6254060.Travel-Guide-Hotels",
+        "desc": "A true up and comer when you look at the rising stars of India’s tourism trade, Bheemeshwari has been one of India’s best kept secrets. It has a stunning, unspoiled natural beauty known for its incredible biodiversity, spectacular greenery and stunning bodies of water. We recommend that you check it out before word gets out and Bheemeshwari starts getting a lot more crowded."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Srirangapatna",
+        "location": {
+          "latitude": 12.4215561,
+          "longitude": 76.6931273
+        },
+        "distance": 125,
+        "hours": "2h42",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Shrirangapattana-Hotels.d6258461.Travel-Guide-Hotels",
+        "desc": "Founded in the 9th century, this small island sits neatly in the middle of the Kaveri River. It is a well visited tourist spot, owing to its cultural, historical and religious significance. Many come here just to visit the architecturally magnificent Sri Ranganathaswamy temple, a sanctuary protected by the Archaeological Survey of India as a monument of national importance."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Sravanabelagola",
+        "location": {
+          "latitude": 12.8563247,
+          "longitude": 76.479854
+        },
+        "distance": 144,
+        "hours": "2h36",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Sravanabelagola-Shravanabelagula.d6104886.Attraction",
+        "desc": "Stavanabelagola is a year-round favourite with tourists for its mild weather. Even the monsoon season only goes enhance the natural beauty of the place by refreshing its bordering countryside. But this isn't the town's only charm and attraction. Standing tall and proud is the world's tallest monolithic statue, the Bahubali Statue. This 17m high figure represents strength and power and a visit to Sravanabelagola wouldn't be complete without stopping to pay homage to Lord Bahubali."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Hassan",
+        "location": {
+          "latitude": 13.0752578,
+          "longitude": 76.17837390000001
+        },
+        "distance": 185,
+        "hours": "3h8",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Hassan-Hotels.d6047752.Travel-Guide-Hotel",
+        "desc": "Hassan is a town and district in Karnataka state that is usually used as a base to explore local historical sites like Belur and Halebid, however for visitors who linger here longer, the town has attractions of its own. Hasanamba temple, a 12th century temple dedicated to the Goddess Shakti is the main draw for visitors. Local religious people still visit the temple every year during the Deepavali festival in October, arguably the perfect time to visit Hassan."
+      }
+    ],
+    "average": [
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kalpetta",
+        "location": {
+          "latitude": 11.6103389,
+          "longitude": 76.0828128
+        },
+        "distance": 283,
+        "hours": "5h46",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kalpetta-Hotels.d6125898.Travel-Guide-Hotels",
+        "desc": "The sparklingly gorgeous Kalpetta positively blossoms with life in every corner. This feels like a place where nature is allowed to be as free as possible, completely unspoiled by man or machine. That’s not to say that there isn’t a booming tourist trade, but they’ve managed to develop while keeping the important things intact, from the rivers to the mountains. Other attractions include the likes of Lakkidi View Point and Thirunelli Temple."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chikmagalur",
+        "location": {
+          "latitude": 13.315258,
+          "longitude": 75.7754018
+        },
+        "distance": 244,
+        "hours": "4h12",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chikkamagaluru-Hotels.d602105.Travel-Guide-Hotels",
+        "desc": "Chikmagalur certainly got a strange start in life. It is recorded to have been given as a dowry to the youngest daughter of legendary chief Rukmangada. In fact, its name translates to ‘youngest daughter’. Today, it’s strange beginnings have blossomed into a truly unique part of India: one which is peaceful, scenic and tranquil. Aside from the simple beauties of nature, other attractions include the town of Koppa, Kalasa and the well-known Baba Budan Giri."
+      }
+    ],
+    "max": [
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bekal",
+        "location": {
+          "latitude": 12.4203532,
+          "longitude": 75.0231457
+        },
+        "distance": 378,
+        "hours": "7h38",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bekal-Hotels.d6130821.Travel-Guide-Hotels",
+        "desc": "The humble town of Bekal might not be winning any prizes for size or stature, but that doesn’t mean that there isn’t plenty to see here. This is one town that’s punching a few classes above its weight in terms of attractive holiday prospects, thanks to sites like Bekal Fort, alongside its wonderful beaches and natural assets. It is considered by some as one of the finest hidden gems in Asia!"
+      },
+      {
+        "id": 11,
+        "popular": 1,
+        "explore": 0,
+        "city": "Thalassery",
+        "location": {
+          "latitude": 11.7532878,
+          "longitude": 75.4928777
+        },
+        "distance": 326,
+        "hours": "7h13",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Thalassery-Hotels.d6253814.Travel-Guide-Hotels",
+        "desc": "Located on the coast of the Arabian sea and surrounded by rolling wooded hills, Thalassery is a picturesque city notable for being the 'City of three C's'. For those who call Thalassery home, their love for cricket, cake and the circus has made this city a go-to destination for travellers and tourists with a sporting spirit, a sweet tooth and a curious, inquisitive heart."
+      },
+      {
+        "id": 12,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chettinad",
+        "location": {
+          "latitude": 43.7417375,
+          "longitude": -79.2269196
+        },
+        "distance": 340,
+        "hours": "7h40",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bengaluru.d6053307.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chettinad-Hotels.0-l553248621532738157-0.Travel-Guide-Filter-Hotels",
+        "desc": "It could be argued that pretty much the entirety of India is a place of great historical and cultural significance, such is the nature of having a rich and storied past. However, few can boast being recognised by UNESCO as a land of exceptional value in those regards. Needless to say, Chettinad is a fascinating place to visit, with unforgettable attractions ranging all the way from architecture to its world-famous cuisine."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "city": "Pune",
+    "location": {
+      "latitude": 18.5204303,
+      "longitude": 73.8567437
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": " Alibaug",
+        "location": {
+          "latitude": 18.6553938,
+          "longitude": 72.8670819
+        },
+        "distance": 143,
+        "hours": "3h26",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Alibaug-Hotels.d6138517.Travel-Guide-Hotels",
+        "desc": "This scenic coastal town has plenty to offer tourists, going far beyond its admittedly enticing good looks and unique sense of character and ambience. Alibaug is a must visit for history buffs. It’s best known for being part of naval conflicts in the 18th century, thanks to its strategically significant location. Today, tourism is its economy’s greatest asset and it’s easy to see why, with visitors enjoying its spectacular beaches alongside historical sites."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Malshej Ghat",
+        "location": {
+          "latitude": 19.340625,
+          "longitude": 73.774552
+        },
+        "distance": 120,
+        "hours": "3h18",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Malshej-Ghat-Hotels.0-l553248621532739059-0.Travel-Guide-Filter-Hotels",
+        "desc": "The region known as the Western Ghats - otherwise known as Sahyadi, Sehiyon or Sahyan - is one of the greatest places in the world in terms of biodiversity and is recognised as a UNESCO World Heritage Site. It is here you’ll find Malshej Ghat, a spellbinding mountain range which is home to some stunning examples of flora and greenery of all kinds, alongside an incredible array of wonderful creatures."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bhimashankar",
+        "location": {
+          "latitude": 19.0719691,
+          "longitude": 73.5356936
+        },
+        "distance": 110,
+        "hours": "2h55",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bhimashankar-Temple-Hotels.0-l553248621532739060-0.Travel-Guide-Filter-Hotels",
+        "desc": "It’s almost impossible to separate the area of Bhimashankar with the temple that also bears the same name. And it’s understandable why, as Bhimashankar Temple is a stunning, once in a lifetime experience that anyone with an interest in history, culture, architecture or religion has to consider a must visit. Then again, the green crisp surroundings are also likely to leave a lasting impression."
+      }
+    ],
+    "average": [
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bijapur",
+        "location": {
+          "latitude": 16.8301708,
+          "longitude": 75.710031
+        },
+        "distance": 345,
+        "hours": "6h18",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bijapur-Hotels.d6197687.Travel-Guide-Hotels",
+        "desc": "History and architecture go hand in hand in the stunning city of Bijapur. Its unique history gives the city its sense of identity and has provided the platform for which its incredible array of architecture from throughout several periods were allowed to flourish. But it’s not all just tall buildings and good looks; Bijapur has attractions ranging from captivating art museums to ancient temples."
+      },
+      {
+
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Igatpuri",
+        "location": {
+          "latitude": 19.6973156,
+          "longitude": 73.56093609999999
+        },
+        "distance": 239,
+        "hours": "4h36",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Igatpuri-Hotels.d6268245.Travel-Guide-Hotels",
+        "desc": "With its beautiful natural surroundings and spiritual ambience, it’s no surprise that a great deal of the wealth found in Igatpuri comes from the tourism industry. After all, there seems to be few places on earth more perfect for escaping the stresses of everyday life. Famous as the home for the form of meditation known as Vipassana, attractions include the Dhamma Giri Meditation Centre, the epic Kalsubai Peak and the crystal green Arthur Lake."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": " Bhandardara",
+        "location": {
+          "latitude": 19.5375291,
+          "longitude": 73.7694815
+        },
+        "distance": 162,
+        "hours": "4h22",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bhandardara-Hotels.d6268243.Travel-Guide-Hotels",
+        "desc": "The stunning holiday village of Bhandardara might not be much in terms of size but it more than makes up for its small stature with big, unforgettable experiences. Best known for its unmistakable and incomparable natural beauty, Bhandardara also boasts a fascinating history and great attractions, such as the scenic Arthur Lake, the stunning heights of Mount Kalsubai and of course, the iconic Ratangad Fort."
+      }
+    ],
+    "max": [
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": " Bidar",
+        "location": {
+          "latitude": 17.9148799,
+          "longitude": 77.5046101
+        },
+        "distance": 442,
+        "hours": "8h18",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bidar-Hotels.d6197691.Travel-Guide-Hotels",
+        "desc": "Bidar is a fascinating city because it is one of two worlds. On one hand, you have its spellbinding history which gives the area its distinctive, unmistakable sense of culture and individuality. This is matched by its rapidly developing urbanised areas. This hilltop city found in the northern part of Karnataka features attractions such as the spectacular Mahmud Gawan Madrasa and vital religious sites like Gurudwara Nanak Jhira Sahib."
+      },
+      {
+
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Goa",
+        "location": {
+          "latitude": 15.2993265,
+          "longitude": 74.12399599999999
+        },
+        "distance": 460,
+        "hours": "7h53",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Goa-Hotels.d6049928.Travel-Guide-Hotels",
+        "desc": "Goa has long been India’s most loved resort destination. Ever since the colonial times India’s smallest state has attracted holidaymakers from all over the world, and tucked into the sub-continent’s south-west coast, Goa’s exciting twist on traditional Indian culture is unlike anywhere else in the country."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Tarkarli",
+        "location": {
+          "latitude": 16.0370463,
+          "longitude": 73.4847782
+        },
+        "distance": 391,
+        "hours": "7h44",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Pune-District.d6126816.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Tarkarli-Hotels.d3000464827.Travel-Guide-Hotels",
+        "desc": "The crystal clear waters and vibrant coral reefs of Tarkarli attract many visitors looking for a relaxing getaway or underwater adventure. There are few better spots for pristine white sand beaches, where holiday makers can sunbathe or enjoy delicious local seafood. Those looking to take their holiday off shore will enjoy world class snorkelling and scuba diving."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "city": "Mumbai",
+    "location": {
+      "latitude": 19.0759837,
+      "longitude": 72.8776559
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Murud Janjira",
+        "location": {
+          "latitude": 18.2999036,
+          "longitude": 72.9644331
+        },
+        "distance": 152,
+        "hours": "3h57",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Murud-Janjira-Fort-Hotels.0-l6106860-0.Travel-Guide-Filter-Hotels",
+        "desc": "Murud Janjira is a fort found off the coast of the Arabian Sea, a stone’s throw away from the stunning port town of Murud. It’s a truly incredibly place to visit for anyone with even the slightest of interest in history. This foreboding fort was the only one of its kind when it was built, and it remains that way to this day."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bhandardara",
+        "location": {
+          "latitude": 19.5375291,
+          "longitude": 73.7694815
+        },
+        "distance": 164,
+        "hours": "3h33",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bhandardara-Hotels.d6268243.Travel-Guide-Hotels",
+        "desc": "The stunning holiday village of Bhandardara might not be much in terms of size but it more than makes up for its small stature with big, unforgettable experiences. Best known for its unmistakable and incomparable natural beauty, Bhandardara also boasts a fascinating history and great attractions, such as the scenic Arthur Lake, the stunning heights of Mount Kalsubai and of course, the iconic Ratangad Fort."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Silvassa",
+        "location": {
+          "latitude": 20.2762659,
+          "longitude": 73.0083061
+        },
+        "distance": 171,
+        "hours": "3h29",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Silvassa-Hotels.d6130519.Travel-Guide-Hotels",
+        "desc": "Surrounded by the lush verdant forests of the Western Ghats, Silvassa is not only a unique in its picturesque surroundings, but also in its heritage as being a former Portuguese colony where it was often referred to as Vila de Paço d'Arcos, after the town of the same name in Portugal. You can still see evidence of the city's past in its Roman-Catholic churches and colonial style buildings."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Trimbakeshwar",
+        "location": {
+          "latitude": 19.9321538,
+          "longitude": 73.53063399999999
+        },
+        "distance": 193,
+        "hours": "3h25",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Trimbak-Hotels.d6351514.Travel-Guide-Hotels",
+        "desc": "Considered one of the holiest temples in India, many make the trip to Trimbakeshwar to perform puja, a Hindu ritual to honour deities. But those visiting the peaceful town of Trimbak needn't be on a religious pilgrimage to feel the spiritual and soul-healing benefits of the surroundings. The enlightening natural beauty of the town, sat on the bed of Godavari River, makes this destination at once cleansing and enriching."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Nashik",
+        "location": {
+          "latitude": 19.9974533,
+          "longitude": 73.78980229999999
+        },
+        "distance": 167,
+        "hours": "3h13",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Nashik-Hotels.d7926.Travel-Guide-Hotels",
+        "desc": "The holy city of Nashik sits on the banks of the sacred Godavari River and is best known for being one of four dedicated locations to host the world's largest festival, Kumbh Mela. Interestingly, Nashik has more recently been a popular tourist spot for wine connoisseurs. With sprawling vineyards and an ever-growing export of local wine, Nashik is the best place to try this local produce."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Igatpuri",
+        "location": {
+          "latitude": 19.6973156,
+          "longitude": 73.56093609999999
+        },
+        "distance": 121,
+        "hours": "2h13",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Igatpuri-Hotels.d6268245.Travel-Guide-Hotels",
+        "desc": "With its beautiful natural surroundings and spiritual ambience, it’s no surprise that a great deal of the wealth found in Igatpuri comes from the tourism industry. After all, there seems to be few places on earth more perfect for escaping the stresses of everyday life. Famous as the home for the form of meditation known as Vipassana, attractions include the Dhamma Giri Meditation Centre, the epic Kalsubai Peak and the crystal green Arthur Lake."
+      }
+    ],
+    "average": [
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Aurangabad",
+        "location": {
+          "latitude": 19.8761653,
+          "longitude": 75.3433139
+        },
+        "distance": 348,
+        "hours": "6h55",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Aurangabad-Hotels.d1661.Travel-Guide-Hotels",
+        "desc": "A city that is known for its booming tourism trade, you might be wondering exactly what is it about Aurangabad that makes so many people flock here year after year. It might be its incredible collection of historical monuments, a terrific sporting culture, fascinating natural wonders, an exquisite local cuisine or its many amazing attractions. Or it may just be a little of each."
+      },
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Sangli",
+        "location": {
+          "latitude": 16.8523973,
+          "longitude": 74.5814773
+        },
+        "distance": 381,
+        "hours": "6h36",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Sangli-Fort-Hotels.0-l553248621562260849-0.Travel-Guide-Filter-Hotels",
+        "desc": "Sangli has always been well-established for its spice industry, predominantly turmeric and sugarcane, but more recently it has become well known for its production and retailing of wine. This growing trade has made the city a prosperous and diverse place to visit and an essential stop for any wine connoisseurs looking to taste the local produce."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Saputara",
+        "location": {
+          "latitude": 20.5785975,
+          "longitude": 73.75072759999999
+        },
+        "distance": 246,
+        "hours": "5h7",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Saputara-Hotels.d6267009.Travel-Guide-Hotels",
+        "desc": "With so many truly awe-inspiring hill stations throughout the nation of India, to say that one is considered to be the most popular is really an incredible achievement in its own right. So what exactly makes Saputara stand out from the competition? One look at its luscious greens and incomparable natural beauty should answer that question. These stunning sites are met with museums, gardens and a history that is well worth studying."
+      }
+    ],
+    "max": [
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Ganapatipule",
+        "location": {
+          "latitude": 17.1488663,
+          "longitude": 73.2726946
+        },
+        "distance": 324,
+        "hours": "7h26",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Mumbai.d6050062.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Ganpatipule-Hotels.d6138355.Travel-Guide-Hotels",
+        "desc": "The small town with a big history, Ganapatipule is best known within Hindu folklore as the place where the idol of the Hindu god Ganapati sprung up out of its soil. Whatever your religious beliefs, we think few people will doubt that the town certainly has a distinctive sense of mystical ambience surrounding it. Today, it remains fairly minimalistic, with its stunning beaches and world class resorts being among its main tourism draws."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "city": "Udaipur",
+    "location": {
+      "latitude": 24.585445,
+      "longitude": 73.712479
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chittorgarh",
+        "location": {
+          "latitude": 24.8887435,
+          "longitude": 74.6269216
+        },
+        "distance": 114,
+        "hours": "2h9",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chittorgarh-Hotels.d6169771.Travel-Guide-Hotels",
+        "desc": "Lying on the banks of the river Gambhiri and Berach, Cittorgarh is known by many for its vital role in the country’s history around the middle of the last millennium. It’s home to the legendary Chittor Fort, which was instrumental in defending against sieges from the 12th to 16th centuries. This city is more than just historically significant; it also has a dazzling future, thanks to its excellent reputation for education and colourful festivals."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mount Abu",
+        "location": {
+          "latitude": 24.5925909,
+          "longitude": 72.7156274
+        },
+        "distance": 180,
+        "hours": "2h58",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mount-Abu-Hotels.d6053622.Travel-Guide-Hotels",
+        "desc": "The spectacular Mount Abu is a much-loved hill station best known by visitors for its stunning climactic mountain peaks, dazzling rivers and lush evergreen forests. Both history and nature are two of the main reasons people come to visit the area, with attractions such as the epic Mount Abu Wildlife Sanctuary joining together with the hilltops’ mesmerising selection of Hindu temples to create an area of unique beauty."
+      }
+    ],
+    "average": [
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pushkar",
+        "location": {
+          "latitude": 26.489749,
+          "longitude": 74.5510856
+        },
+        "distance": 278,
+        "hours": "5h2",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Pushkar-Hotels.d6049992.Travel-Guide-Hotels",
+        "desc": "Near some of the oldest structures in India, Pushkar is a place of great cultural, historical and religious significance. It’s best known as a place of pilgrimage for followers of Hinduism and Sikhism. Its temples, including the iconic Brahma Temple, have been bringing people to town for centuries. There’s also the famous Pushkar Camel Fair and the recently rebuilt old Pushkar, which is said to be of equal spiritual importance."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Jodhpur",
+        "location": {
+          "latitude": 26.2389469,
+          "longitude": 73.02430939999999
+        },
+        "distance": 259,
+        "hours": "4h59",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Jodhpur-District-Hotels.d6138973.Travel-Guide-Hotels",
+        "desc": "Whilst the state of Rajasthan may be famed for its history, Jodhpur stands out within its region as offering something not commonly seen in that part of India. It’s a modern powerhouse with a booming cultural scene and plenty to offer tourists, all topped off with weather so unbeatable, it’s nicknamed Sun City."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Modhera",
+        "location": {
+          "latitude": 23.5835819,
+          "longitude": 72.1401322
+        },
+        "distance": 294,
+        "hours": "4h56",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Modhera-Hotels.d3000406775.Travel-Guide-Hotels",
+        "desc": "Found on the banks of the river Pushpavati, Modhera is a historic town perhaps best known for its past during the Puranic age, when it was named Dharmaranya. It was here that the Hindu sacrificial ritual of Yajna was performed by Lord Rama to cleanse the sin of the killing of Ravana, the central figure of the Ancient Indian epic poem Ramayana. Today, this historical legacy lives on for visitors through its sun temple."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Ahmedabad",
+        "location": {
+          "latitude": 23.022505,
+          "longitude": 72.5713621
+        },
+        "distance": 264,
+        "hours": "4h38",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Ahmedabad-District-Hotels.d6126826.Travel-Guide-Hotels",
+        "desc": "Ahmedabad is the largest city in the state of Gujarat, the fifth most populous in the whole of India, an economic powerhouse and one of the world’s fastest growing cities. For tourists, the amount on offer is just as large, with great historical and religious sites such as Dada Bhagwan Temple, exceptional natural beauty like parimal garden, along with tons of shops, themes parks, museums and more."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kota",
+        "location": {
+          "latitude": 44.0668431,
+          "longitude": -103.2502728
+        },
+        "distance": 285,
+        "hours": "4h36",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kota-Hotels.d8352.Travel-Guide-Hotels",
+        "desc": "Kota is considered one of the finest places in India to call your home in terms of quality of life. This also means that it’s a pretty wonderful place to visit as well. A modern metropolitan city, it has plenty of things to do and experiences to enjoy. Among places to visit include the romantic Chambai Garden, the fascinating Kota Government Museum and the simply epic Darrah National Park."
+      }
+    ],
+    "max": [
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mandawa",
+        "location": {
+          "latitude": 28.050017,
+          "longitude": 75.14870069999999
+        },
+        "distance": 499,
+        "hours": "8h40",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mandawa-Hotels.d6129747.Travel-Guide-Hotels",
+        "desc": "The unique look, atmosphere and culture of Mandawa owes a great deal of its individuality to its history. This is a fort town, transformed in the mid-18th century by the Rajput ruler of the area in order to protect its place as a vital outpost and place of trade. Today it’s crowning achievement is its astonishing contribution to the arts, with fabulous works to be found throughout the town."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Maheshwar",
+        "location": {
+          "latitude": 22.1772853,
+          "longitude": 75.5829782
+        },
+        "distance": 440,
+        "hours": "7h46",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Maheshwar-Hotels.d6130825.Travel-Guide-Hotels",
+        "desc": "It is thought that the town of Maheshwar was built upon the ruins of the ancient city of Somvanshiya Sahastrarjun Kshatriya, a legendary capital at the time of King Kartavirya Arjuna. It is a town steeped in history, myth and folklore. It’s that which makes Maheshwar such a unique and fascinating place to visit, with its ambience bolstered by stunning temples and festivals, such as SahastrArjun Temple and Teej festival."
+      },
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Jaipur",
+        "location": {
+          "latitude": 26.9124336,
+          "longitude": 75.7872709
+        },
+        "distance": 393,
+        "hours": "6h30",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Udaipur.d3610.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Jaipur-District-Hotels.d6052917.Travel-Guide-Hotels",
+        "desc": "As the capital of Rajasthan, visitors often use Jaipur as a gateway to nearby popular destinations such as Udaipur and Mount Abu. For those who stay in the city, there are a number of incredible attractions including the UNESCO World Heritage Sites of the Jantar Mantar and the Amer Fort, not to mention the mesmerising City Palace complex."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "city": "Chennai",
+    "location": {
+      "latitude": 13.0826802,
+      "longitude": 80.2707184
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chittor",
+        "location": {
+          "latitude": 24.8887435,
+          "longitude": 74.6269216
+        },
+        "distance": 156,
+        "hours": "2h40",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chittoor-Hotels.d3000405762.Travel-Guide-Hotels",
+        "desc": "Chittor, also known as Chittorgarh or Chittaurgarh, is almost certainly best known for Chittor Fort. The largest of its kind in the country, it played a vital role in fending off sieges throughout the middle period of the previous millennium. There’s certainly plenty of history to be found here but what really makes Chittor special is the variety of what it has to offer. In Chittor, you’ll find everything from festivals to wildlife sanctuaries."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pondicherry",
+        "location": {
+          "latitude": 11.9138598,
+          "longitude": 79.8144722
+        },
+        "distance": 150,
+        "hours": "2h20",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Pondicherry-Hotels.d6138628.Travel-Guide-Hotels",
+        "desc": "Affectionately known as 'Pondy', this city is a little slice of France on the southeastern coast of India, making it an altogether different and unique experience for the inquisitive traveller. In the old French colonial part of town, you can expect classically European styled town houses, Parisian-inspired cafes and bars, and inexhaustible range of bohemian artistic shops and boutiques."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mahabalipuram",
+        "location": {
+          "latitude": 12.626927,
+          "longitude": 80.1927109
+        },
+        "distance": 56,
+        "hours": "1h52"
+      }
+    ],
+    "average": [
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pudukkottai",
+        "location": {
+          "latitude": 10.379663,
+          "longitude": 78.8208454
+        },
+        "distance": 382,
+        "hours": "6h49",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Pudukkottai-Hotels.d6257996.Travel-Guide-Hotels",
+        "desc": "A destination for true history buffs, it is thought that Pudukkattai was once home to one of the oldest human settlements in India. Many artefacts from ages gone by can be uncovered in the Pudukkorrai District museum, where entire galleries are devoted to stone sculptures and bronze relics discovered from surrounding archaeological sites, such as Sittannavasal, which can still be visited today."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Hogenakkal",
+        "location": {
+          "latitude": 12.116049,
+          "longitude": 77.7774286
+        },
+        "distance": 335,
+        "hours": "6h20"
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": " Bengaluru",
+        "location": {
+          "latitude": 12.9715987,
+          "longitude": 77.5945627
+        },
+        "distance": 347,
+        "hours": "6h20",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bengaluru-Hotels.d6053307.Travel-Guide-Hotels",
+        "desc": "If you haven’t heard of Bengaluru, you must have been living under a rock. This is a megacity with a population of over 10 million, making it one of the most populous cities in India. And with so much to enjoy here, it’s understandable why so many want to call it home. From its incredible history to its culinary excellence, alongside a love of music, art, literature, dance, theatre and more, Bengaluru has it all."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": " Ramnagaram",
+        "location": {
+          "latitude": 12.7094487,
+          "longitude": 77.2807423
+        },
+        "distance": 394,
+        "hours": "6h10",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Ramanagara-Hotels.d6126936.Travel-Guide-Hotels",
+        "desc": "The growing popularity of this area among rock-climbers can be accredited to the impressive rocky peaks of Ramnagaram that seem to erupt vertically from the extensive undergrowth. The steep rock faces and unparalleled, dramatic views from the summit make this destination a worthy destination for any thrill seeker. For those a little more grounded, the area is also known for its history as a silk weaving region, and is highly regarded worldwide for this high-quality export."
+      }
+    ],
+    "max": [
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mysore",
+        "location": {
+          "latitude": 12.2958104,
+          "longitude": 76.6393805
+        },
+        "distance": 474,
+        "hours": "8h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mysore-Hotels.d8878.Travel-Guide-Hotels",
+        "desc": "Mysore is one of the most popular tourist destinations in all of South India and it’s not hard to see why. The former capital of the Kingdom of Mysore is rich in natural beauty, with its location at the base of the Chamundi Hills playing host to many captivating sights. It is also home to a rich and fascinating heritage, which is beautifully displayed across its many architectural feats and attractions, such as the World Heritage-listed Mysore Palace."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Nandi Hills",
+        "location": {
+          "latitude": 13.370154,
+          "longitude": 77.68345510000002
+        },
+        "distance": 346,
+        "hours": "7h36",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Chennai.d181449.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Nandi-Hills-Hotels.d6347496.Travel-Guide-Hotels",
+        "desc": "Dubbed 'The Hill of Happiness', this ancient fortress is the perfect escape from the city. The gardens surrounding the temple at the top of the hill are a bird watcher's paradise, with many rare species calling this hill home. A visit here is incomplete without a hike to the summit, where you can enjoy some of the best views of the area."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "city": "Ranchi",
+    "location": {
+      "latitude": 23.3440997,
+      "longitude": 85.309562
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "McCluskieganj",
+        "location": {
+          "latitude": 23.6498584,
+          "longitude": 84.9440346
+        },
+        "distance": 64,
+        "hours": "1h47",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRentals",
+        "hotel": "https://www.expedia.co.in/Ranchi-Hotels.d1659.Travel-Guide-Hotels",
+        "desc": "For some, there’s nothing finer in life than breathing in crisp, fresh air and marvelling at the sight of some stunning waves of greenery glistening in the sunlight. If that sounds like your idea of paradise, then the petite hill town of McCluskieganj might be what you’re looking for. Alongside its ample natural assets, it also has a great selection of interesting temples, mosques and even an old church."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Ramgarh",
+        "location": {
+          "latitude": 23.6523678,
+          "longitude": 85.56121
+        },
+        "distance": 49,
+        "hours": "1h26",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRentals",
+        "hotel": "https://www.expedia.co.in/Ramgarh-Hotels.d6136986.Travel-Guide-Hotels",
+        "desc": "Often overlooked, Ramgarh is a region of outstanding natural beauty with unrivalled views of the snow-capped Himalayas. One of Ramgarh's offerings, apart from the stunning sunset views over silhouetted mountains are the refreshing, leafy orchards for which it has inherited its namesake 'Fruit Bowl of Kumoun'. Bursting with colour and fragrance, Ramgarh has been a favourite among creatives for its seclusion and inspiring landscape."
+      }
+    ],
+    "average": [
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Nalanda",
+        "location": {
+          "latitude": 25.1240603,
+          "longitude": 85.45947489999999
+        },
+        "distance": 257,
+        "hours": "6h31",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRentals",
+        "hotel": "https://www.expedia.co.in/Nalanda-University-Hotels.0-l553248634739952972-0.Travel-Guide-Filter-Hotels",
+        "desc": "One of the oldest universities in the world, Nalanda was founded in the 5th century and was an educational centre for Buddhist monks and students for almost 800 years. Visitors will feel like they have travelled back in time when exploring the impressive remains. Despite its turbulent past, the spirit of Nalanda lives on, and this rebuilt institution is once again a flourishing school of learning."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Rajgir",
+        "location": {
+          "latitude": 25.0172573,
+          "longitude": 85.4161642
+        },
+        "distance": 242,
+        "hours": "6h16",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRenta",
+        "hotel": "https://www.expedia.co.in/Rajgir-Hotels.d553248634000959618.Travel-Guide-Hotels",
+        "desc": "Meaning 'Abode of the king', Rajguir truly is a destination worthy of royalty. Once the capital of the Magadh Empire, this small town sits in a valley of five hills surrounded by a 360 degree expanse of dense, lush forest. For explorers, there is nothing like uncovering the legends behind the beautifully carved rock caves of the area, famed for being the favourite retreats of the Buddha, where it is believed he delivered sermons."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Gaya",
+        "location": {
+          "latitude": 24.7913957,
+          "longitude": 85.0002336
+        },
+        "distance": 225,
+        "hours": "5h4"
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bodh Gaya",
+        "location": {
+          "latitude": 24.6961343,
+          "longitude": 84.9869547
+        },
+        "distance": 221,
+        "hours": "4h58",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRenta",
+        "hotel": "https://www.expedia.co.in/Bodh-Gaya-Hotels.d6130352.Travel-Guide-Hotels",
+        "desc": "It is virtually impossible to understate the magnitude of the importance that Bodh Gaya holds as a site of religious pilgrimage. It is considered the holiest of places for Buddhists, in no small part thanks to it being where Gautama Buddha is believed to have achieved enlightenment. One of its most famous temples is the diamond throned Mahabodhi Temple. It joins several others to make this a place of incredible spiritual fulfilment."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bankura",
+        "location": {
+          "latitude": 23.164543,
+          "longitude": 87.0624261
+        },
+        "distance": 209,
+        "hours": "4h52",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRentals",
+        "hotel": "https://www.expedia.co.in/Bankura-Hotels.d3000406917.Travel-Guide-Hotels",
+        "desc": "A city found in the midst of the massive West Bengal, Bankura is one destination that’s sure not to get lost in the crowd. One of the most popular tourist destinations among Indian citizens thanks to its incredible historical and cultural legacy, some of its most popular tourist spots include Bishnupur, known for terracotta temples, and Biharinath Hill with its heady mixture of heritage and natural beauty."
+      }
+    ],
+    "max": [
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Raichak",
+        "location": {
+          "latitude": 22.2186797,
+          "longitude": 88.12181710000002
+        },
+        "distance": 390,
+        "hours": "9h43",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRentals",
+        "hotel": "https://www.expedia.co.in/Raichak-Hotels.d6129750.Travel-Guide-Hotels",
+        "desc": "The tiny town of Raichak, found in West Bengal on Diamond Harbour II, is a place that can be easy to overlook as a holiday destination. It only has a population of a little more than a thousand and certainly doesn’t make headlines the way other destinations might. However, it’s well worth your consideration, with its distinctive low-key charms and close proximity to the Diamond Harbour."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Patna",
+        "location": {
+          "latitude": 25.5940947,
+          "longitude": 85.1375645
+        },
+        "distance": 332,
+        "hours": "7h47",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRentals",
+        "hotel": "https://www.expedia.co.in/Patna-Hotels.d2736.Travel-Guide-Hotels",
+        "desc": "Patna is a cultural and historical melting pot dating back 3000 years, resting on the river Ganges. From this time, it has been continuously inhabited, making it one of the oldest settlements in the world. Naturally with this status, it is home to an incredible variety of historical monuments, heritage sites and fascinating architecture representing the city’s ancient past, whilst maintaining the chaotic hustle and bustle of modern life."
+      },
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Santiniketan",
+        "location": {
+          "latitude": 28.7812783,
+          "longitude": -81.75575839999999
+        },
+        "distance": 313,
+        "hours": "7h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ranchi.d1659.Car-Hire-Guide?rfrr=TG.Flights.CarRenta",
+        "hotel": "https://www.expedia.co.in/Bolpur-Hotels.d6138955.Travel-Guide-Hotels",
+        "desc": "This small, unexplored town is overlooked by many, but known by few as being the home of Rabindranath Tagore, the literary and artistic brain whose dramas and poetry was rooted in Indian, specifically Bengali, traditions. Now his home has been transformed into the University of Visva Bharati, guided by the art and writings of the Nobel Prize Winning Polymath. Santiniketan's secluded location means it is the ideal writer's retreat."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "city": "Bhubaneshwar",
+    "location": {
+      "latitude": 20.2960587,
+      "longitude": 85.8245398
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Balasore",
+        "location": {
+          "latitude": 21.4869337,
+          "longitude": 86.9246005
+        },
+        "distance": 196,
+        "hours": "3h37",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Balasore-Hotels.d3000004756.Travel-Guide-Hotels",
+        "desc": "When people think of Balasore, they almost certainly think of Chandipur beach, which is so loved it has become synonymous with the city. And there’s good reason for this. Aside from simply being a stunning beach in its own right, Chandipur offers such rich biodiversity, there’s few places like it on earth. However, Balasore is no one trick pony, with a wonderful selection of festivals throughout the year and a rich local culture and heritage."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Konark",
+        "location": {
+          "latitude": 19.8920686,
+          "longitude": 86.091184
+        },
+        "distance": 71,
+        "hours": "1h50",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Konark-Hotels.d6156018.Travel-Guide-Hotels",
+        "desc": "Konark is a city found within the state of Odisha, laying side by side with the Bay of Bengal. It’s best known for its spectacular annual celebration of dance - the aptly titled Konark Dance Festival - which is an absolute sensation for the senses and is something everyone should come to experience at least once. Its other popular tourism draw is the historic remains of the Sun Temple and its accompanying museum."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Puri",
+        "location": {
+          "latitude": 19.8133822,
+          "longitude": 85.8314655
+        },
+        "distance": 67,
+        "hours": "1h25",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Puri-Hotels.d6046285.Travel-Guide-Hotels",
+        "desc": "Puri is one of India's most sacred pilgrimage sites. Situated on the eastern coast, it is home to the Jagannath Temple where millions of spectators' flock to attend Rath Yatra, the chariot festival in summer. For an altogether different experience, visitors should head to Puri in the winter months, especially for the Puri Beach Festival, where the pristine beach comes to life in a celebration of traditional song and dance."
+      }
+    ],
+    "average": [
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mandarmani",
+        "location": {
+          "latitude": 21.6681435,
+          "longitude": 87.70248169999999
+        },
+        "distance": 319,
+        "hours": "6h44",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mandarmani-Hotels.d6307820.Travel-Guide-Hotels",
+        "desc": "In many ways, Mandarmani is a place of great simplicity. It offers no skyscrapers, no twinkling city lights and few bustling crowds. It’s a side of India that’s lesser known in comparison to its many booming cities: a place of peace, serenity and the simple things in life. Best known for its spellbinding beaches, it’s the ideal spot to kick back, relax and watch the waves trail off into the distance."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Raichak",
+        "location": {
+          "latitude": 22.2186797,
+          "longitude": 88.12181710000002
+        },
+        "distance": 429,
+        "hours": "6h30",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Raichak-Hotels.d6129750.Travel-Guide-Hotels",
+        "desc": "The tiny town of Raichak, found in West Bengal on Diamond Harbour II, is a place that can be easy to overlook as a holiday destination. It only has a population of a little more than a thousand and certainly doesn’t make headlines the way other destinations might. However, it’s well worth your consideration, with its distinctive low-key charms and close proximity to the Diamond Harbour."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mandarmani",
+        "location": {
+          "latitude": 21.6681435,
+          "longitude": 87.70248169999999
+        },
+        "distance": 315,
+        "hours": "5h"
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chandipur",
+        "location": {
+          "latitude": 21.4398608,
+          "longitude": 87.0149438
+        },
+        "distance": 207,
+        "hours": "4h10",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chandipur-Hotels.d3000004697.Travel-Guide-Hotels",
+        "desc": "There’s plenty of places throughout India that boast incredible biodiversity. It’s one of the many reasons that India is such a beautiful and fascinating country. However, few are home to the stunning sun-kissed natural assets found upon Chadipur’s beaches, which owes its weird and wonderful situation to a unique climate."
+      }
+    ],
+    "max":[
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Araku Valley",
+        "location": {
+          "latitude": 18.3273486,
+          "longitude": 82.8775218
+        },
+        "distance": 478,
+        "hours": "9h20",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Araku-Hotels.d6135828.Travel-Guide-Hotels",
+        "desc": "The magnificent hilltop station of Araku Valley is one of the few places left on earth that truly feels untouched by modern life. Its natural splendour is preserved in all its glory, with only the conveniences of modern transport via the east coast railway reminding its visitors that they have been dropped into some kind of glorious forgotten world. Although the whole valley is gorgeous, specific attractions include the mesmerising Chaperai and Kothapalli Waterfalls."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kolkata",
+        "location": {
+          "latitude": 22.572646,
+          "longitude": 88.36389500000001
+        },
+        "distance": 441,
+        "hours": "8h6",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kolkata-Hotels.d178244.Travel-Guide-Hotels",
+        "desc": "It’s a city that barely needs an introduction. Known around the world as the cultural centre of India, Kolkata is a megacity that very much lives up to its reputation. With amazing attractions like Eden Gardens, Victoria Memorial Hall and Birla Industrial Museums all serving as just the tiniest tip of this colossal cultural iceberg."
+      },
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Jamshedpur",
+        "location": {
+          "latitude": 22.8045665,
+          "longitude": 86.2028754
+        },
+        "distance": 396,
+        "hours": "7h30",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Bhubaneshwar.d501.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Jamshedpur-Hotels.d7949.Travel-Guide-Hotels",
+        "desc": "Jamshedpur is the most heavily populated area within its home state of Jharkhand. And with everything it has to offer, it really is no surprise that so many want to visit the city and call it their home. This is a thriving metropolitan wonderland - one of the fastest growing cities in the world no less - well known for shopping, sports, parks and education."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "city": "Patna",
+    "location": {
+      "latitude": 25.5940947,
+      "longitude": 85.1375645
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "East Champaran",
+        "location": {
+          "latitude": 26.6098139,
+          "longitude": 84.8567932
+        },
+        "distance": 160,
+        "hours": "3h51",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Motihari-Hotels.d3000406774.Travel-Guide-Hotels",
+        "desc": "The administrative district of East Champaran might not be one of the most well-known locations in India but it’s actually one of the most heavily populated in the entire state of Bihar and has plenty to offer tourists and residents alike. Attractions here include the likes of the Kesariya Bodh Stupa, one of the biggest and longest Buddhist stupas anywhere, as well as the beautiful Moti Jheel and of course, Lord Shiva temple in Areraj."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Darbhanga",
+        "location": {
+          "latitude": 26.111868,
+          "longitude": 85.89600399999999
+        },
+        "distance": 144,
+        "hours": "3h27",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Darbhanga-Hotels.d8405.Travel-Guide-Hotels",
+        "desc": "arbhanga is one of the fastest developing cities in India and is currently one of the country’s most exciting to visit. Why all the hype? Aside from being economically vital and well connected thanks to excellent transport links, a huge part of Darbhanga’s growth is down to the growth of tourism in the area. This is thanks in no small part to its selection of momentous temples, fascinating villages, natural wonders and exquisite museums."
+      }
+    ],
+    "average": [
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chittorgarh",
+        "location": {
+          "latitude": 24.8887435,
+          "longitude": 74.6269216
+        },
+        "distance": 368,
+        "hours": "6h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chittorgarh-Hotels.d6169771.Travel-Guide-Hotels",
+        "desc": "Lying on the banks of the river Gambhiri and Berach, Cittorgarh is known by many for its vital role in the country’s history around the middle of the last millennium. It’s home to the legendary Chittor Fort, which was instrumental in defending against sieges from the 12th to 16th centuries. This city is more than just historically significant; it also has a dazzling future, thanks to its excellent reputation for education and colourful festivals."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bodh Gaya",
+        "location": {
+          "latitude": 24.6961343,
+          "longitude": 84.9869547
+        },
+        "distance": 215,
+        "hours": "4h54",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bodh-Gaya-Hotels.d6130352.Travel-Guide-Hotels",
+        "desc": "It is virtually impossible to understate the magnitude of the importance that Bodh Gaya holds as a site of religious pilgrimage. It is considered the holiest of places for Buddhists, in no small part thanks to it being where Gautama Buddha is believed to have achieved enlightenment. One of its most famous temples is the diamond throned Mahabodhi Temple. It joins several others to make this a place of incredible spiritual fulfilment."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Varanasi",
+        "location": {
+          "latitude": 25.3176452,
+          "longitude": 82.9739144
+        },
+        "distance": 240,
+        "hours": "4h50",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Varanasi-Hotels.d3724.Travel-Guide-Hotels",
+        "desc": "Found upon the banks of the Ganges, Varanasi is considered to be one of the most holy cities in the world and is a vitally important location within the Hindu faith, amongst others. It shouldn’t come as a surprise then that Varanasi is packed with stunning historical and architectural gems. Kashi Vishwanath Temple and Ruchika Art Gallery are just two of the fine attractions Varanasi has to offer."
+      }
+    ],
+    "max": [
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Jonha Falls",
+        "location": {
+          "latitude": 23.3582131,
+          "longitude": 85.61157299999999
+        },
+        "distance": 345,
+        "hours": "8h36",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Jonha-Falls-Hotels.0-l553248621562262720-0.Travel-Guide-Filter-Hotels",
+        "desc": "It doesn’t take much guessing to figure out what brings so many people to the simply enchanting Jonha Falls. It’s an area of incredible beauty and a true treat for the senses that few other places can match. Alongside this, it boasts a rest home that keeps a Buddhist shrine, as well as fairs that are held a couple of times a week if you’re lucky enough to be in the area at the time."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Ranchi",
+        "location": {
+          "latitude": 23.3440997,
+          "longitude": 85.309562
+        },
+        "distance": 328,
+        "hours": "8h15",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Patna.d3000010248.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Ranchi-Hotels.d1659.Travel-Guide-Hotels",
+        "desc": "The capital of the east Indian state of Jharkhand, Ranchi is a wonderful embodiment of what it means to be a thriving metropolitan city in the 21st century. It’s an ultra-modern masterpiece, utilising technology to create a destination that’s truly ahead of the curve. However, that’s not all there is to Ranchi. With attractions ranging from stadiums to zoos and stunning tropical forests, this is a city with something for everyone."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "city": "Hyderabad",
+    "location": {
+      "latitude": 17.385044,
+      "longitude": 78.486671
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kurnool",
+        "location": {
+          "latitude": 15.8281257,
+          "longitude": 78.0372792
+        },
+        "distance": 213,
+        "hours": "3h34",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kurnool-Hotels.d6348012.Travel-Guide-Hotels",
+        "desc": "The ex-capital of the former Andhra State, Kurnool has certainly gone through a lot of changes over the years. Its history remains there for all to see, with remnants of its past dating all the way back to the Paleolithic era and giving Kurnool its distinctive sense of personality and individuality. Attractions include the likes of the mysterious Belum Caves, the imposing Kurnool Fort and the likes of Yaganti Temple."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bidar",
+        "location": {
+          "latitude": 17.9148799,
+          "longitude": 77.5046101
+        },
+        "distance": 153,
+        "hours": "3h23",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bidar-Hotels.d6197691.Travel-Guide-Hotels",
+        "desc": "Bidar is a fascinating city because it is one of two worlds. On one hand, you have its spellbinding history which gives the area its distinctive, unmistakable sense of culture and individuality. This is matched by its rapidly developing urbanised areas. This hilltop city found in the northern part of Karnataka features attractions such as the spectacular Mahmud Gawan Madrasa and vital religious sites like Gurudwara Nanak Jhira Sahib."
+      }
+    ],
+    "average": [
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Eluru",
+        "location": {
+          "latitude": 16.7106604,
+          "longitude": 81.0952431
+        },
+        "distance": 331,
+        "hours": "5h56",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Eluru-Hotels.d3000407854.Travel-Guide-Hotels",
+        "desc": "The spectacular city of Eluru has made its name in the world of manufacturing, creating some of the finest hand-woven products in the country. This in a way represents the city’s love of history and tradition, which when combined with all modern conveniences of living in an advanced metropolitan area, really makes Eluru something quite special. In terms of attractions, Eluru is as well known for its museums as it is for its stunning natural sights."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Latur",
+        "location": {
+          "latitude": 18.4087934,
+          "longitude": 76.5603828
+        },
+        "distance": 283,
+        "hours": "5h38",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Latur-Hotels.d6244799.Travel-Guide-Hotels",
+        "desc": "For history enthusiasts, there can be few places more exciting that the fascinating city of Latur, which is filled to the brim with interesting historical monuments. These include the likes of the much loved and unforgettable Kharosa Caves Udgir Par, along with the Siddheshwar and Ratneshwar Temple. There’s also attractions such as Buddha Park, Ganj Golai and Nani Nani Park for visitors to explore during their stay here."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Anantapur",
+        "location": {
+          "latitude": 14.6818877,
+          "longitude": 77.6005911
+        },
+        "distance": 358,
+        "hours": "5h30",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Anantapur-Hotels.d3000407298.Travel-Guide-Hotels",
+        "desc": "Found on the famous National Highway 44 - the longest running road of its kind across the north and south of India - its vital transport connections are in a way symbolic of just how far Anantapur has modernised since its former place as a strategic stronghold for the British Indian Army during WWII. Today, it boasts a bristling art scene, with its cuisine and love of sports also being vital to the local culture."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Guntur",
+        "location": {
+          "latitude": 16.3066525,
+          "longitude": 80.4365402
+        },
+        "distance": 256,
+        "hours": "5h11",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Guntur-Hotels.d3000406816.Travel-Guide-Hotels",
+        "desc": "Guntur is a city that is a simply marvellous choice for any kind of holiday visit. Why? Well, how many other locations are as well known for a variety of chilli as they are for a love of dance and theatre, as well as an incredible passion for sports ranging from swimming to volleyball? If there’s one thing that sums up the greatness of Guntur, it’s variety."
+      },
+      {
+
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Gulbarga",
+        "location": {
+          "latitude": 17.329731,
+          "longitude": 76.8342957
+        },
+        "distance": 222,
+        "hours": "4h40",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Gulbarga-Hotels.d6197689.Travel-Guide-Hotels",
+        "desc": "Gulbarga is one of the Sufi cities, thanks to it being the home of several vital places of religious importance. These include Buddha Vitar, Shor Gumbad and the incomparable Sharana Basaveshwara Temple, which for many is enough to pay Gulbarga a visit alone. However, there is more to see here, with the city also boasting a fascinating legacy in art, history and architecture."
+      }
+    ],
+    "max": [
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Badami",
+        "location": {
+          "latitude": 15.918622,
+          "longitude": 75.676082
+        },
+        "distance": 424,
+        "hours": "8h53",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Badami-Hotels.d6104911.Travel-Guide-Hotels",
+        "desc": "While there’s plenty of places throughout India that bring visitors from across the world, you can’t really find better than Badami’s prehistoric legacy, as seen through the dolmens found in its land. The past provides plenty of the attractions that make Badami so exciting to visit, from its cave temples to its iconic temples, which are joined by stunning natural beauty, like the breath-taking Kankaria Lake."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pattadakal",
+        "location": {
+          "latitude": 15.9488181,
+          "longitude": 75.8163521
+        },
+        "distance": 403,
+        "hours": "8h32",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Pattadakal-Hotels.d6104915.Travel-Guide-Hotels",
+        "desc": "Pattadakal is the city of temples with ten significant temples all dedicated to the Hindu God Lord Shiva. These temples date back between the 7th and 9th century, during the Chalukya dynasty, famous for its artistic and cultural prowess. Now a world heritage site, these age-old monuments are no less magnificent and awe-inspiring than when they were first built, making Pattadakal a must-see destination."
+      },
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Maredumilli",
+        "location": {
+          "latitude": 17.5983355,
+          "longitude": 81.71354749999999
+        },
+        "distance": 428,
+        "hours": "8h28",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Hyderabad.d6053329.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Rajahmundry-Hotels.d9685.Travel-Guide-Hotels",
+        "desc": "If your idea of a great vacation is to get away from the hustle and bustle of India’s often very busy streets and get back to something a little more down to earth, then the wonderful Maredumilli might be right up your street. This is an all-natural wonderland. Complete with luscious greens, epic waterfalls and scenic beauty, you won’t need much else."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "city": "Nagpur",
+    "location": {
+      "latitude": 21.1458004,
+      "longitude": 79.0881546
+    },
+    "average": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bhopal",
+        "location": {
+          "latitude": 23.2599333,
+          "longitude": 77.412615
+        },
+        "distance": 298,
+        "hours": "6h30",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bhopal-Hotels.d6130939.Travel-Guide-Hotels",
+        "desc": "The illustrious ‘city of lakes’ is certainly one to visit if you’re a nature lover. It more than lives up to its nickname and is also widely considered to be one the greenest cities in India. It’s also part of the recent Smart Cities Mission, meaning you can expect a great deal more development over the years. As for now, we’ll have to settle for terrific attractions like its sensational film and theatre festivals."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Jabalpur",
+        "location": {
+          "latitude": 23.181467,
+          "longitude": 79.9864071
+        },
+        "distance": 244,
+        "hours": "6h5",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Jabalpur-Hotels.d6130813.Travel-Guide-Hotels",
+        "desc": "There’s not much mystery surrounding the name of Jabalpur. It quite literally means rock (Jabel) city (pur), owing to its distinctive geography. However, Jabalpur is also a city of progress, making great strides to grow in all sectors. This also means that its tourism trade and what it has to offer visitors is growing too, with the art and cultural scene taking off alongside its more traditional attractions."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pachmarhi",
+        "location": {
+          "latitude": 22.4674463,
+          "longitude": 78.4345854
+        },
+        "distance": 162,
+        "hours": "5h8",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Pachmarhi-Hotels.d6126327.Travel-Guide-Hotels",
+        "desc": "Pachmarhi is often characterised by its spectacular and dramatic landscape. Hidden amongst the rugged sandstone and rich forestry are the ancient caves of Pandev and Jatashankar, and the turquoise waters of the Fairy Pool and bathing pools used by both locals and tourists. Despite Pachmarhi's varied attractions, it is still one of Central India's less frequented beauty spots, so visitors here can expect quiet and tranquillity."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chikhaldara",
+        "location": {
+          "latitude": 21.4030119,
+          "longitude": 77.3268121
+        },
+        "distance": 231,
+        "hours": "4h28",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Destinations-In-Maharashtra.d6049939-p3.Hotel-Destinations",
+        "desc": "Although Chikhaldara is very much a peaceful place to visit, there’s no doubting that there’s a certain fiery passion to the local culture that few others possess. Brimming with exotic animals and famous for its place within the Mahābhārata, there’s something a bit wild about Chikhaldara. This is also reflected in its most loved and famous attractions, such as the Wildlife Museum, Forest Garden and of course, the Melghat Tiger Reserve."
+      }
+    ],
+    "max": [
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Korba",
+        "location": {
+          "latitude": 22.3594501,
+          "longitude": 82.75005949999999
+        },
+        "distance": 489,
+        "hours": "10h42",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Destinations-In-Chhattisgarh.d6049926.Hotel-Destinations",
+        "desc": "Due to its great importance to the Indian economy, Korba is often called the Industrial capital of its home state of Chhattisgarh, hosting several important power plants and companies. As such, there’s plenty of jobs to be found and its local economy is doing quite well. However, one thing that isn’t talked about enough is what it has to offer visitors, such as the lovely family friendly Chatt Ezzouhour Park and the invigorating Chakreshwar Mahadev Temple."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bidar",
+        "location": {
+          "latitude": 17.9148799,
+          "longitude": 77.5046101
+        },
+        "distance": 496,
+        "hours": "9h54",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bidar-Hotels.d6197691.Travel-Guide-Hotels",
+        "desc": "Bidar is a fascinating city because it is one of two worlds. On one hand, you have its spellbinding history which gives the area its distinctive, unmistakable sense of culture and individuality. This is matched by its rapidly developing urbanised areas. This hilltop city found in the northern part of Karnataka features attractions such as the spectacular Mahmud Gawan Madrasa and vital religious sites like Gurudwara Nanak Jhira Sahib."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Indore",
+        "location": {
+          "latitude": 22.7195687,
+          "longitude": 75.8577258
+        },
+        "distance": 495,
+        "hours": "9h27",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Indore-Hotels.d1564.Travel-Guide-Hotels",
+        "desc": "Indore started to gain prominence many centuries ago as a trading hub between the juggernaut cities of Delhi and Deccan. In some ways, things haven’t changed that much. Indore is still vitally important to India’s economy, today being a powerhouse for its financial sector. And that wealth has led to a city that is as prosperous as it is fun to visit, with attractions ranging from parks, malls and zoos to temples and historic monuments."
+      },
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Maheshwar",
+        "location": {
+          "latitude": 22.1772853,
+          "longitude": 75.5829782
+        },
+        "distance": 475,
+        "hours": "8h59",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Maheshwar-Hotels.d6130825.Travel-Guide-Hotels",
+        "desc": "It is thought that the town of Maheshwar was built upon the ruins of the ancient city of Somvanshiya Sahastrarjun Kshatriya, a legendary capital at the time of King Kartavirya Arjuna. It is a town steeped in history, myth and folklore. It’s that which makes Maheshwar such a unique and fascinating place to visit, with its ambience bolstered by stunning temples and festivals, such as SahastrArjun Temple and Teej festival."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Sanchi, Madhya Pradesh",
+        "location": {
+          "latitude": 23.4873393,
+          "longitude": 77.74182379999999
+        },
+        "distance": 396,
+        "hours": "7h39",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Nagpur.d2512.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Sanchi-Hotels.d6130826.Travel-Guide-Hotels",
+        "desc": "Sanchi is a small village that sits in the beating heart of India. This unsuspecting village is subject to hordes of wanderlust travellers each year, all to marvel at the spectacular site of the Sanchi Stupar. Built to honour the Hindu God Lord Buddha in the 3rd century, this is the oldest brick building in India and now stands as a renowned UNESCO World Heritage site."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "city": "Ahmedabad",
+    "location": {
+      "latitude": 28.6139391,
+      "longitude": 77.20902120000005
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Vijay Nagar",
+        "location": {
+          "latitude": 20.0755689,
+          "longitude": 73.92605879999999
+        },
+        "distance": 165,
+        "hours": "3h12",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Hampi-Hotels.d6345163.Travel-Guide-Hotels",
+        "desc": "Whilst Vijaynagar has many ancient monuments, visitors can get a real taste for local life with a walk down one of its fresh fruit and veg markets. The crowded stalls of Vijaynagar market really come to life at the weekend making it the perfect place to try some of the local delicacies. The route from Ahmedabad takes its passengers on a scenic route through villages and countryside to this lively town."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Patan, Gujarat",
+        "location": {
+          "latitude": 23.8493246,
+          "longitude": 72.1266255
+        },
+        "distance": 127,
+        "hours": "2h32",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Patan-Hotels.d6197787.Travel-Guide-Hotels",
+        "desc": "Visitors to this incredible ancient fortified city will feel transported to a bygone era. Awash with monuments and ancient ruins, Pratan was founded in 745 AD by Vanraj Chavda, the most prominent king of the Chavda Kingdom. Amongst Pratan’s many attractions is the UNESCO listed Rani ki vav (the Queen’s stairwell). However, Patan’s charm isn’t just appreciated by history lovers; it is also a modern city, with more than enough restaurants, cafes and charisma to entertain everyone.  "
+      },
+      {
+
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Modhera ",
+        "location": {
+          "latitude": 23.5835819,
+          "longitude": 72.1401322
+        },
+        "distance": 97,
+        "hours": "2h2",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Modhera-Hotels.d3000406775.Travel-Guide-Hotels",
+        "desc": "Found on the banks of the river Pushpavati, Modhera is a historic town perhaps best known for its past during the Puranic age, when it was named Dharmaranya. It was here that the Hindu sacrificial ritual of Yajna was performed by Lord Rama to cleanse the sin of the killing of Ravana, the central figure of the Ancient Indian epic poem Ramayana. Today, this historical legacy lives on for visitors through its sun temple."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chimpaner-Pavagadh, Gujarat",
+        "location": {
+          "latitude": 22.4846248,
+          "longitude": 73.5324097
+        },
+        "distance": 146,
+        "hours": "2h27",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Champaner-Pavagadh-Archaeological-Park-Hotels.0-l553248621532739636-0.Travel-Guide-Filter-Hotels",
+        "desc": "Champaner-Pavagadh Archaeological Park has a lot going for it. Perhaps most significantly, it captures a vital time and place within the evolution of India: the transition between Hindu and Muslim culture between the 15th-16th centuries. This change is one that has made India what it is today, and this destination provides perhaps its best-preserved memories. This UNESCO heritage site has tons to see, with places of historical interest of pretty much every description."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Nalsarovar",
+        "location": {
+          "latitude": 22.8209477,
+          "longitude": 72.0571863
+        },
+        "distance": 69,
+        "hours": "1h44",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Nalsarovar-Hotels.d6351487.Travel-Guide-Hotels",
+        "desc": "This region of west India is a well-known wildlife and bird sanctuary. Visitors flock here, much like Nalsarovar's more regular inhabitants, for its rich, green environment, vast lake and deep lagoons. This luscious setting makes it the perfect habitat for flamingos, pelicans and other rare birds, and is a bird watcher's paradise. The migratory season for Nalsarovar begins in October, so the winter months are the best time to visit to enjoy the full experience!"
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Lothal",
+        "location": {
+          "latitude": 22.522715,
+          "longitude": 72.2487924
+        },
+        "distance": 78,
+        "hours": "1h39",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Lothal-Hotels.0-l6106774-0.Travel-Guide-Filter-Hotels",
+        "desc": "This UNESCO World Heritage Site nominee was once the scene of the southernmost part of the ancient Indus Valley civilisation, which is believed to have existed between 3300 - 1300 BCE. As such, it has become a must visit for lovers of history, with archaeological remains bringing together a picture of a time long since passed. In addition, there is also a museum, which offers a deeper insight and understanding of how things took place."
+      }
+    ],
+    "average": [
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Udaipur",
+        "location": {
+          "latitude": 24.585445,
+          "longitude": 73.712479
+        },
+        "distance": 257,
+        "hours": "4h49",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Udaipur-District-Hotels.d6052923.Travel-Guide-Hotels",
+        "desc": "Udaipur is a magical city that stands proudly in Rajasthan in western India. Dating back to 1559, when it was founded by Maharana Udai Singh, the entire former Mewar Kingdom capital is framed around the dazzling waters of Lake Pichola and other artificial lakes. Coupled with the rich flora of the Aravalli Hills, this gives Udaipur a romantic atmosphere that few other places in the country can match: a romance that is further enhanced by its captivating temples and opulent castles."
+      },
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mount Abu",
+        "location": {
+          "latitude": 24.5925909,
+          "longitude": 72.7156274
+        },
+        "distance": 222,
+        "hours": "4h35",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mount-Abu-Hotels.d6053622.Travel-Guide-Hotels",
+        "desc": "The spectacular Mount Abu is a much-loved hill station best known by visitors for its stunning climactic mountain peaks, dazzling rivers and lush evergreen forests. Both history and nature are two of the main reasons people come to visit the area, with attractions such as the epic Mount Abu Wildlife Sanctuary joining together with the hilltops’ mesmerising selection of Hindu temples to create an area of unique beauty."
+      }
+    ],
+    "max": [
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Maheshwar",
+        "location": {
+          "latitude": 22.1772853,
+          "longitude": 75.5829782
+        },
+        "distance": 402,
+        "hours": "7h30",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Maheshwar-Hotels.d6130825.Travel-Guide-Hotels",
+        "desc": "It is thought that the town of Maheshwar was built upon the ruins of the ancient city of Somvanshiya Sahastrarjun Kshatriya, a legendary capital at the time of King Kartavirya Arjuna. It is a town steeped in history, myth and folklore. It’s that which makes Maheshwar such a unique and fascinating place to visit, with its ambience bolstered by stunning temples and festivals, such as SahastrArjun Temple and Teej festival."
+      },
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Saputara",
+        "location": {
+          "latitude": 20.5785975,
+          "longitude": 73.75072759999999
+        },
+        "distance": 400,
+        "hours": "7h2",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Ahmedabad.d372.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Saputara-Hotels.d6267009.Travel-Guide-Hotels",
+        "desc": "With so many truly awe-inspiring hill stations throughout the nation of India, to say that one is considered to be the most popular is really an incredible achievement in its own right. So what exactly makes Saputara stand out from the competition? One look at its luscious greens and incomparable natural beauty should answer that question. These stunning sites are met with museums, gardens and a history that is well worth studying."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "city": "Trivandrum",
+    "location": {
+      "latitude": 8.5241391,
+      "longitude": 76.9366376
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kanyakumari",
+        "location": {
+          "latitude": 8.0883064,
+          "longitude": 77.5384507
+        },
+        "distance": 100,
+        "hours": "3h9",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kanyakumari-Hotels.d6126329.Travel-Guide-Hotels",
+        "desc": "Surrounded on almost all sides by the Laccadive Sea, it’s no surprise that for many, the image they have of the sun-kissed Kanyakumari is of its glistening waters stretching off into the horizon. It’s a sunny outlook for tourists too, with tons of things to do, like relaxing on any one of its several gorgeous beaches, checking out fascinating historical sites such as the Vattakottai Fort or visiting its holy temples, including the Bhagavathy Amman Temple."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kollam",
+        "location": {
+          "latitude": 8.8932118,
+          "longitude": 76.6141396
+        },
+        "distance": 65,
+        "hours": "2h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kollam-Hotels.d6048183.Travel-Guide-Hotels",
+        "desc": "This is a city that sure has come a long way since it was recorded historically as the ancient city of Qoilum, and then throughout its time as a thriving seaport during much of the last millennium. One thing hasn’t changed though and that’s the fact that business remains booming here. Kollam’s prosperity, alongside its history, is what makes it such an interesting place to visit."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Ponmudi Hills",
+        "location": {
+          "latitude": 8.7666347,
+          "longitude": 77.1099189
+        },
+        "distance": 57,
+        "hours": "1h52",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Ponmudi-Hotels.d6153737.Travel-Guide-Hotels",
+        "desc": "On leaving the bustling roads of the city, travellers making the journey to Ponmudi will be transported to a whole other world as they wind through the rich forest that covers these hills, filled the brim with rare plants and exotic wildlife. It's no wonder this beautiful area with spectacular scenery is becoming an ever-more popular tourist destination, being close to Trivandrum, it is a welcomed break within easy reach."
+      }
+    ],
+    "average": [
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kottur",
+        "location": {
+          "latitude": 14.8267047,
+          "longitude": 76.2218394
+        },
+        "distance": 252,
+        "hours": "6h18",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kozhikode-District-Hotels.d6053342.Travel-Guide-Hotels",
+        "desc": "The small village of Kottur may not be the most well-known and certainly isn’t one of the country’s most famous tourist destinations. However, it’s relative obscurity doesn’t mean it’s not worth your time: far from it. This is more of an undiscovered gem, a diamond in the rough if you will. Its stunning hills and selection of fascinating temples alone make this more than deserving of a visit."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Thiruchendur",
+        "location": {
+          "latitude": 8.4963081,
+          "longitude": 78.1250848
+        },
+        "distance": 189,
+        "hours": "4h39",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Tiruchendur-Hotels.d6259959.Travel-Guide-Hotels",
+        "desc": "Thiruchendur truly has a bit of everything for everyone. Beautiful white sand beaches, religiously significant temples, awe-inspiring caves and incredible forests. In the centre sits Thiruchendur Murugan Kovil, the intricately carved tower of which soars high above Thiruchendur."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kochi",
+        "location": {
+          "latitude": 9.9312328,
+          "longitude": 76.26730409999999
+        },
+        "distance": 199,
+        "hours": "4h23",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Cochin-Hotels.d6053337.Travel-Guide-Hotels",
+        "desc": "Once known as the ‘Queen of the Arabian Sea’, Kochi was ahead of its time in the spice trade and continues to be ahead of trends today. It’s still a centre for trade, although now the stalls have been replaced by steel in many instances, as Kochi has transformed itself into a modern economic juggernaut. This boom has brought even greater options for visitors, with attractions ranging from otherworldly backwaters to the majestic Mattancherry Palace."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Alappuzha/Alleppey",
+        "location": {
+          "latitude": 9.498066699999999,
+          "longitude": 76.3388484
+        },
+        "distance": 146,
+        "hours": "4h10",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Alappuzha-Hotels.d6049880.Travel-Guide-Hotels",
+        "desc": "The city of Alappuzha is something of an overachiever. It ranks incredibly highly in a number of areas, including education and cleanliness. It’s also a city that goes above and beyond in terms of attractions for visitors, with great destinations such as Krishna Temple, Alappuzha Beach, Mannarasala Temple, the International Coir Museum and more."
+      }
+    ],
+    "max": [
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kodaikanal",
+        "location": {
+          "latitude": 10.2381136,
+          "longitude": 77.4891822
+        },
+        "distance": 333,
+        "hours": "8h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kodaikanal-Hotels.d6125933.Travel-Guide-Hotels",
+        "desc": "A city found deep within luscious green forests which extend far into the distance, dropping into the horizon like a great green sea, Kodaikanal is a truly spectacular place to visit. Indeed, its natural assets are reason enough alone to pay ‘the gift of the forest’ a visit. However, there’s more to see here, including the Shembaganur Museum of Natural History and Kodaikanal Solar Observatory, alongside its other beauties."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Munnar",
+        "location": {
+          "latitude": 10.0889333,
+          "longitude": 77.05952479999999
+        },
+        "distance": 280,
+        "hours": "7h3",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Thiruvananthapuram-District.d6053345.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Munnar-Hotels.d6049881.Travel-Guide-Hotels",
+        "desc": "Found in the midst of the stunning eco-friendly paradise of the Western Ghats, Munnar is located in the centre of the Muthirapuzha, Nallathanni and Kundali rivers, from which it gets its name. It’s home to several endangered species, as well as some truly special examples of flora, making it a must see for nature lovers, as well as offering plenty of stunning parks, waterfalls, gardens and other stunning natural sights to enjoy."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "city": "Jaipur",
+    "location": {
+      "latitude": 26.9124336,
+      "longitude": 75.7872709
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mandawa",
+        "location": {
+          "latitude": 28.050017,
+          "longitude": 75.14870069999999
+        },
+        "distance": 171,
+        "hours": "3h7",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mandawa-Hotels.d6129747.Travel-Guide-Hotels",
+        "desc": "The unique look, atmosphere and culture of Mandawa owes a great deal of its individuality to its history. This is a fort town, transformed in the mid-18th century by the Rajput ruler of the area in order to protect its place as a vital outpost and place of trade. Today it’s crowning achievement is its astonishing contribution to the arts, with fabulous works to be found throughout the town."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Ranthambore",
+        "location": {
+          "latitude": 26.0173274,
+          "longitude": 76.5025742
+        },
+        "distance": 168,
+        "hours": "3h51",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Ranthambore-National-Park-Hotels.d6052912.Travel-Guide-Hotels",
+        "desc": "Ranthambore National Park should be on the bucket list of any wildlife enthusiast, being perhaps the best place in India to see tigers in their natural habitat. Exploring this vast nature reserve and increasing your chances of seeing its rare wildlife can be put down to timing. Many tour agencies offer packages with pre-planned routes or visitors can plan their own tours – just be wary that the park closes for 3 months of the year (July, August and September)."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Bharatpur",
+        "location": {
+          "latitude": 27.216981,
+          "longitude": 77.489515
+        },
+        "distance": 186,
+        "hours": "3h16",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Bharatpur-Hotels.d6053623.Travel-Guide-Hotels",
+        "desc": "The legendary city (and now municipal corporation) of Bharatpur is one which was at one time thought to be completely uninvadable and as such, it played a powerful role throughout the last millennium. Today, it’s a treasure trove for history buffs and tourists alike, thanks to it being situated within the ‘golden tourism triangle’ that attracts scores of people yearly."
+      },
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Alwar",
+        "location": {
+          "latitude": 27.5529907,
+          "longitude": 76.6345735
+        },
+        "distance": 162,
+        "hours": "3h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Alwar-Hotels.d6126223.Travel-Guide-Hotels",
+        "desc": "Nestled snugly between the better known Delhi in the north and Jaipur in the south, Alwar might not be the first region people think of when they look for places to visit in India’s National Capital Region. However, Alwar is a city not to be overlooked. It boasts a fascinating mixture of a unique local history with a great love of nature, which is best seen through Alwar’s many natural wonders and museums."
+      },
+      {
+        "id": 5,
+        "popular": 1,
+        "explore": 0,
+        "city": "Pushkar",
+        "location": {
+          "latitude": 26.489749,
+          "longitude": 74.5510856
+        },
+        "distance": 146,
+        "hours": "2h40",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Pushkar-Hotels.d6049992.Travel-Guide-Hotels",
+        "desc": "Near some of the oldest structures in India, Pushkar is a place of great cultural, historical and religious significance. It’s best known as a place of pilgrimage for followers of Hinduism and Sikhism. Its temples, including the iconic Brahma Temple, have been bringing people to town for centuries. There’s also the famous Pushkar Camel Fair and the recently rebuilt old Pushkar, which is said to be of equal spiritual importance."
+      }
+    ],
+    "average": [
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Delhi",
+        "location": {
+          "latitude": 28.7040592,
+          "longitude": 77.10249019999999
+        },
+        "distance": 272,
+        "hours": "4h43",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Delhi-Hotels.d180000.Travel-Guide-Hotels",
+        "desc": "When people imagine India, there’s a good chance that Delhi is what springs to mind. It’s a nerve centre for the country, embodying everything that makes it so interesting, vibrant and forward-thinking. There’s simply far too many things to see in the iconic city for us to list but whether you’re looking for the best hotels, great food, amazing attractions, stunning sights, a blossoming cultural scene or anything else, you’ll find it here."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mathura",
+        "location": {
+          "latitude": 27.4924134,
+          "longitude": 77.673673
+        },
+        "distance": 223,
+        "hours": "4h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mathura-Hotels.d6136964.Travel-Guide-Hotels",
+        "desc": "An economic hub in ancient times due to its close proximity to caravan routes that were so vitally important to trade, Mathura is today no less vital, although in a very different manner. It’s now a tourist hot spot, thanks to its many fascinating attractions, alongside its place as a holy city within Hinduism. It boats many places of interest, ranging from the likes of Vishram Ghat to the town of Baldeo."
+      },
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Agra",
+        "location": {
+          "latitude": 27.1766701,
+          "longitude": 78.00807449999999
+        },
+        "distance": 273,
+        "hours": "4h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Agra-District-Hotels.d6126825.Travel-Guide-Hotels",
+        "desc": "Agra is a must-visit Indian location with a climate that suits winter visits best. It offers an urban landscape filled with fantastic sights and experiences. The majesty of Agra’s past still lingers and is evident in the culture and surrounding architecture, including the famous inlaid marble and red sandstone buildings. Modern luxuries are also available to all visitors, delivering a wonderful balance of the classic and contemporary amongst the city’s beautiful settings."
+      }
+    ],
+    "max": [
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Mount Abu",
+        "location": {
+          "latitude": 24.5925909,
+          "longitude": 72.7156274
+        },
+        "distance": 494,
+        "hours": "7h59",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Jaipur-District.d6052917.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Mount-Abu-Hotels.d6053622.Travel-Guide-Hotels",
+        "desc": "The spectacular Mount Abu is a much-loved hill station best known by visitors for its stunning climactic mountain peaks, dazzling rivers and lush evergreen forests. Both history and nature are two of the main reasons people come to visit the area, with attractions such as the epic Mount Abu Wildlife Sanctuary joining together with the hilltops’ mesmerising selection of Hindu temples to create an area of unique beauty."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "city": "Lucknow",
+    "location": {
+      "latitude": 26.8466937,
+      "longitude": 80.946166
+    },
+    "min": [
+      {
+        "id": 1,
+        "popular": 1,
+        "explore": 0,
+        "city": "Shravasti",
+        "location": {
+          "latitude": 27.5977504,
+          "longitude": 81.9534815
+        },
+        "distance": 175,
+        "hours": "3h54",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Balrampur-Hotels.d6130439.Travel-Guide-Hotels",
+        "desc": "One of the most famous Buddhist pilgrimages in India, Shravasti is known for being the ancient city in which Buddha spent the majority of his monastic life. Within the ancient city walls, there are many sites that are of sacred significance to Buddhist pilgrims, and attract thousands of visitors each year. The cooler months between October and March offer the perfect opportunity to view the spectacular historic sites of Angulimala's stupa, Anathapindika's stupa, and a temple dedicated to a Jain Tirthankara."
+      },
+      {
+        "id": 2,
+        "popular": 1,
+        "explore": 0,
+        "city": "Naimisharanya",
+        "location": {
+          "latitude": 27.3575806,
+          "longitude": 80.48429279999999
+        },
+        "distance": 92,
+        "hours": "2h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Sitapur-Hotels.d3000410101.Travel-Guide-Hotels",
+        "desc": "Situated on the banks of the Gomati River, the sacred land of Naimisharanya is shrouded in urban mythology and ancient legend that continues to fascinate visitors today. A significant location for Hindu pilgrims, the many impressive temples and shrines make Naimisharanya an essential for those in search for a spiritual journey towards peace and serenity."
+      },
+      {
+        "id": 3,
+        "popular": 1,
+        "explore": 0,
+        "city": "Kanpur",
+        "location": {
+          "latitude": 26.449923,
+          "longitude": 80.3318736
+        },
+        "distance": 95,
+        "hours": "2h20",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Kanpur-Hotels.d8321.Travel-Guide-Hotels",
+        "desc": "Literally named after Karna, an all-conquering hero from an Indian epic, Kanpur might not be taking over the world, but it’s certainly taking over the hearts of many who come to visit. This is in no small part thanks to its fantastic and varied attractions, such as the awe-inspiring Allen Forest Zoo, the epic Green Park Stadium and of course, the action-packed Blue World Theme Park to name but a few."
+      }
+    ],
+    "average": [
+      {
+        "id": 4,
+        "popular": 1,
+        "explore": 0,
+        "city": "Khajuraho",
+        "location": {
+          "latitude": 24.8318452,
+          "longitude": 79.91985489999999
+        },
+        "distance": 308,
+        "hours": "6h53",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Khajuraho-Hotels.d6126217.Travel-Guide-Hotels",
+        "desc": "We’re not going to beat around the bush here. So famous is Khajuraho’s group of monuments that it is pretty much impossible to write about the area without mentioning them. The UNESCO World Heritage Site here and it’s incredible. However, there’s more to see here than just the spectacular monuments, including the amazing architecture, landmarks and more."
+      },
+      {
+        "id": 6,
+        "popular": 1,
+        "explore": 0,
+        "city": "Gwalior",
+        "location": {
+          "latitude": 26.2182871,
+          "longitude": 78.18283079999999
+        },
+        "distance": 341,
+        "hours": "5h50",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Gwalior-Hotels.d1407.Travel-Guide-Hotels",
+        "desc": "Gwalior is a city in the north of Madhya Pradesh and has been making a bigger and bigger splash with tourists throughout the world as the years go by. It’s easy to see why. It has a heady mix of stunning architecture backed by a fascinating history, as well as being one of the most important cities in India when it comes to contributions to the world of art and literature."
+      },
+      {
+        "id": 7,
+        "popular": 1,
+        "explore": 0,
+        "city": "Dudhwa National Park",
+        "location": {
+          "latitude": 28.4916763,
+          "longitude": 80.646525
+        },
+        "distance": 222,
+        "hours": "5h",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Dudhwa-National-Park-Hotels.0-l553248621532740404-0.Travel-Guide-Filter-Hotels",
+        "desc": "Part of the epic Dudhwa Tiger Reserve, a huge tourist attraction within Terai of Uttar Pradesh, Dudhwa National Park has plenty to offer in its own right. This is a treasure trove for nature lovers, with its stunning forests being home to one of India’s most revered eco-systems. This means it hosts some of the world’s most endangered species and plenty of sights and sounds you won’t find anywhere else."
+      },
+      {
+        "id": 8,
+        "popular": 1,
+        "explore": 0,
+        "city": "Chitrakoot",
+        "location": {
+          "latitude": 25.1093692,
+          "longitude": 81.0754657
+        },
+        "distance": 220,
+        "hours": "4h20",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Chitrakoot-Hotels.d3000378883.Travel-Guide-Hotels",
+        "desc": "Located in the Madhya Pradesh state, the town and nagar panchayat of Chitrakoot is one that holds great cultural and religious importance. Its unique examples of architecture include a selection of temples that appear in Hindu scriptures. In addition, Chitrakoot offers visitors a number of stunning natural attractions, including Ramghat, Sphatic Shila and the sacred caves at Pampapur."
+      },
+      {
+        "id": 9,
+        "popular": 1,
+        "explore": 0,
+        "city": "Agra",
+        "location": {
+          "latitude": 27.1766701,
+          "longitude": 78.00807449999999
+        },
+        "distance": 336,
+        "hours": "4h1",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "ttps://www.expedia.co.in/Agra-District-Hotels.d6126825.Travel-Guide-Hotels",
+        "desc": "Agra is a must-visit Indian location with a climate that suits winter visits best. It offers an urban landscape filled with fantastic sights and experiences. The majesty of Agra’s past still lingers and is evident in the culture and surrounding architecture, including the famous inlaid marble and red sandstone buildings. Modern luxuries are also available to all visitors, delivering a wonderful balance of the classic and contemporary amongst the city’s beautiful settings."
+      }
+    ],
+    "max": [
+      {
+        "id": 10,
+        "popular": 1,
+        "explore": 0,
+        "city": "Nainital",
+        "location": {
+          "latitude": 29.3803039,
+          "longitude": 79.4635658
+        },
+        "distance": 388,
+        "hours": "7h59",
+        "car": "https://www.expedia.co.in/Compare-Cheap-Car-Hire-In-Lucknow.d2091.Car-Hire-Guide",
+        "hotel": "https://www.expedia.co.in/Nainital-Hotels.d6056286.Travel-Guide-Hotels",
+        "desc": "Found within a luscious valley with brilliant waves of sensational greenery, this all-natural wonderland is topped off by the jewel in its crown: its beautiful mango shaped lake. However, Nainital is not all good looks and no substance, with plenty of attractions including Pt.GB. Pant High Altitude Zoo and the Tibetan Market."
       }
     ]
   }
