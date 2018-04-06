@@ -19,7 +19,6 @@ export class AppComponent implements OnInit, OnDestroy {
   public centerMap: LocationModel;
   public markers: MarkerModel[];
   public cities: CityModel[] = [];
-  public zoom: number;
 
   public rotate: boolean;
 
@@ -57,8 +56,6 @@ export class AppComponent implements OnInit, OnDestroy {
       latitude: 28.6139391,
       longitude: 77.20902120000005
     });
-
-    this.zoom = 8;
 
     this._citiesService.onChangeStartCity.subscribe(
       () => {
@@ -101,6 +98,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private setMarkers() {
+    console.log("setMarkes");
     this._citiesService.onChangeCities.subscribe((data) => {
       this.cities = data.cities;
       this.markers = this.cities.map(el => new MarkerModel(

@@ -283,9 +283,21 @@ body > .ui-select-bootstrap.open {
 @media screen and (min-width: 1920px){
     .ui-select-match > .btn {
         height: 76px;
-        padding-top: 24px;
+        padding-top: 19px;
     }
     .form-control.ui-select-search{
         height: 76px;
+    }
+    .ui-select-placeholder{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 425px){
+    .ui-select-match > .btn {
+        padding-top: 5px;
+        height: 37px;
+    }
+    .form-control.ui-select-search{
+        height: 37px;
     }
 }

@@ -141,8 +141,8 @@
   display: inline-block;
   width: 232px;
   height: 100%;
-  padding-top: 29px;
-  padding-left: 48px;
+  padding-top: 15px;
+  padding-left: 24px;
   font-size: 30px;
   color: white;
   background-color: rgba(0, 53, 95, 0.7);
@@ -424,7 +424,8 @@
   }
   .destinations-info{
     width: 194px;
-    padding-top: 29px;
+    padding-top: 20px;
+    padding-left: 25px;
     font-size: 15px;
   }
   .destinations-distance{
@@ -432,5 +433,15 @@
   }
   .destinations-select-start{
     margin-bottom: 10px;
+  }
+  .destinations-title-popular .destinations-title-name:before,
+  .destinations-title-explore .destinations-title-name:before {
+    top: 4px;
+    left: 19px;
+    height: 30px;
+    width: 30px;
+  }
+  .destinations-title-explore .destinations-title-name:before{
+    top: 6px;
   }
 }
