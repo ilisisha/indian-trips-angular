@@ -1,0 +1,1932 @@
+{
+  "distances": [
+    {
+      "city": "New Delhi",
+      "info": {
+        "location": {
+          "lat": 28.6139391,
+          "lng": 77.20902120000005
+        },
+        "max": [
+          {
+            "city": "Chopta",
+            "location": {
+              "lat": 30.3461908,
+              "lng": 79.04850590000001
+            },
+            "distance": 402,
+            "hours": "11h"
+          },
+          {
+            "city": "Shimla",
+            "location": {
+              "lat": 31.1048145,
+              "lng": 77.17340330000002
+            },
+            "distance": 358,
+            "hours": "8h4"
+          },
+          {
+            "city": "Amritsar",
+            "location": {
+              "lat": 31.6339793,
+              "lng": 74.8722642
+            },
+            "distance": 466,
+            "hours": "7h52"
+          },
+          {
+            "city": "Pushkar",
+            "location": {
+              "lat": 26.489749,
+              "lng": 74.5510856
+            },
+            "distance": 404,
+            "hours": "7h18"
+          },
+          {
+            "city": "Mussoorie",
+            "location": {
+              "lat": 30.4599099,
+              "lng": 78.06639779999999
+            },
+            "distance": 290,
+            "hours": "7h15"
+          },
+          {
+            "city": "Rishikesh",
+            "location": {
+              "lat": 30.0869281,
+              "lng": 78.2676116
+            },
+            "distance": 234,
+            "hours": "6h39"
+          }
+        ],
+        "average": [
+          {
+            "city": "Nainital",
+            "location": {
+              "lat": 29.3803039,
+              "lng": 79.4635658
+            },
+            "distance": 290,
+            "hours": "6h33"
+          },
+          {
+            "city": "Jaipur",
+            "location": {
+              "lat": 26.9124336,
+              "lng": 75.7872709
+            },
+            "distance": 261,
+            "hours": "5h7"
+          }
+        ],
+        "min": [
+          {
+            "city": "Bharatpur Bird Sanctuary",
+            "location": {
+              "lat": 27.159269,
+              "lng": 77.5231999
+            },
+            "distance": 201,
+            "hours": "3h37"
+          },
+          {
+            "city": "Alwar",
+            "location": {
+              "lat": 27.5529907,
+              "lng": 76.6345735
+            },
+            "distance": 153,
+            "hours": "3h24"
+          },
+          {
+            "city": "Neemrana (In Alwar District)",
+            "location": {
+              "lat": 27.9854076,
+              "lng": 76.3827368
+            },
+            "distance": 153,
+            "hours": "3h20"
+          },
+          {
+            "city": "Agra",
+            "location": {
+              "lat": 27.1766701,
+              "lng": 78.00807449999999
+            },
+            "distance": 219,
+            "hours": "3h15"
+          },
+          {
+            "city": "Manesar",
+            "location": {
+              "lat": 28.3542852,
+              "lng": 76.9398195
+            },
+            "distance": 43,
+            "hours": "1h19"
+          },
+          {
+            "city": "Vrindavan",
+            "location": {
+              "lat": 27.5650088,
+              "lng": 77.6593394
+            },
+            "distance": 165,
+            "hours": "2h32"
+          },
+          {
+            "city": "Fort Unchagaon",
+            "location": {
+              "lat": 28.4884354,
+              "lng": 78.1522662
+            },
+            "distance": 124,
+            "hours": "3h1"
+          },
+          {
+            "city": "Kuchesar Mud Fort",
+            "location": {
+              "lat": 28.6843522,
+              "lng": 77.9407722
+            },
+            "distance": 85,
+            "hours": "2h25"
+          },
+          {
+            "city": "Murthal",
+            "location": {
+              "lat": 29.0301118,
+              "lng": 77.070837
+            },
+            "distance": 59,
+            "hours": "1h41"
+          },
+          {
+            "city": "Damdama Lake",
+            "location": {
+              "lat": 28.3040418,
+              "lng": 77.1282023
+            },
+            "distance": 46,
+            "hours": "1h40"
+          },
+          {
+            "city": "Nuh",
+            "location": {
+              "lat": 28.1023894,
+              "lng": 76.99310740000001
+            },
+            "distance": 73,
+            "hours": "2h9"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Goa",
+      "info": {
+        "location": {
+          "lat": 15.61510135,
+          "lng": 74.087677
+        },
+        "min": [
+          {
+            "city": "Yellapur",
+            "location": {
+              "lat": 14.9643112,
+              "lng": 74.71207679999999
+            },
+            "distance": 152,
+            "hours": "3h18"
+          },
+          {
+            "city": "Hubli",
+            "location": {
+              "lat": 15.3647083,
+              "lng": 75.1239547
+            },
+            "distance": 152,
+            "hours": "3h21"
+          },
+          {
+            "city": "Devbagh",
+            "location": {
+              "lat": 14.8452732,
+              "lng": 74.1159552
+            },
+            "distance": 83,
+            "hours": "2h6"
+          },
+          {
+            "city": "Dandeli",
+            "location": {
+              "lat": 15.2496775,
+              "lng": 74.6173738
+            },
+            "distance": 99,
+            "hours": "2h24"
+          },
+          {
+            "city": "Bhatkal",
+            "location": {
+              "lat": 13.9977623,
+              "lng": 74.54046939999999
+            },
+            "distance": 221,
+            "hours": "3h50"
+          },
+          {
+            "city": "Gorkarna",
+            "location": {
+              "lat": 14.5478586,
+              "lng": 74.31884099999999
+            },
+            "distance": 132,
+            "hours": "2h25"
+          },
+          {
+            "city": "Sirsi",
+            "location": {
+              "lat": 14.6170943,
+              "lng": 74.8448648
+            },
+            "distance": 201,
+            "hours": "4h13"
+          },
+          {
+            "city": "Belgaum",
+            "location": {
+              "lat": 15.8496953,
+              "lng": 74.4976741
+            },
+            "distance": 103,
+            "hours": "2h30"
+          },
+          {
+            "city": "Amboli",
+            "location": {
+              "lat": 15.9647156,
+              "lng": 74.0035709
+            },
+            "distance": 119,
+            "hours": "3h13"
+          },
+          {
+            "city": "Sindhudurg",
+            "location": {
+              "lat": 16.3492193,
+              "lng": 73.55941279999999
+            },
+            "distance": 122,
+            "hours": "2h10"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Kolkata",
+      "info": {
+        "location": {
+          "lat": 22.572646,
+          "lng": 88.363895
+        },
+        "max": [
+          {
+            "city": "Bhubaneswar",
+            "location": {
+              "lat": 20.2960587,
+              "lng": 85.8245398
+            },
+            "distance": 441,
+            "hours": "7h52"
+          },
+          {
+            "city": "Hazaribagh",
+            "location": {
+              "lat": 23.9966213,
+              "lng": 85.36910680000001
+            },
+            "distance": 390,
+            "hours": "7h38"
+          }
+        ],
+        "average": [
+          {
+            "city": "Jamshedpur",
+            "location": {
+              "lat": 22.8045665,
+              "lng": 86.2028754
+            },
+            "distance": 287,
+            "hours": "6h11"
+          },
+          {
+            "city": "Chandipur",
+            "location": {
+              "lat": 21.4398608,
+              "lng": 87.0149438
+            },
+            "distance": 257,
+            "hours": "4h54"
+          },
+          {
+            "city": "Bankura",
+            "location": {
+              "lat": 23.164543,
+              "lng": 87.0624261
+            },
+            "distance": 212,
+            "hours": "4h26"
+          },
+          {
+            "city": " Mandarmani",
+            "location": {
+              "lat": 21.6681435,
+              "lng": 87.70248169999999
+            },
+            "distance": 171,
+            "hours": "4h17"
+          }
+        ],
+        "min": [
+          {
+            "city": "Tarakeswar",
+            "location": {
+              "lat": 22.8786554,
+              "lng": 88.01429399999999
+            },
+            "distance": 60,
+            "hours": "1h53"
+          },
+
+          {
+            "city": "Santiniketan",
+            "location": {
+              "lat": 23.6776471,
+              "lng": 87.6852323
+            },
+            "distance": 164,
+            "hours": "3h28"
+          },
+          {
+            "city": "Mayapur",
+            "location": {
+              "lat": 23.4232013,
+              "lng": 88.38826399999999
+            },
+            "distance": 129,
+            "hours": "3h44"
+          },
+          {
+            "city": "Bishnupur",
+            "location": {
+              "lat": 23.0678795,
+              "lng": 87.3165222
+            },
+            "distance": 139,
+            "hours": "3h56"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Bangalore",
+      "info": {
+        "location": {
+          "lat": 12.9715987,
+          "lng": 77.5945627
+        },
+        "max": [
+          {
+            "city": "Bekal",
+            "location": {
+              "lat": 12.4203532,
+              "lng": 75.0231457
+            },
+            "distance": 378,
+            "hours": "7h38"
+          },
+          {
+            "city": "Thalassery",
+            "location": {
+              "lat": 11.7532878,
+              "lng": 75.4928777
+            },
+            "distance": 326,
+            "hours": "7h13"
+          },
+          {
+            "city": "Chettinad",
+            "location": {
+              "lat": 43.7417375,
+              "lng": -79.2269196
+            },
+            "distance": 340,
+            "hours": "7h40"
+          }
+        ],
+        "average": [
+          {
+            "city": "Kalpetta",
+            "location": {
+              "lat": 11.6103389,
+              "lng": 76.0828128
+            },
+            "distance": 283,
+            "hours": "5h46"
+          },
+          {
+            "city": "Chikmagalur",
+            "location": {
+              "lat": 13.315258,
+              "lng": 75.7754018
+            },
+            "distance": 244,
+            "hours": "4h12"
+          }
+        ],
+        "min": [
+          {
+            "city": "Yelagiri",
+            "location": {
+              "lat": 12.5795813,
+              "lng": 78.6398737
+            },
+            "distance": 158,
+            "hours": "3h16"
+          },
+          {
+            "city": "Mysore",
+            "location": {
+              "lat": 12.2958104,
+              "lng": 76.6393805
+            },
+            "distance": 143,
+            "hours": "2h50"
+          },
+          {
+            "city": "Puttaparthi",
+            "location": {
+              "lat": 14.1669963,
+              "lng": 77.8091496
+            },
+            "distance": 154,
+            "hours": "2h51"
+          },
+          {
+            "city": "Bheemeshwari",
+            "location": {
+              "lat": 12.3122006,
+              "lng": 77.274091
+            },
+            "distance": 105,
+            "hours": "2h39"
+          },
+          {
+            "city": "Srirangapatna",
+            "location": {
+              "lat": 12.4215561,
+              "lng": 76.6931273
+            },
+            "distance": 125,
+            "hours": "2h42"
+          },
+          {
+            "city": "Sravanabelagola",
+            "location": {
+              "lat": 12.8563247,
+              "lng": 76.479854
+            },
+            "distance": 144,
+            "hours": "2h36"
+          },
+          {
+            "city": "Hassan",
+            "location": {
+              "lat": 13.0752578,
+              "lng": 76.17837390000001
+            },
+            "distance": 185,
+            "hours": "3h8"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Pune",
+      "info": {
+        "location": {
+          "lat": 18.5204303,
+          "lng": 73.8567437
+        },
+        "max":[
+          {
+            "city": " Bidar",
+            "location": {
+              "lat": 17.9148799,
+              "lng": 77.5046101
+            },
+            "distance": 442,
+            "hours": "8h18"
+          },
+          {
+            "city": "Goa",
+            "location": {
+              "lat": 15.2993265,
+              "lng": 74.12399599999999
+            },
+            "distance": 460,
+            "hours": "7h53"
+          },
+          {
+            "city": "Tarkarli",
+            "location": {
+              "lat": 16.0370463,
+              "lng": 73.4847782
+            },
+            "distance": 391,
+            "hours": "7h44"
+          }
+        ],
+        "average":[
+          {
+            "city": "Bijapur",
+            "location": {
+              "lat": 16.8301708,
+              "lng": 75.710031
+            },
+            "distance": 345,
+            "hours": "6h18"
+          },
+          {
+            "city": "Igatpuri",
+            "location": {
+              "lat": 19.6973156,
+              "lng": 73.56093609999999
+            },
+            "distance": 239,
+            "hours": "4h36"
+          },
+          {
+            "city": " Bhandardara",
+            "location": {
+              "lat": 19.5375291,
+              "lng": 73.7694815
+            },
+            "distance": 162,
+            "hours": "4h22"
+          }
+        ],
+        "min": [
+          {
+            "city": " Alibaug",
+            "location": {
+              "lat": 18.6553938,
+              "lng": 72.8670819
+            },
+            "distance": 143,
+            "hours": "3h26"
+          },
+          {
+            "city": "Malshej Ghat",
+            "location": {
+              "lat": 19.340625,
+              "lng": 73.774552
+            },
+            "distance": 120,
+            "hours": "3h18"
+          },
+          {
+            "city": "Bhimashankar",
+            "location": {
+              "lat": 19.0719691,
+              "lng": 73.5356936
+            },
+            "distance": 110,
+            "hours": "2h55"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Mumbai",
+      "info": {
+        "location": {
+          "lat": 19.0759837,
+          "lng": 72.8776559
+        },
+        "max": [
+          {
+            "city": "Ganapatipule",
+            "location": {
+              "lat": 17.1488663,
+              "lng": 73.2726946
+            },
+            "distance": 324,
+            "hours": "7h26"
+          }
+        ],
+        "average": [
+          {
+            "city": "Aurangabad",
+            "location": {
+              "lat": 19.8761653,
+              "lng": 75.3433139
+            },
+            "distance": 348,
+            "hours": "6h55"
+          },
+          {
+            "city": "Sangli",
+            "location": {
+              "lat": 16.8523973,
+              "lng": 74.5814773
+            },
+            "distance": 381,
+            "hours": "6h36"
+          },
+          {
+            "city": "Saputara",
+            "location": {
+              "lat": 20.5785975,
+              "lng": 73.75072759999999
+            },
+            "distance": 246,
+            "hours": "5h7"
+          }
+        ],
+        "min": [
+          {
+            "city": "Murud Janjira",
+            "location": {
+              "lat": 18.2999036,
+              "lng": 72.9644331
+            },
+            "distance": 152,
+            "hours": "3h57"
+          },
+          {
+            "city": "Bhandardara",
+            "location": {
+              "lat": 19.5375291,
+              "lng": 73.7694815
+            },
+            "distance": 164,
+            "hours": "3h33"
+          },
+          {
+            "city": "Silvassa",
+            "location": {
+              "lat": 20.2762659,
+              "lng": 73.0083061
+            },
+            "distance": 171,
+            "hours": "3h29"
+          },
+          {
+            "city": "Trimbakeshwar",
+            "location": {
+              "lat": 19.9321538,
+              "lng": 73.53063399999999
+            },
+            "distance": 193,
+            "hours": "3h25"
+          },
+          {
+            "city": "Nashik",
+            "location": {
+              "lat": 19.9974533,
+              "lng": 73.78980229999999
+            },
+            "distance": 167,
+            "hours": "3h13"
+          },
+          {
+            "city": "Igatpuri",
+            "location": {
+              "lat": 19.6973156,
+              "lng": 73.56093609999999
+            },
+            "distance": 121,
+            "hours": "2h13"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Udaipur",
+      "info": {
+        "location": {
+          "lat": 24.585445,
+          "lng": 73.712479
+        },
+        "max": [
+          {
+            "city": "Mandawa",
+            "location": {
+              "lat": 28.050017,
+              "lng": 75.14870069999999
+            },
+            "distance": 499,
+            "hours": "8h40"
+          },
+          {
+            "city": "Maheshwar",
+            "location": {
+              "lat": 22.1772853,
+              "lng": 75.5829782
+            },
+            "distance": 440,
+            "hours": "7h46"
+          },
+          {
+            "city": "Jaipur",
+            "location": {
+              "lat": 26.9124336,
+              "lng": 75.7872709
+            },
+            "distance": 393,
+            "hours": "6h30"
+          }
+        ],
+        "average": [
+          {
+            "city": "Pushkar",
+            "location": {
+              "lat": 26.489749,
+              "lng": 74.5510856
+            },
+            "distance": 278,
+            "hours": "5h2"
+          },
+          {
+            "city": "Jodhpur",
+            "location": {
+              "lat": 26.2389469,
+              "lng": 73.02430939999999
+            },
+            "distance": 259,
+            "hours": "4h59"
+          },
+          {
+            "city": "Modhera",
+            "location": {
+              "lat": 23.5835819,
+              "lng": 72.1401322
+            },
+            "distance": 294,
+            "hours": "4h56"
+          },
+          {
+            "city": "Ahmedabad",
+            "location": {
+              "lat": 23.022505,
+              "lng": 72.5713621
+            },
+            "distance": 264,
+            "hours": "4h38"
+          },
+          {
+            "city": "Kota",
+            "location": {
+              "lat": 44.0668431,
+              "lng": -103.2502728
+            },
+            "distance": 285,
+            "hours": "4h36"
+          }
+        ],
+        "min": [
+          {
+            "city": "Chittorgarh",
+            "location": {
+              "lat": 24.8887435,
+              "lng": 74.6269216
+            },
+            "distance": 114,
+            "hours": "2h9"
+          },
+          {
+            "city": "Mount Abu",
+            "location": {
+              "lat": 24.5925909,
+              "lng": 72.7156274
+            },
+            "distance": 180,
+            "hours": "2h58"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Chennai",
+      "info": {
+        "location": {
+          "lat": 13.0826802,
+          "lng": 80.2707184
+        },
+        "max": [
+          {
+            "city": "Mysore",
+            "location": {
+              "lat": 12.2958104,
+              "lng": 76.6393805
+            },
+            "distance": 474,
+            "hours": "8h"
+          },
+          {
+            "city": "Nandi Hills",
+            "location": {
+              "lat": 13.370154,
+              "lng": 77.68345510000002
+            },
+            "distance": 346,
+            "hours": "7h36"
+          }
+        ],
+        "average": [
+          {
+            "city": "Pudukkottai",
+            "location": {
+              "lat": 10.379663,
+              "lng": 78.8208454
+            },
+            "distance": 382,
+            "hours": "6h49"
+          },
+          {
+            "city": "Hogenakkal",
+            "location": {
+              "lat": 12.116049,
+              "lng": 77.7774286
+            },
+            "distance": 335,
+            "hours": "6h20"
+          },
+          {
+            "city": " Bangalore",
+            "location": {
+              "lat": 12.9715987,
+              "lng": 77.5945627
+            },
+            "distance": 347,
+            "hours": "6h20"
+          },
+          {
+            "city": " Ramnagaram",
+            "location": {
+              "lat": 12.7094487,
+              "lng": 77.2807423
+            },
+            "distance": 394,
+            "hours": "6h10"
+          }
+        ],
+        "min": [
+          {
+            "city": "Chittor",
+            "location": {
+              "lat": 24.8887435,
+              "lng": 74.6269216
+            },
+            "distance": 156,
+            "hours": "2h40"
+          },
+          {
+            "city": "Pondicherry",
+            "location": {
+              "lat": 11.9138598,
+              "lng": 79.8144722
+            },
+            "distance": 150,
+            "hours": "2h20"
+          },
+          {
+            "city": "Mahabalipuram",
+            "location": {
+              "lat": 12.626927,
+              "lng": 80.1927109
+            },
+            "distance": 56,
+            "hours": "1h52"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Ranchi",
+      "info": {
+        "location": {
+          "lat": 23.3440997,
+          "lng": 85.309562
+        },
+        "max": [
+          {
+            "city": "Raichak",
+            "location": {
+              "lat": 22.2186797,
+              "lng": 88.12181710000002
+            },
+            "distance": 390,
+            "hours": "9h43"
+          },
+          {
+            "city": "Patna",
+            "location": {
+              "lat": 25.5940947,
+              "lng": 85.1375645
+            },
+            "distance": 332,
+            "hours": "7h47"
+          },
+          {
+            "city": "Shantiniketan",
+            "location": {
+              "lat": 28.7812783,
+              "lng": -81.75575839999999
+            },
+            "distance": 313,
+            "hours": "7h"
+          }
+        ],
+        "average": [
+          {
+            "city": "Nalanda",
+            "location": {
+              "lat": 25.1240603,
+              "lng": 85.45947489999999
+            },
+            "distance": 257,
+            "hours": "6h31"
+          },
+          {
+            "city": "Rajgir",
+            "location": {
+              "lat": 25.0172573,
+              "lng": 85.4161642
+            },
+            "distance": 242,
+            "hours": "6h16"
+          },
+          {
+            "city": "Gaya",
+            "location": {
+              "lat": 24.7913957,
+              "lng": 85.0002336
+            },
+            "distance": 225,
+            "hours": "5h4"
+          },
+          {
+            "city": "Bodhgaya",
+            "location": {
+              "lat": 24.6961343,
+              "lng": 84.9869547
+            },
+            "distance": 221,
+            "hours": "4h58"
+          },
+          {
+            "city": "Bankura",
+            "location": {
+              "lat": 23.164543,
+              "lng": 87.0624261
+            },
+            "distance": 209,
+            "hours": "4h52"
+          }
+        ],
+        "min": [
+          {
+            "city": "Mccluskieganj",
+            "location": {
+              "lat": 23.6498584,
+              "lng": 84.9440346
+            },
+            "distance": 64,
+            "hours": "1h47"
+          },
+          {
+            "city": "Ramgarh",
+            "location": {
+              "lat": 23.6523678,
+              "lng": 85.56121
+            },
+            "distance": 49,
+            "hours": "1h26"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Bhubaneshwar",
+      "info": {
+        "location": {
+          "lat": 20.2960587,
+          "lng": 85.8245398
+        },
+        "max":[
+          {
+            "city": "Araku Valley",
+            "location": {
+              "lat": 18.3273486,
+              "lng": 82.8775218
+            },
+            "distance": 478,
+            "hours": "9h20"
+          },
+          {
+            "city": "Kolkata",
+            "location": {
+              "lat": 22.572646,
+              "lng": 88.36389500000001
+            },
+            "distance": 441,
+            "hours": "8h6"
+          },
+          {
+            "city": "Jamshedpur",
+            "location": {
+              "lat": 22.8045665,
+              "lng": 86.2028754
+            },
+            "distance": 396,
+            "hours": "7h30"
+          }
+        ],
+        "average": [
+          {
+            "city": "Mandarmani",
+            "location": {
+              "lat": 21.6681435,
+              "lng": 87.70248169999999
+            },
+            "distance": 319,
+            "hours": "6h44"
+          },
+          {
+            "city": "Raichak",
+            "location": {
+              "lat": 22.2186797,
+              "lng": 88.12181710000002
+            },
+            "distance": 429,
+            "hours": "6h30"
+          },
+          {
+            "city": "Mandarmani",
+            "location": {
+              "lat": 21.6681435,
+              "lng": 87.70248169999999
+            },
+            "distance": 315,
+            "hours": "5h"
+          },
+          {
+            "city": "Chandipur",
+            "location": {
+              "lat": 21.4398608,
+              "lng": 87.0149438
+            },
+            "distance": 207,
+            "hours": "4h10"
+          }
+        ],
+        "min": [
+          {
+            "city": "Balasore",
+            "location": {
+              "lat": 21.4869337,
+              "lng": 86.9246005
+            },
+            "distance": 196,
+            "hours": "3h37"
+          },
+          {
+            "city": "Konark",
+            "location": {
+              "lat": 19.8920686,
+              "lng": 86.091184
+            },
+            "distance": 71,
+            "hours": "1h50"
+          },
+          {
+            "city": "Puri",
+            "location": {
+              "lat": 19.8133822,
+              "lng": 85.8314655
+            },
+            "distance": 67,
+            "hours": "1h25"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Patna",
+      "info": {
+        "location": {
+          "lat": 25.5940947,
+          "lng": 85.1375645
+        },
+        "max": [
+          {
+            "city": "Jonha Falls",
+            "location": {
+              "lat": 23.3582131,
+              "lng": 85.61157299999999
+            },
+            "distance": 345,
+            "hours": "8h36"
+          },
+          {
+            "city": "Ranchi",
+            "location": {
+              "lat": 23.3440997,
+              "lng": 85.309562
+            },
+            "distance": 328,
+            "hours": "8h15"
+          }
+        ],
+        "average": [
+          {
+            "city": "Chittorgarh",
+            "location": {
+              "lat": 24.8887435,
+              "lng": 74.6269216
+            },
+            "distance": 368,
+            "hours": "6h"
+          },
+          {
+            "city": "Bodhgaya",
+            "location": {
+              "lat": 24.6961343,
+              "lng": 84.9869547
+            },
+            "distance": 215,
+            "hours": "4h54"
+          },
+          {
+            "city": "Varanasi",
+            "location": {
+              "lat": 25.3176452,
+              "lng": 82.9739144
+            },
+            "distance": 240,
+            "hours": "4h50"
+          }
+        ],
+        "max": [
+          {
+            "city": "East Champaran",
+            "location": {
+              "lat": 26.6098139,
+              "lng": 84.8567932
+            },
+            "distance": 160,
+            "hours": "3h51"
+          },
+          {
+            "city": "Darbhanga",
+            "location": {
+              "lat": 26.111868,
+              "lng": 85.89600399999999
+            },
+            "distance": 144,
+            "hours": "3h27"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Hyderabad",
+      "info": {
+        "location": {
+          "lat": 17.385044,
+          "lng": 78.486671
+        },
+        "max": [
+          {
+            "city": "Badami",
+            "location": {
+              "lat": 15.918622,
+              "lng": 75.676082
+            },
+            "distance": 424,
+            "hours": "8h53"
+          },
+          {
+            "city": "Pattadakal",
+            "location": {
+              "lat": 15.9488181,
+              "lng": 75.8163521
+            },
+            "distance": 403,
+            "hours": "8h32"
+          },
+          {
+            "city": "Maredumilli",
+            "location": {
+              "lat": 17.5983355,
+              "lng": 81.71354749999999
+            },
+            "distance": 428,
+            "hours": "8h28"
+          }
+        ],
+        "average": [
+          {
+            "city": "Eluru",
+            "location": {
+              "lat": 16.7106604,
+              "lng": 81.0952431
+            },
+            "distance": 331,
+            "hours": "5h56"
+          },
+          {
+            "city": "Latur",
+            "location": {
+              "lat": 18.4087934,
+              "lng": 76.5603828
+            },
+            "distance": 283,
+            "hours": "5h38"
+          },
+          {
+            "city": "Anantapur",
+            "location": {
+              "lat": 14.6818877,
+              "lng": 77.6005911
+            },
+            "distance": 358,
+            "hours": "5h30"
+          },
+          {
+            "city": "Guntur",
+            "location": {
+              "lat": 16.3066525,
+              "lng": 80.4365402
+            },
+            "distance": 256,
+            "hours": "5h11"
+          },
+          {
+            "city": "Gulbarga",
+            "location": {
+              "lat": 17.329731,
+              "lng": 76.8342957
+            },
+            "distance": 222,
+            "hours": "4h40"
+          }
+        ],
+        "min": [
+          {
+            "city": "Kurnool",
+            "location": {
+              "lat": 15.8281257,
+              "lng": 78.0372792
+            },
+            "distance": 213,
+            "hours": "3h34"
+          },
+          {
+            "city": "Bidar",
+            "location": {
+              "lat": 17.9148799,
+              "lng": 77.5046101
+            },
+            "distance": 153,
+            "hours": "3h23"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Nagpur",
+      "info": {
+        "location": {
+          "lat": 21.1458004,
+          "lng": 79.0881546
+        },
+        "max": [
+          {
+            "city": "Korba",
+            "location": {
+              "lat": 22.3594501,
+              "lng": 82.75005949999999
+            },
+            "distance": 489,
+            "hours": "10h42"
+          },
+          {
+            "city": "Bidar",
+            "location": {
+              "lat": 17.9148799,
+              "lng": 77.5046101
+            },
+            "distance": 496,
+            "hours": "9h54"
+          },
+          {
+            "city": "Indore",
+            "location": {
+              "lat": 22.7195687,
+              "lng": 75.8577258
+            },
+            "distance": 495,
+            "hours": "9h27"
+          },
+          {
+            "city": "Maheshwar",
+            "location": {
+              "lat": 22.1772853,
+              "lng": 75.5829782
+            },
+            "distance": 475,
+            "hours": "8h59"
+          },
+          {
+            "city": "Sanchi, Madhya Pradesh",
+            "location": {
+              "lat": 23.4873393,
+              "lng": 77.74182379999999
+            },
+            "distance": 396,
+            "hours": "7h39"
+          }
+        ],
+        "average": [
+          {
+            "city": "Bhopal",
+            "location": {
+              "lat": 23.2599333,
+              "lng": 77.412615
+            },
+            "distance": 298,
+            "hours": "6h30"
+          },
+          {
+            "city": "Jabalpur",
+            "location": {
+              "lat": 23.181467,
+              "lng": 79.9864071
+            },
+            "distance": 244,
+            "hours": "6h5"
+          },
+          {
+            "city": "Pachmarhi",
+            "location": {
+              "lat": 22.4674463,
+              "lng": 78.4345854
+            },
+            "distance": 162,
+            "hours": "5h8"
+          },
+          {
+            "city": "Chikhaldara",
+            "location": {
+              "lat": 21.4030119,
+              "lng": 77.3268121
+            },
+            "distance": 231,
+            "hours": "4h28"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Ahmedabad",
+      "info": {
+        "location": {
+          "lat": 28.6139391,
+          "lng": 77.20902120000005
+        },
+        "max": [
+          {
+            "city": "Maheshwar",
+            "location": {
+              "lat": 22.1772853,
+              "lng": 75.5829782
+            },
+            "distance": 402,
+            "hours": "7h30"
+          },
+          {
+            "city": "Saputara",
+            "location": {
+              "lat": 20.5785975,
+              "lng": 73.75072759999999
+            },
+            "distance": 400,
+            "hours": "7h2"
+          }
+        ],
+        "average": [
+          {
+            "city": "Udaipur",
+            "location": {
+              "lat": 24.585445,
+              "lng": 73.712479
+            },
+            "distance": 257,
+            "hours": "4h49"
+          },
+          {
+            "city": "Mount Abu",
+            "location": {
+              "lat": 24.5925909,
+              "lng": 72.7156274
+            },
+            "distance": 222,
+            "hours": "4h35"
+          }
+        ],
+        "min": [
+          {
+            "city": "Vijay Nagar",
+            "location": {
+              "lat": 20.0755689,
+              "lng": 73.92605879999999
+            },
+            "distance": 165,
+            "hours": "3h12"
+          },
+          {
+            "city": "Patan, Gujarat",
+            "location": {
+              "lat": 23.8493246,
+              "lng": 72.1266255
+            },
+            "distance": 127,
+            "hours": "2h32"
+          },
+          {
+            "city": "Modhera ",
+            "location": {
+              "lat": 23.5835819,
+              "lng": 72.1401322
+            },
+            "distance": 97,
+            "hours": "2h2"
+          },
+          {
+            "city": "Chimpaner-Pavagadh, Gujarat",
+            "location": {
+              "lat": 22.4846248,
+              "lng": 73.5324097
+            },
+            "distance": 146,
+            "hours": "2h27"
+          },
+          {
+            "city": "Nalsarovar",
+            "location": {
+              "lat": 22.8209477,
+              "lng": 72.0571863
+            },
+            "distance": 69,
+            "hours": "1h44"
+          },
+          {
+            "city": "Lothal",
+            "location": {
+              "lat": 22.522715,
+              "lng": 72.2487924
+            },
+            "distance": 78,
+            "hours": "1h39"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Trivandrum",
+      "info": {
+        "location": {
+          "lat": 8.5241391,
+          "lng": 76.9366376
+        },
+        "max": [
+          {
+            "city": "Kodaikanal",
+            "location": {
+              "lat": 10.2381136,
+              "lng": 77.4891822
+            },
+            "distance": 333,
+            "hours": "8h"
+          },
+          {
+            "city": "Kerala",
+            "location": {
+              "lat": 10.8505159,
+              "lng": 76.2710833
+            },
+            "distance": 318,
+            "hours": "7h9"
+          },
+          {
+            "city": "Munnar",
+            "location": {
+              "lat": 10.0889333,
+              "lng": 77.05952479999999
+            },
+            "distance": 280,
+            "hours": "7h3"
+          }
+        ],
+        "average": [
+          {
+            "city": "Kottur",
+            "location": {
+              "lat": 14.8267047,
+              "lng": 76.2218394
+            },
+            "distance": 252,
+            "hours": "6h18"
+          },
+          {
+            "city": "Thiruchendur",
+            "location": {
+              "lat": 8.4963081,
+              "lng": 78.1250848
+            },
+            "distance": 189,
+            "hours": "4h39"
+          },
+          {
+            "city": "Kochi",
+            "location": {
+              "lat": 9.9312328,
+              "lng": 76.26730409999999
+            },
+            "distance": 199,
+            "hours": "4h23"
+          },
+          {
+            "city": "Alappuzha/Alleppey",
+            "location": {
+              "lat": 9.498066699999999,
+              "lng": 76.3388484
+            },
+            "distance": 146,
+            "hours": "4h10"
+          }
+        ],
+        "min": [
+          {
+            "city": "Kanyakumari",
+            "location": {
+              "lat": 8.0883064,
+              "lng": 77.5384507
+            },
+            "distance": 100,
+            "hours": "3h9"
+          },
+          {
+            "city": "Kollam",
+            "location": {
+              "lat": 8.8932118,
+              "lng": 76.6141396
+            },
+            "distance": 65,
+            "hours": "2h"
+          },
+          {
+            "city": "Ponmudi Hills",
+            "location": {
+              "lat": 8.7666347,
+              "lng": 77.1099189
+            },
+            "distance": 57,
+            "hours": "1h52"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Jaipur",
+      "info": {
+        "location": {
+          "lat": 26.9124336,
+          "lng": 75.7872709
+        },
+        "max": [
+          {
+            "city": "Mount Abu",
+            "location": {
+              "lat": 24.5925909,
+              "lng": 72.7156274
+            },
+            "distance": 494,
+            "hours": "7h59"
+          }
+        ],
+        "average": [
+          {
+            "city": "Delhi",
+            "location": {
+              "lat": 28.7040592,
+              "lng": 77.10249019999999
+            },
+            "distance": 272,
+            "hours": "4h43"
+          },
+          {
+            "city": "Mathura",
+            "location": {
+              "lat": 27.4924134,
+              "lng": 77.673673
+            },
+            "distance": 223,
+            "hours": "4h"
+          },
+          {
+            "city": "Agra",
+            "location": {
+              "lat": 27.1766701,
+              "lng": 78.00807449999999
+            },
+            "distance": 273,
+            "hours": "4h"
+          }
+        ],
+        "min": [
+          {
+            "city": "Mandawa",
+            "location": {
+              "lat": 28.050017,
+              "lng": 75.14870069999999
+            },
+            "distance": 171,
+            "hours": "3h7"
+          },
+          {
+            "city": "Ranthambore",
+            "location": {
+              "lat": 26.0173274,
+              "lng": 76.5025742
+            },
+            "distance": 168,
+            "hours": "3h51"
+          },
+          {
+            "city": "Bharatpur",
+            "location": {
+              "lat": 27.216981,
+              "lng": 77.489515
+            },
+            "distance": 186,
+            "hours": "3h16"
+          },
+          {
+            "city": "Alwar",
+            "location": {
+              "lat": 27.5529907,
+              "lng": 76.6345735
+            },
+            "distance": 162,
+            "hours": "3h"
+          },
+          {
+            "city": "Pushkar",
+            "location": {
+              "lat": 26.489749,
+              "lng": 74.5510856
+            },
+            "distance": 146,
+            "hours": "2h40"
+          }
+        ]
+      }
+    },
+    {
+      "city": "Lucknow",
+      "info": {
+        "location": {
+          "lat": 26.8466937,
+          "lng": 80.946166
+        },
+        "max": [
+          {
+            "city": "Nainital",
+            "location": {
+              "lat": 29.3803039,
+              "lng": 79.4635658
+            },
+            "distance": 388,
+            "hours": "7h59"
+          }
+        ],
+        "average": [
+          {
+            "city": "Khajuraho",
+            "location": {
+              "lat": 24.8318452,
+              "lng": 79.91985489999999
+            },
+            "distance": 308,
+            "hours": "6h53"
+          },
+          {
+            "city": "Kashi",
+            "location": {
+              "lat": 25.3176452,
+              "lng": 82.9739144
+            },
+            "distance": 319,
+            "hours": "5h53"
+          },
+          {
+            "city": "Gwalior",
+            "location": {
+              "lat": 26.2182871,
+              "lng": 78.18283079999999
+            },
+            "distance": 341,
+            "hours": "5h50"
+          },
+          {
+            "city": "Dudhwa National Park",
+            "location": {
+              "lat": 28.4916763,
+              "lng": 80.646525
+            },
+            "distance": 222,
+            "hours": "5h"
+          },
+          {
+            "city": "Chitrakoot",
+            "location": {
+              "lat": 25.1093692,
+              "lng": 81.0754657
+            },
+            "distance": 220,
+            "hours": "4h20"
+          },
+          {
+            "city": "Agra",
+            "location": {
+              "lat": 27.1766701,
+              "lng": 78.00807449999999
+            },
+            "distance": 336,
+            "hours": "4h1"
+          }
+        ],
+        "min": [
+          {
+            "city": "Shravasti",
+            "location": {
+              "lat": 27.5977504,
+              "lng": 81.9534815
+            },
+            "distance": 175,
+            "hours": "3h54"
+          },
+          {
+            "city": "Naimisharanya",
+            "location": {
+              "lat": 27.3575806,
+              "lng": 80.48429279999999
+            },
+            "distance": 92,
+            "hours": "2h"
+          },
+          {
+            "city": "Kanpur",
+            "location": {
+              "lat": 26.449923,
+              "lng": 80.3318736
+            },
+            "distance": 95,
+            "hours": "2h20"
+          }
+        ]
+      }
+    }
+  ],
+  "popular": [
+    {
+      "city": "Chopta",
+      "location": {
+        "lat": 30.3461908,
+        "lng": 79.04850590000001
+      },
+      "distance": 402,
+      "hours": "11h"
+    },
+    {
+      "city": "Shimla",
+      "location": {
+        "lat": 31.1048145,
+        "lng": 77.17340330000002
+      },
+      "distance": 358,
+      "hours": "8h4"
+    },
+    {
+      "city": "Amritsar",
+      "location": {
+        "lat": 31.6339793,
+        "lng": 74.8722642
+      },
+      "distance": 466,
+      "hours": "7h52"
+    },
+    {
+      "city": "Pushkar",
+      "location": {
+        "lat": 26.489749,
+        "lng": 74.5510856
+      },
+      "distance": 404,
+      "hours": "7h18"
+    },
+    {
+      "city": "Mussoorie",
+      "location": {
+        "lat": 30.4599099,
+        "lng": 78.06639779999999
+      },
+      "distance": 290,
+      "hours": "7h15"
+    },
+    {
+      "city": "Rishikesh",
+      "location": {
+        "lat": 30.0869281,
+        "lng": 78.2676116
+      },
+      "distance": 234,
+      "hours": "6h39"
+    }
+  ],
+  "explore": [
+    {
+      "city": "Chopta",
+      "location": {
+        "lat": 30.3461908,
+        "lng": 79.04850590000001
+      },
+      "distance": 402,
+      "hours": "11h"
+    },
+    {
+      "city": "Shimla",
+      "location": {
+        "lat": 31.1048145,
+        "lng": 77.17340330000002
+      },
+      "distance": 358,
+      "hours": "8h4"
+    },
+    {
+      "city": "Amritsar",
+      "location": {
+        "lat": 31.6339793,
+        "lng": 74.8722642
+      },
+      "distance": 466,
+      "hours": "7h52"
+    },
+    {
+      "city": "Pushkar",
+      "location": {
+        "lat": 26.489749,
+        "lng": 74.5510856
+      },
+      "distance": 404,
+      "hours": "7h18"
+    },
+    {
+      "city": "Mussoorie",
+      "location": {
+        "lat": 30.4599099,
+        "lng": 78.06639779999999
+      },
+      "distance": 290,
+      "hours": "7h15"
+    },
+    {
+      "city": "Rishikesh",
+      "location": {
+        "lat": 30.0869281,
+        "lng": 78.2676116
+      },
+      "distance": 234,
+      "hours": "6h39"
+    }
+  ]
+}
