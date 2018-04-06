@@ -16,6 +16,7 @@
 }
 .destinations-name{
   line-height: 1;
+  font-weight: 600;
 }
 .destinations-title{
   display: flex;
@@ -327,7 +328,7 @@
   }
   .destinations-info{
     padding-top: 17px;
-    padding-left: 47px;
+    padding-left: 32px;
     font-size: 19px;
   }
   .destinations-hours{
@@ -338,9 +339,31 @@
     font-size: 24px;
   }
   .destinations-distance-title{
-    padding: 14px 46px 14px;
+    padding: 13px 46px 13px;
     margin-bottom: 21px;
-    font-size: 21px;
+    font-size: 24px;
+  }
+  .destinations-list{
+    height: 700px;
+  }
+  .destinations-title-popular,
+  .destinations-title-explore{
+    padding-left: 30px;
+    .destinations-title-name{
+      margin-right: 0;
+    }
+  }
+  .destinations-title-popular,
+  .destinations-title-explore{
+    .destinations-title-name{
+      padding-left: 45px;
+      &:before{
+        top: 8px;
+        left: 19px;
+        height: 40px;
+        width: 40px;
+      }
+    }
   }
 }
 
@@ -395,7 +418,7 @@
     font-size: 19px;
   }
   .destinations-list {
-    height: calc(100vh - 325px);
+    height: 500px;
     margin-bottom: 0;
   }
   .destinations-name{

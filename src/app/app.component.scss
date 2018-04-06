@@ -76,6 +76,12 @@ agm-map{
     font-size: 28px;
     margin-bottom: 12px;
   }
+  .social-fb{
+    background-size: 14px;
+  }
+  .social-tw{
+    background-size: 27px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -108,7 +114,10 @@ agm-map{
     }
   }
   agm-map{
-    height: calc(100vh - 193px)
+    height: 850px;
+  }
+  .wrapper{
+    padding-bottom: 63px;
   }
 }
 
