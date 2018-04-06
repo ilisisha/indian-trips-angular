@@ -99,6 +99,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
       this.changeURL();
     }
     if (params && params.params.main_city && params.params.location && !this.isModalOpen) {
+      console.log("ModalOpen");
       setTimeout(() => {
         this._mainCityId = params.params.main_city;
         this._locationId = params.params.location;
@@ -116,7 +117,6 @@ export class DestinationComponent implements OnInit, OnDestroy {
             'latitude': this.openedCity.location.latitude,
             'longitude': this.openedCity.location.longitude
           };
-          console.log(this.originRouteMap);
         } else {
           this.closeModal();
         }
