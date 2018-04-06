@@ -21,7 +21,8 @@
     </agm-map>
     <router-outlet></router-outlet>
 
-    <div class="view-on-map">
+    <div [ngClass]="{'view-on-map': true, 'rotate': rotate}"
+         (click)="hideDestinations()">
       <span class="title-no-map">View on map</span>
       <span class="title-map">View destinations</span>
     </div>

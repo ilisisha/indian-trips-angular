@@ -358,25 +358,29 @@ button.close{
             width: 28%;
             padding: 0 0 0 5px;
         }
-        .small-map {
-            width: 72%;
+        .detail-desc {
+            padding-right: 15px;
+            line-height: 1.2;
         }
-        .route-map {
-            height: 118px;
-        }
-        .detail-img {
+        .detail-img{
+            height: 124px;
+            overflow: hidden;
             margin-bottom: 14px;
+            img{
+                height: 100%;
+                width: auto;
+            }
         }
-    }
-    .detail-desc {
-        padding-right: 15px;
-        line-height: 1.2;
-    }
-    .detail-img{
-        height: 124px;
-        overflow: hidden;
-        img{
-            width: 100%;
+        .social-item{
+            width: 28px;
+            height: 28px;
+        }
+        .social-fb{
+            background-size: 9px;
+            margin-bottom: 7px;
+        }
+        .social-tw{
+            background-size: 16px;
         }
     }
     .col-4 {
@@ -385,6 +389,9 @@ button.close{
     .row {
         padding-left: 4px;
         padding-right: 4px;
+    }
+    .social{
+        top: 180px;
     }
 }
 //end modal

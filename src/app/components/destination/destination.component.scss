@@ -261,16 +261,6 @@
   .destinations-hours{
     font-weight: 300;
   }
-  .destinations-title-popular{
-    padding-left: 90px;
-    .destinations-title-name{
-      &:before{
-        top: 7px;
-        left: 18px;
-        height: 40px;
-      }
-    }
-  }
   .destinations-title-popular,
   .destinations-title-explore{
     .destinations-title-name{
@@ -390,7 +380,7 @@
     }
   }
   .destinations-title{
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     padding-left: 23px;
     padding-top: 10px;
     padding-bottom: 12px;
@@ -430,7 +420,7 @@
     font-weight: 100;
   }
   .destinations-item{
-    margin-bottom: 13px;
+    margin-bottom: 10px;
   }
   .destinations-info{
     width: 194px;
@@ -439,5 +429,8 @@
   }
   .destinations-distance{
     right: 32px;
+  }
+  .destinations-select-start{
+    margin-bottom: 10px;
   }
 }

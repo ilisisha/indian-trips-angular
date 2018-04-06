@@ -21,10 +21,14 @@ export class AppComponent implements OnInit, OnDestroy {
   public cities: CityModel[] = [];
   public zoom: number;
 
+  public rotate: boolean;
+
   private currentBGImage: string;
 
-  constructor(private _citiesService: CitiesService,
-              private _backgroundService: BackgroundService) {}
+  constructor(public _citiesService: CitiesService,
+              private _backgroundService: BackgroundService) {
+    this.rotate = false;
+  }
 
   ngOnInit() {
 
@@ -107,4 +111,10 @@ export class AppComponent implements OnInit, OnDestroy {
       );
     });
   }
+
+  public hideDestinations() {
+    this._citiesService.onShowDestinations.emit();
+    this.rotate = !this.rotate;
+  }
+  
 }

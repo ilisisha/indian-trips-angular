@@ -19,6 +19,7 @@ export class CitiesService {
   public onFinishLocationSearchEvent = new EventEmitter();
   public onChangeStartCity =  new EventEmitter();
   public onChangeCities: EventEmitter<{'cities': CityModel[], 'range': string}> = new EventEmitter();
+  public onShowDestinations = new EventEmitter();
 
   get allCities() { return this._allCities; }
   get currentGeolocation() { return this._currentGeolocation; }
@@ -26,8 +27,7 @@ export class CitiesService {
   set startCity(value) { this._startCity = new StartCityModel(value)}
 
   constructor(private _http: Http,
-              private _mapsApiLoader: MapsAPILoader) {
-  }
+              private _mapsApiLoader: MapsAPILoader) { }
 
   public getCities(): Observable<any> {
     return Observable.create((observer) => {

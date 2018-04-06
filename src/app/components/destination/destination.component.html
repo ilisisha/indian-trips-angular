@@ -61,7 +61,7 @@
     </div>
   </div>
 
-  <div class="destinations-list">
+  <div class="destinations-list" *ngIf="this.showDestinations">
     <div class="destinations-item"
          (click)="openModal(template, city.id)"
          *ngFor="let city of cities">

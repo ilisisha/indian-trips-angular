@@ -51,12 +51,16 @@ export class DestinationComponent implements OnInit, OnDestroy {
   public popular: boolean = false;
   public explore: boolean = false;
 
+  public showDestinations: boolean;
+
 
   constructor(private _router: Router,
               private _activatedRoute: ActivatedRoute,
               private _citiesService: CitiesService,
               private _modalService: BsModalService,
-              private _backgroundService: BackgroundService) { }
+              private _backgroundService: BackgroundService) {
+    this.showDestinations = true;
+  }
 
   ngOnInit() {
     this.setCities();
@@ -81,6 +85,10 @@ export class DestinationComponent implements OnInit, OnDestroy {
       .subscribe(() => {
         this.setCities();
       });
+
+    this._citiesService.onShowDestinations.subscribe(() => {
+      this.showDestinations = !this.showDestinations;
+    })
   }
 
   private routerChanged(params: any) {
