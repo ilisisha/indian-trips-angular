@@ -88,7 +88,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
 
     this._citiesService.onShowDestinations.subscribe(() => {
       this.showDestinations = !this.showDestinations;
-    })
+    });
   }
 
   private routerChanged(params: any) {
