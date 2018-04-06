@@ -11,7 +11,7 @@ import { SelectModule } from 'ng2-select';
 
 import { AppComponent } from './app.component';
 
-import { DirectionsMapDirective } from './route.directive'
+import { DirectionsMapDirective } from './shared/directives/directions-map.directive'
 
 import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { CitiesService } from './shared/services/cities.service';

@@ -1,4 +1,5 @@
-<div class="background-image" [ngStyle]="{'background-image': currentBGImage}"></div>
+<div [ngClass]="{'background-image': true, 'bg-show': showBG, 'bg-hide': !showBG}"
+     [ngStyle]="{'background-image': currentBGImage}"></div>
 
 <div class="wrapper loader">
   <app-header></app-header>

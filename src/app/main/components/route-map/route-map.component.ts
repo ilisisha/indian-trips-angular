@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DirectionsMapDirective } from '../../../route.directive';
+import { DirectionsMapDirective } from '../../../shared/directives/directions-map.directive';
 import { GoogleMapsAPIWrapper } from '@agm/core';
 
 declare var google: any;

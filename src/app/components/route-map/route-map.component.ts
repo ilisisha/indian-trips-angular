@@ -1,8 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { DirectionsMapDirective } from '../../route.directive';
 import { GoogleMapsAPIWrapper } from '@agm/core';
-import { LocationModel } from '../../shared/models/location.model';
-import { CitiesService } from '../../shared/services/cities.service';
 
 declare var google: any;
 
@@ -16,13 +13,9 @@ export class RouteMapComponent implements OnInit {
   @Input() origin: any;
   @Input() destination: any;
 
-  constructor(private gmapsApi: GoogleMapsAPIWrapper,
-              private _citiesService: CitiesService) {
-  }
+  constructor(private gmapsApi: GoogleMapsAPIWrapper) { }
 
-  ngOnInit() {
-
-  }
+  ngOnInit() { }
 
   providers: [GoogleMapsAPIWrapper];
 

@@ -1,5 +1,9 @@
 @import "variables";
 
+body{
+    background-color: $dark-blue;
+}
+
 .ui-select-choices.dropdown-menu {
     display: block;
 }

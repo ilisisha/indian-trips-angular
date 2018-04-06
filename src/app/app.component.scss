@@ -10,6 +10,15 @@
   height: 100vh;
   background-size: cover;
   filter: blur(4px);
+  opacity: 0;
+}
+.bg-show{
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;;
+}
+.bg-hide{
+  opacity: 0;
+  transition: opacity 0.2s ease 0s;;
 }
 
 .wrapper{

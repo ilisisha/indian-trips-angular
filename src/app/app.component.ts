@@ -21,42 +21,50 @@ export class AppComponent implements OnInit, OnDestroy {
   public cities: CityModel[] = [];
 
   public rotate: boolean;
+  public showBG: boolean;
 
   private currentBGImage: string;
 
   constructor(public _citiesService: CitiesService,
               private _backgroundService: BackgroundService) {
     this.rotate = false;
+    this.showBG = true;
   }
 
   ngOnInit() {
-
     this.currentBGImage = this._backgroundService.currentBGImage;
-
     this._backgroundService.onChangeBackground.subscribe((currentBGImage) => {
-      this.currentBGImage = currentBGImage;
-      console.log(currentBGImage);
+      this.showBG = false;
+      setTimeout(() => {
+        this.currentBGImage = currentBGImage;
+      }, 200);
+      setTimeout(() => {
+        this.showBG = true;
+      }, 210);
     });
-
     this.initBGMap();
-
     this.getCurrentLocation();
-
     this.getAllCities();
-
     this.setMarkers();
   }
 
-  ngOnDestroy() {}
+  ngOnDestroy() {
+    this._backgroundService.onChangeBackground.unsubscribe();
+    this._citiesService.onChangeStartCity.unsubscribe();
+    this._citiesService.onChangeCities.unsubscribe();
+  }
+
+  public hideDestinations() {
+    this._citiesService.onShowDestinations.emit();
+    this.rotate = !this.rotate;
+  }
 
   private initBGMap() {
-
     //New Delhi
     this.centerMap = new LocationModel({
       latitude: 28.6139391,
       longitude: 77.20902120000005
     });
-
     this._citiesService.onChangeStartCity.subscribe(
       () => {
         console.log("change center map");
@@ -98,7 +106,6 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private setMarkers() {
-    console.log("setMarkes");
     this._citiesService.onChangeCities.subscribe((data) => {
       this.cities = data.cities;
       this.markers = this.cities.map(el => new MarkerModel(
@@ -108,11 +115,6 @@ export class AppComponent implements OnInit, OnDestroy {
         })
       );
     });
-  }
-
-  public hideDestinations() {
-    this._citiesService.onShowDestinations.emit();
-    this.rotate = !this.rotate;
   }
   
 }

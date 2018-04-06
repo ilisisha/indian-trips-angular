@@ -118,10 +118,6 @@
     background-image: url(../../../assets/images/line.svg);
     background-position: calc(50% + 129px) -3px;
     background-size: 1024px;
-    //&:before {
-    //  height: 5px;
-    //  top: 158px;
-    //}
     .logo{
       position: absolute;
       width: 169px;
@@ -133,10 +129,7 @@
     margin-bottom: 30px;
   }
   .header-title {
-    padding-left: 194px;
-    padding-right: 194px;
-    padding-top: 16px;
-    padding-bottom: 24px;
+    padding: 20px 194px;
     font-size: 24px;
     font-weight: 600;
   }

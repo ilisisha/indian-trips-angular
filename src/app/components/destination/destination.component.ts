@@ -99,11 +99,12 @@ export class DestinationComponent implements OnInit, OnDestroy {
       this.changeURL();
     }
     if (params && params.params.main_city && params.params.location && !this.isModalOpen) {
-      console.log("ModalOpen");
+
       setTimeout(() => {
         this._mainCityId = params.params.main_city;
         this._locationId = params.params.location;
         const city = this._citiesService.allCities.find(el => el.id == this._mainCityId);
+
         if (city) {
           this._citiesService.startCity = city;
           this.setCities();
@@ -120,7 +121,7 @@ export class DestinationComponent implements OnInit, OnDestroy {
         } else {
           this.closeModal();
         }
-      }, 0);
+      }, 200);
     }
   }
 
